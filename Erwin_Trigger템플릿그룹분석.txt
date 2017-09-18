@@ -14,7 +14,7 @@
 <Type>10000</Type>
 <!-- 템플릿 코드 ???? --> 
 <Template_Code>
-/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update restrict */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," <> "," OR ") */ %JoinPKPK(:%Old,:%New," <> "," OR ") THEN SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20005, 'Cannot update %Parent because %Child exists.' ); END IF; END IF;
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update restrict */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," &lt;&gt; "," OR ") */ %JoinPKPK(:%Old,:%New," &lt;&gt; "," OR ") THEN SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20005, 'Cannot update %Parent because %Child exists.' ); END IF; END IF;
 </Template_Code>
 <!-- 의존 객체들 참조 배열 --> 
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
@@ -43,7 +43,7 @@
 <Owner_Path Derived="Y">Model_2</Owner_Path>
 <Type>10001</Type>
 <Template_Code>
-/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update cascade */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," <> "," OR ") */ %JoinPKPK(:%Old,:%New," <> "," OR ") THEN UPDATE %Child SET /* %%JoinFKPK(%Child,:%%New," = ",",") */ %JoinFKPK(%Child,:%New," = ",",") WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); END IF;
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update cascade */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," &lt;&gt; "," OR ") */ %JoinPKPK(:%Old,:%New," &lt;&gt; "," OR ") THEN UPDATE %Child SET /* %%JoinFKPK(%Child,:%%New," = ",",") */ %JoinFKPK(%Child,:%New," = ",",") WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); END IF;
 </Template_Code>
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
 <Dependent_Objects_Ref index="0">{F6C6804D-E339-43C1-B294-253CF0D1DF48}+00000000</Dependent_Objects_Ref>
@@ -61,7 +61,7 @@
 <Owner_Path Derived="Y">Model_2</Owner_Path>
 <Type>10002</Type>
 <Template_Code>
-/* %Parent %VerbPhrase %Child on parent update set null */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," <> "," OR ") */ %JoinPKPK(:%Old,:%New," <> "," OR ") THEN UPDATE %Child SET /* %%SetFK(%Child,NULL) */ %SetFK(%Child,NULL) WHERE /* %%JoinFKPK(%Child,:%%Old," = ",",") */ %JoinFKPK(%Child,:%Old," = "," AND"); END IF;
+/* %Parent %VerbPhrase %Child on parent update set null */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," &lt;&gt; "," OR ") */ %JoinPKPK(:%Old,:%New," &lt;&gt; "," OR ") THEN UPDATE %Child SET /* %%SetFK(%Child,NULL) */ %SetFK(%Child,NULL) WHERE /* %%JoinFKPK(%Child,:%%Old," = ",",") */ %JoinFKPK(%Child,:%Old," = "," AND"); END IF;
 </Template_Code>
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
 <Dependent_Objects_Ref index="0">{B610272C-6056-4574-9585-961C90D62AB7}+00000000</Dependent_Objects_Ref>
@@ -611,7 +611,7 @@ CREATE %CreateOrReplace TRIGGER %ProcedureOwner(.)%TriggerName %Fire %Actions(" 
 <Owner_Path Derived="Y">Model_2</Owner_Path>
 <Type>9998</Type>
 <Template_Code>
-/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update no action */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," <> "," OR ") */ %JoinPKPK(:%Old,:%New," <> "," OR ") THEN SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20005, 'Cannot update %Parent because %Child exists.' ); END IF; END IF;
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update no action */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," &lt;&gt; "," OR ") */ %JoinPKPK(:%Old,:%New," &lt;&gt; "," OR ") THEN SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20005, 'Cannot update %Parent because %Child exists.' ); END IF; END IF;
 </Template_Code>
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
 <Dependent_Objects_Ref index="0">{EFA69D78-D584-46BC-8103-67776B25C470}+00000000</Dependent_Objects_Ref>

@@ -43,20 +43,20 @@
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Entity Small Icon</User_Formatted_Physical_Name>
 </BitmapProps>
 </Bitmap>
-<Bitmap id="{4B233DDF-4943-45E1-B07F-989536920B10}+00000000" name="Default <unknown> Icon">
+<Bitmap id="{4B233DDF-4943-45E1-B07F-989536920B10}+00000000" name="Default &lt;unknown&gt; Icon">
 <BitmapProps>
 <Built-in_Id>11</Built-in_Id>
-<Name>Default <unknown> Icon</Name>
+<Name>Default &lt;unknown&gt; Icon</Name>
 <Long_Id>{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Long_Id>
 <Owner_Path Derived="Y">Model_2</Owner_Path>
-<Bitmap_Filename Derived="Y">Default <unknown> Icon</Bitmap_Filename>
+<Bitmap_Filename Derived="Y">Default &lt;unknown&gt; Icon</Bitmap_Filename>
 <Flags>2</Flags>
 <Image_Index>4</Image_Index>
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
 <Dependent_Objects_Ref index="0">{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Dependent_Objects_Ref>
 </Dependent_Objects_Ref_Array>
-<User_Formatted_Name ReadOnly="Y" Derived="Y">Default <unknown> Icon</User_Formatted_Name>
-<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default <unknown> Icon</User_Formatted_Physical_Name>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default &lt;unknown&gt; Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default &lt;unknown&gt; Icon</User_Formatted_Physical_Name>
 </BitmapProps>
 </Bitmap>
 <Bitmap id="{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000" name="Default String Icon">

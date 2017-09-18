@@ -6,6 +6,8 @@
 <ModelEnvProps>...</ModelEnvProps>
 <!-- 모델 속성 -->
 <ModelProps>...</ModelProps>
+<!-- 엔티티 그룹 --> 
+<Entity_Groups>...</Entity_Groups>
 <!-- 도메인 그룹 --> 
 <Domain_Groups>...</Domain_Groups>
 <!-- 비트맵 그룹 --> 

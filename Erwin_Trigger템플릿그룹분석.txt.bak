@@ -23,11 +23,17 @@
 <Default_Trigger_Template id>
 --> 
 <Dependent_Objects_Ref index="0">{E472DD47-51E5-4B86-9FF8-D6793111F970}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 배열 종료 --> 
 </Dependent_Objects_Ref_Array>
+<!-- 생성 안되기 : true 무슨 의미 ???? --> 
 <Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<!-- 사용자 포맷 이름 --> 
 <User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE RESTRICT</User_Formatted_Name>
+<!-- 사용자 포맷 물리 이름 --> 
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE RESTRICT</User_Formatted_Physical_Name>
+<!-- 트리거 탬플릿 속성 --> 
 </Trigger_TemplateProps>
+<!-- 트리거 탬플렛 --> 
 </Trigger_Template>
 <Trigger_Template id="{73D3C95D-07DA-4526-9390-ABDAD7A2AD57}+00000000" name="PARENT UPDATE CASCADE">
 <Trigger_TemplateProps>

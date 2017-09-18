@@ -126,9 +126,13 @@
 <Definition_Color Derived="Y">0</Definition_Color>
 <!-- 앵커 포인트 위치가 기본인가 ? : true --> 
 <Anchor_Point_Is_Default>true</Anchor_Point_Is_Default>
+<!-- 사용자 형식 엔티티 이름 : 고객 (중요) --> 
 <User_Formatted_Name ReadOnly="Y" Derived="Y">고객</User_Formatted_Name>
+<!-- 사용자 형식 물리 엔티티 이름 : 고객(중요) -->  
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">고객</User_Formatted_Physical_Name>
+<!-- 그리는 객ㄱ체 엔티티 속성 : 종료 --> 
 </Drawing_Object_EntityProps>
+<!-- 그리는 객체 엔티티 종료 --> 
 </Drawing_Object_Entity>
 <Drawing_Object_Entity id="{7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7F8}+00000000" name="거래처">
 <Drawing_Object_EntityProps>

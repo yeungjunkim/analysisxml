@@ -1,13 +1,13 @@
 <!-- 주제영역 그룹 --> 
 <Subject_Area_Groups>
 <!-- 주제영역 id : 메인 주제영역 <EM2:Model_Proxy_Object Current_Subject_Area_Ref의 text 값으로 값이 들어감--> 
-<Subject_Area id="{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000" name="<Main Subject Area>">
+<Subject_Area id="{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000" name="&lt;Main Subject Area&gt;">
 <!-- 주제영역 속성 -->
 <Subject_AreaProps>
 <!-- 빌트인 아이디ㅣ : 31 --> 
 <Built-in_Id>31</Built-in_Id>
 <!-- 메인 주제영역 : 주제영역이름과 동일함 (중요)--> 
-<Name><Main Subject Area></Name>
+<Name>&lt;Main Subject Area&gt;</Name>
 <!-- 주제영역 아이디 : 위의 서브젝트 아이디값과 동일해야 함 --> 
 <Long_Id>{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000</Long_Id>
 <!-- 소유자 경로 : 모델명과 동일 --> 
@@ -34,9 +34,9 @@
 (중요)--> 
 <Non_Tx_Proxy_Object_Id>{2E04E1EE-DDB4-4F94-B2E5-068B0435577F}+00000000</Non_Tx_Proxy_Object_Id>
 <!-- 사용자 저장된 이름 : 메인 주제영역 (중요) -->
-<User_Formatted_Name ReadOnly="Y" Derived="Y"><Main Subject Area></User_Formatted_Name>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">&lt;Main Subject Area&gt;</User_Formatted_Name>
 <!-- 사용자 형식 물리 이름 : 메인 주제영역 (중요)--> 
-<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y"><Main Subject Area></User_Formatted_Physical_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">&lt;Main Subject Area&gt;</User_Formatted_Physical_Name>
 <!-- 주제영역 속성 종료 --> 
 </Subject_AreaProps>
 <!-- 저장된 출력 그룹들 --> 
@@ -50,7 +50,7 @@
 <!-- LongID : 상단의 저장된 출력 아이디와 동일해야함 (중요) --> 
 <Long_Id>{A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000</Long_Id>
 <!-- 소유자 경로 : 모델_2.메인주제영역   모델명 + 메인주제영역명 --> 
-<Owner_Path Derived="Y">Model_2.<Main Subject Area></Owner_Path>
+<Owner_Path Derived="Y">Model_2.&lt;Main Subject Area&gt;</Owner_Path>
 <!-- 생성시간 --> 
 <Created_Time>1503928519</Created_Time>
 <!-- 수정 시간 --> 
@@ -96,8 +96,8 @@
 <Name Derived="Y">고객</Name>
 <!-- LongId : 롱아이이디 --> 
 <Long_Id>{A74A79CF-B821-4F80-8E84-3DE5B3A9A9AD}+00000000</Long_Id>
-<!-- 소유자 경로 : Model_2.<Main Subject Area>.Display1 모델명 + 주제영역명 + 출력 --> 
-<Owner_Path Derived="Y">Model_2.<Main Subject Area>.Display1</Owner_Path>
+<!-- 소유자 경로 : Model_2.&lt;Main Subject Area&gt;.Display1 모델명 + 주제영역명 + 출력 --> 
+<Owner_Path Derived="Y">Model_2.&lt;Main Subject Area&gt;.Display1</Owner_Path>
 <!-- 물리 엔티티 이름 : 고객 (중요) --> 
 <Physical_Name Derived="Y">고객</Physical_Name>
 <!-- 위치 : ???? --> 
@@ -138,7 +138,7 @@
 <Drawing_Object_EntityProps>
 <Name Derived="Y">거래처</Name>
 <Long_Id>{7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7F8}+00000000</Long_Id>
-<Owner_Path Derived="Y">Model_2.<Main Subject Area>.Display1</Owner_Path>
+<Owner_Path Derived="Y">Model_2.&lt;Main Subject Area&gt;.Display1</Owner_Path>
 <Physical_Name Derived="Y">거래처</Physical_Name>
 <Location Tool="Y" ReadOnly="Y" Derived="Y">102 18 192 120</Location>
 <Model_Object_Ref>{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Model_Object_Ref>

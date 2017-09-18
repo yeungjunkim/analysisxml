@@ -8,8 +8,6 @@
 <ModelProps>...</ModelProps>
 <!-- 도메인 그룹 --> 
 <Domain_Groups>...</Domain_Groups>
-<!-- 도메인 그룹 --> 
-<Domain_Groups>...</Domain_Groups>
 <!-- 비트맵 그룹 --> 
 <Bitmap_Groups>...</Bitmap_Groups>
 <!-- 주제항목 그룹 --> 
