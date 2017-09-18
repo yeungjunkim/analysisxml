@@ -1,0 +1,159 @@
+<!-- 주제영역 그룹 --> 
+<Subject_Area_Groups>
+<!-- 주제영역 id : 메인 주제영역 <EM2:Model_Proxy_Object Current_Subject_Area_Ref의 text 값으로 값이 들어감--> 
+<Subject_Area id="{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000" name="<Main Subject Area>">
+<!-- 주제영역 속성 -->
+<Subject_AreaProps>
+<!-- 빌트인 아이디ㅣ : 31 --> 
+<Built-in_Id>31</Built-in_Id>
+<!-- 메인 주제영역 : 주제영역이름과 동일함 (중요)--> 
+<Name><Main Subject Area></Name>
+<!-- 주제영역 아이디 : 위의 서브젝트 아이디값과 동일해야 함 --> 
+<Long_Id>{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000</Long_Id>
+<!-- 소유자 경로 : 모델명과 동일 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 참조된 엔티티 배열 --> 
+<Referenced_Entities_Array>
+<!-- 참조된 엔티티 인덱스 : 하단의 Model_Object_Reference의 값과 동일함. (중요) --> 
+<Referenced_Entities index="0">{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000</Referenced_Entities>
+<!-- 참조된 엔티티 인덱스 : 하단의 Model_Object_Reference의 값과 동일함. (중요) --> 
+<Referenced_Entities index="1">{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Referenced_Entities>
+<!-- 참조 엔티티 배열  종료 --> 
+</Referenced_Entities_Array>
+<!-- 생성시간 : ??? --> 
+<Created_Time>1503928519</Created_Time>
+<!-- 수정시간 : ???? --> 
+<Modified_Time>1503928519</Modified_Time>
+<!-- 객체 순서 : 0 (무슨 의미) --> 
+<Object_Order>0</Object_Order>
+<!-- 메인 주제영역 존재 여부 : true (중요) --> 
+<Is_Main_Subject_Area>true</Is_Main_Subject_Area>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 비 트랜잭션 프록시 객체 아이디 EM2:Model_Proxy_Object  내부의 <Subject_Area_Proxy_Object_Groups> Subject_Area_Proxy_Object id값과 LongId의 text값에 들어감
+(중요)--> 
+<Non_Tx_Proxy_Object_Id>{2E04E1EE-DDB4-4F94-B2E5-068B0435577F}+00000000</Non_Tx_Proxy_Object_Id>
+<!-- 사용자 저장된 이름 : 메인 주제영역 (중요) -->
+<User_Formatted_Name ReadOnly="Y" Derived="Y"><Main Subject Area></User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 : 메인 주제영역 (중요)--> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y"><Main Subject Area></User_Formatted_Physical_Name>
+<!-- 주제영역 속성 종료 --> 
+</Subject_AreaProps>
+<!-- 저장된 출력 그룹들 --> 
+<Stored_Display_Groups>
+<!-- 저장된 출력 아이디 EM2:Model_Proxy_Object <Stored_Display_Proxy_Object_Groups> <Stored_Display_Proxy_Object> <Stored_Display_Proxy_ObjectProps> <Proxied_Object_Id>의 text값으로 들어가야함 (중요)--> 
+<Stored_Display id="{A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000" name="Display1">
+<!-- 저장된 출력 속성 --> 
+<Stored_DisplayProps>
+<!-- 디스플레이 이름 : ???-->
+<Name>Display1</Name>
+<!-- LongID : 상단의 저장된 출력 아이디와 동일해야함 (중요) --> 
+<Long_Id>{A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000</Long_Id>
+<!-- 소유자 경로 : 모델_2.메인주제영역   모델명 + 메인주제영역명 --> 
+<Owner_Path Derived="Y">Model_2.<Main Subject Area></Owner_Path>
+<!-- 생성시간 --> 
+<Created_Time>1503928519</Created_Time>
+<!-- 수정 시간 --> 
+<Modified_Time>1503928519</Modified_Time>
+<!-- 객체 순서 --> 
+<Object_Order>0</Object_Order>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 비 트랜잭션 객체 아이디 <EM2:Model_Proxy_Object> <Stored_Display_Proxy_Object_Groups> <Stored_Display_Proxy_Object 의 속성 id값과 <Stored_Display_Proxy_ObjectProps>의 LongId의 text값에 들어감--> 
+<Non_Tx_Proxy_Object_Id>{AAF8097C-FA29-44AC-9C3B-B3750DA5AFC4}+00000000</Non_Tx_Proxy_Object_Id>
+<!-- 출력 경계선 : true --> 
+<Print_Border>true</Print_Border>
+<!-- 출력 밑바닥 여백 --> 
+<Print_Bottom_Margin>0</Print_Bottom_Margin>
+<!-- 출력 컬럼 -->
+<Print_Color>true</Print_Color>
+<!-- 출력 풋터 --> 
+<Print_Footer>%CurrentPage% / %TotalPages% -- %Time% , %Date%</Print_Footer>
+<!-- 출력 헤더 --> 
+<Print_Header>%File% -- %Display% / %SubjectArea%</Print_Header>
+<!-- 출력 왼쪽 마진 --> 
+<Print_Left_Margin>0</Print_Left_Margin>
+<!-- 출력 범위 : 1 ???? (무슨 의미) --> 
+<Print_Range>1</Print_Range>
+<!-- 출력 오른쪽 마진 : 0 --> 
+<Print_Right_Margin>0</Print_Right_Margin>
+<!-- 출력 비율 : 100 --> 
+<Print_Scaling>100</Print_Scaling>
+<!-- 출력 위 마진 : 0 --> 
+<Print_Top_Margin>0</Print_Top_Margin>
+<!-- 사용자 형식 이름 : Display1 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Display1</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 : Display1 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Display1</User_Formatted_Physical_Name>
+</Stored_DisplayProps>
+<!-- 그림 그리는 객체 엔티티 그룹 --> 
+<Drawing_Object_Entity_Groups>
+<!-- 그리는 객체 엔티티 id :아래 LongID와 맞추면 됨(중요)--> 
+<Drawing_Object_Entity id="{A74A79CF-B821-4F80-8E84-3DE5B3A9A9AD}+00000000" name="고객">
+<!-- 그리는 객체 엔티티 속성들 --> 
+<Drawing_Object_EntityProps>
+<!-- 그리는 객체 엔티티 이름 : 고객 (엔티티명) (중요) --> 
+<Name Derived="Y">고객</Name>
+<!-- LongId : 롱아이이디 --> 
+<Long_Id>{A74A79CF-B821-4F80-8E84-3DE5B3A9A9AD}+00000000</Long_Id>
+<!-- 소유자 경로 : Model_2.<Main Subject Area>.Display1 모델명 + 주제영역명 + 출력 --> 
+<Owner_Path Derived="Y">Model_2.<Main Subject Area>.Display1</Owner_Path>
+<!-- 물리 엔티티 이름 : 고객 (중요) --> 
+<Physical_Name Derived="Y">고객</Physical_Name>
+<!-- 위치 : ???? --> 
+<Location Tool="Y" ReadOnly="Y" Derived="Y">12 -1 88 101</Location>
+<!-- 모델 객체 참조 : <ERwin> <EMX:Model> <Subject_Area_Groups> <Referenced_Entities_Array> <Referenced_Entities index="0">의 text값 --> 
+<Model_Object_Ref>{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000</Model_Object_Ref>
+<!-- DO 폰트 컬러 --> 
+<DO_Font_Color Derived="Y">0</DO_Font_Color>
+<!-- 칠 색상 --> 
+<Fill_Color Derived="Y">16777215</Fill_Color>
+<!-- 외곽 컬러 --> 
+<Outline_Color Derived="Y">0</Outline_Color>
+<!-- 정의 폰트 참조 : 폰트 그룹 아이디와 연결됨 <Font_Groups> <Font id의 속성값에 들어가고 <FontProps> <LongId>의 text값에 들어감 --> 
+<Definition_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Definition_Font_Ref>
+<!-- 폰트 객체 참조 : 위의 아이디와 동일한 값 연결 --> 
+<Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Font_Ref>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존 객체 참조 인덱스 : <ERwin <EMX:Model <Subject_Area_Groups> <Subject_Area <Subject_AreaProps> <Referenced_Entities_Array> <Referenced_Entities index="0">의 text값과 동일 (중요)--> 
+<Dependent_Objects_Ref index="0">{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 배열 종료 --> 
+</Dependent_Objects_Ref_Array>
+<!-- 위치 정보 (중요) y좌표, x좌표--> 
+<Anchor_Point>50 50</Anchor_Point>
+<!-- 정의 색상 : 0 무슨의미 ?? --> 
+<Definition_Color Derived="Y">0</Definition_Color>
+<!-- 앵커 포인트 위치가 기본인가 ? : true --> 
+<Anchor_Point_Is_Default>true</Anchor_Point_Is_Default>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">고객</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">고객</User_Formatted_Physical_Name>
+</Drawing_Object_EntityProps>
+</Drawing_Object_Entity>
+<Drawing_Object_Entity id="{7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7F8}+00000000" name="거래처">
+<Drawing_Object_EntityProps>
+<Name Derived="Y">거래처</Name>
+<Long_Id>{7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7F8}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2.<Main Subject Area>.Display1</Owner_Path>
+<Physical_Name Derived="Y">거래처</Physical_Name>
+<Location Tool="Y" ReadOnly="Y" Derived="Y">102 18 192 120</Location>
+<Model_Object_Ref>{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Model_Object_Ref>
+<DO_Font_Color Derived="Y">0</DO_Font_Color>
+<Fill_Color Derived="Y">16777215</Fill_Color>
+<Outline_Color Derived="Y">0</Outline_Color>
+<Definition_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Definition_Font_Ref>
+<Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Font_Ref>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Anchor_Point>147 69</Anchor_Point>
+<Definition_Color Derived="Y">0</Definition_Color>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">거래처</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">거래처</User_Formatted_Physical_Name>
+</Drawing_Object_EntityProps>
+</Drawing_Object_Entity>
+</Drawing_Object_Entity_Groups>
+</Stored_Display>
+</Stored_Display_Groups>
+</Subject_Area>
+</Subject_Area_Groups>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ERwin xmlns="http://www.ca.com/erwin" xmlns:UDP="http://www.ca.com/erwin/metadata" xmlns:EMX="http://www.ca.com/erwin/data" xmlns:EM2="http://www.ca.com/erwin/EM2data" FileVersion="7.2.1644" Format="AllFusion_Repository">
+<EMX:Model id="{4AFF045C-D2FF-4910-9AA5-C61671F4E919}+00000000" name="Model_1" xmlns="http://www.ca.com/erwin/data">
+</EMX:Model>
+<EM2:Model_Proxy_Object id="{0DCFE6A6-1F0B-4B4E-B86C-E90C481F9271}+00000000" name="Model_Proxy_Object_1" xmlns="http://www.ca.com/erwin/EM2data">
+</EM2:Model_Proxy_Object>
+</ERwin>

@@ -1,0 +1,4 @@
+<!-- ErWin 태그 --> 
+<ERwin xmlns="http://www.ca.com/erwin" xmlns:UDP="http://www.ca.com/erwin/metadata" xmlns:EMX="http://www.ca.com/erwin/data" xmlns:EM2="http://www.ca.com/erwin/EM2data" FileVersion="7.2.1644" Format="AllFusion_Repository">
+<!-- EMX Model 태그 --> 
+<EMX:Model xmlns="http://www.ca.com/erwin/data" id="{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000" name="Model_2">

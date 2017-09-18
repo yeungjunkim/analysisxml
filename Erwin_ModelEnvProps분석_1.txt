@@ -1,0 +1,25 @@
+<!-- 모델 환경 속성 --> 
+<ModelEnvProps>
+<!-- 위치 :  erwin://  파일 절대 경로 붙이면 됨 --> 
+<Locator>
+erwin://C:\Users\kim\Desktop\xml분석\erwin7.3_TwoEntity_2.xml
+</Locator>
+<!-- Disposion  읽기 전용 YES 무슨 의미인지 모르겠음 ?? --> 
+<Disposition>Read Only = Yes;</Disposition>
+<!-- 존재 유닛 아이디 이 아이디는 유니크하면서 아무 의미 없음 --> 
+<Persistence_Unit_Id>{2C079BB8-835F-4850-A40F-F2B1582A9F3D}+00000000</Persistence_Unit_Id>
+<!-- 모델 타입 : 3 ??? 의미 모르겠음 --> 
+<Model_Type>3</Model_Type>
+<!-- 타켓 서버 : 숫자의미 모르겠음 --> 
+<Target_Server>1075858979</Target_Server>
+<!-- 타켓 서버 버젼 10 의미 모르겠음 --> 
+<Target_Server_Version>10</Target_Server_Version>
+<!-- 타켓 서버 마이너 버젼 0 의미 모르겠음 --> 
+<Target_Server_Minor_Version>0</Target_Server_Minor_Version>
+<!-- 활성 모델 :  -1 의미 없음 --> 
+<Active_Model>-1</Active_Model>
+<!-- 숨겨진 모델 : 0 의미 모르겠음 --> 
+<Hidden_Model>0</Hidden_Model>
+<!-- 저장 포맷 : 4012 의미 모르겠음 --> 
+<Storage_Format>4012</Storage_Format>
+</ModelEnvProps>

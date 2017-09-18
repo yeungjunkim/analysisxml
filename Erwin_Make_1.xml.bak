@@ -1,0 +1,2588 @@
+<!-- Erwin Tag --> 
+<ERwin xmlns="http://www.ca.com/erwin" xmlns:UDP="http://www.ca.com/erwin/metadata" xmlns:EMX="http://www.ca.com/erwin/data" xmlns:EM2="http://www.ca.com/erwin/EM2data" FileVersion="7.2.1644" Format="AllFusion_Repository">
+<!-- EMX Model 태그 --> 
+<EMX:Model xmlns="http://www.ca.com/erwin/data" id="{__MODEL_ID}" name="{__MODEL_NAME}">
+<!-- 모델 환경 속성 -->
+<ModelEnvProps>
+<!-- 위치 :  erwin://  파일 절대 경로 붙이면 됨 --> 
+<Locator>
+{__"erwin://" + XML파일절대경로}
+</Locator>
+<!-- Disposion  읽기 전용 YES 무슨 의미인지 모르겠음 ?? --> 
+<Disposition>Read Only = Yes;</Disposition>
+<!-- 존재 유닛 아이디 이 아이디는 유니크하면서 아무 의미 없음 --> 
+<Persistence_Unit_Id>{2C079BB8-835F-4850-A40F-F2B1582A9F3D}+00000000</Persistence_Unit_Id>
+<!-- 모델 타입 : 3 ??? 의미 모르겠음 --> 
+<Model_Type>3</Model_Type>
+<!-- 타켓 서버 : 숫자의미 모르겠음 --> 
+<Target_Server>1075858979</Target_Server>
+<!-- 타켓 서버 버젼 10 의미 모르겠음 --> 
+<Target_Server_Version>10</Target_Server_Version>
+<!-- 타켓 서버 마이너 버젼 0 의미 모르겠음 --> 
+<Target_Server_Minor_Version>0</Target_Server_Minor_Version>
+<!-- 활성 모델 :  -1 의미 없음 --> 
+<Active_Model>-1</Active_Model>
+<!-- 숨겨진 모델 : 0 의미 모르겠음 --> 
+<Hidden_Model>0</Hidden_Model>
+<!-- 저장 포맷 : 4012 의미 모르겠음 --> 
+<Storage_Format>4012</Storage_Format>
+</ModelEnvProps><!-- 모델 속성 -->
+
+<!-- 모델 속성 --> 
+<ModelProps>
+<!-- 이름 : 모델명이 들어가야함 : 단 모델이 여러개라면 반복되어야함 --> 
+<Name>{__MODEL_NAME}</Name>
+<!-- 모델 ID <EM2:Model_Proxy_Object의 <Proxied_Object_Id Tool="Y" ReadOnly="Y"> 의 필드안에 들어가는 값이랑 동일함 --> 
+<Long_Id>{__MODEL_ID}/*{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000*/</Long_Id>
+<Owner_Path Derived="Y"/>
+<!-- 타입 : 3 --> 
+<Type>3</Type>
+<!-- 관계 부모 업데이트 룰 --> 
+<Relationship_Parent_Update_Rule>0</Relationship_Parent_Update_Rule>
+<!-- 관계 부모 삭제 룰 --> 
+<Relationship_Parent_Delete_Rule>0</Relationship_Parent_Delete_Rule>
+<!-- 관계 부모 입력 룰 --> 
+<Relationship_Parent_Insert_Rule>0</Relationship_Parent_Insert_Rule>
+<!-- 관계 자식 업데이트 룰 --> 
+<Relationship_Child_Update_Rule>0</Relationship_Child_Update_Rule>
+<!-- 관계 자식 삭제 룰 --> 
+<Relationship_Child_Delete_Rule>0</Relationship_Child_Delete_Rule>
+<!-- 관계 자식 입력 룰 --> 
+<Relationship_Child_Insert_Rule>0</Relationship_Child_Insert_Rule>
+<!-- 이름 표준 파일 이름  --> 
+<Name_Standard_File_Name/>
+<!-- 이름 표준 허용 특별 글자  --> 
+<Name_Standard_Allow_Special_Chars>false</Name_Standard_Allow_Special_Chars>
+<!-- 이름 맵핑 모음 제거   --> 
+<Name_Mapping_Vowel_Removal>false</Name_Mapping_Vowel_Removal>
+<!-- 이름 맵핑 특수 글자 액션 ???  --> 
+<Name_Mapping_Special_Char_Action>0</Name_Mapping_Special_Char_Action>
+<!-- 이름 맵핑 특수 문자 교체 글자  --> 
+<Name_Mapping_Special_Char_Replacement_Char>95</Name_Mapping_Special_Char_Replacement_Char>
+<!-- 트래킹 이력 객체들 : 65528 무슨 의미지 ???  --> 
+<Tracking_History_Objects>65528</Tracking_History_Objects>
+<!-- 추적 이력 이벤트 : 65535 무슨 의미지   --> 
+<Tracking_History_Events>65535</Tracking_History_Events>
+<!-- 유니크 이름   --> 
+<Unique_Names>0</Unique_Names>
+<!-- 타켓서버 읽기 : 174 ??? 무슨 의미   --> 
+<Target_Server ReadOnly="Y" Derived="Y">174</Target_Server>
+<!-- 키가 아님    --> 
+<Non_Key_Null>0</Non_Key_Null>
+<!-- 저장소 : 50 ???  무슨 의미  --> 
+<Repos>50</Repos>
+<!-- DBMS 버젼 의미 10?? 무슨 의미  --> 
+<DBMS_Version ReadOnly="Y" Derived="Y">10</DBMS_Version>
+<!-- 논리적 노테이션  --> 
+<Logical_Notation>0</Logical_Notation>
+<!-- DBMS 마이너 버젼   --> 
+<DBMS_Minor_Version ReadOnly="Y" Derived="Y">0</DBMS_Minor_Version>
+<!-- 과거 저장소   --> 
+<Old_Repos>50</Old_Repos>
+<!-- 최대 뷰 표현 출력 길이    --> 
+<Max_View_Expr_Display_Len>20</Max_View_Expr_Display_Len>
+<!-- 물리적 노테이션 0 무슨 의미    --> 
+<Physical_Notation>0</Physical_Notation>
+<!-- 인덱스 이름 매크로 ???    --> 
+<Index_Name_Macro>%KeyName</Index_Name_Macro>
+<!-- 최대 정의 출력 길이 : 40   --> 
+<Max_Def_Display_Len>40</Max_Def_Display_Len>
+<!-- 테이블 이름 매크로 :    --> 
+<Table_Name_Macro>%EntityName()</Table_Name_Macro>
+<!-- Non Id Rel Null Option 비식별 아이디 관계 널 옵션 : 100 --> 
+<Non_Id_Rel_Null_Option>100</Non_Id_Rel_Null_Option>
+<!-- 관계 부모 갱신 룰 식별 : 10000 --> 
+<Relationship_Parent_Update_Rule_Identify>10000</Relationship_Parent_Update_Rule_Identify>
+<!-- 관계 부모 삭제 룰 식별 : 10004 --> 
+<Relationship_Parent_Delete_Rule_Identify>10004</Relationship_Parent_Delete_Rule_Identify>
+<!-- 관계 부모 입력 룰 식별 : 0 --> 
+<Relationship_Parent_Insert_Rule_Identify>0</Relationship_Parent_Insert_Rule_Identify>
+<!-- 관계 자식 갱신 룰 식별 : 10012 --> 
+<Relationship_Child_Update_Rule_Identify>10012</Relationship_Child_Update_Rule_Identify>
+<!-- 관계 자식 삭제 룰 식별 : 0 --> 
+<Relationship_Child_Delete_Rule_Identify>0</Relationship_Child_Delete_Rule_Identify>
+<!-- 관계 자식 입력 룰 식별 : 10008 --> 
+<Relationship_Child_Insert_Rule_Identify>10008</Relationship_Child_Insert_Rule_Identify>
+<!-- 관계 자식 갱신 룰 비식별 : 10002 --> 
+<Relationship_Parent_Update_Rule_Non_Identify>10002</Relationship_Parent_Update_Rule_Non_Identify>
+<!-- 관계 부모 삭제 룰 비식별 : 10006 --> 
+<Relationship_Parent_Delete_Rule_Non_Identify>10006</Relationship_Parent_Delete_Rule_Non_Identify>
+<!-- 관계 부모 입력 룰 비식별 : 0 --> 
+<Relationship_Parent_Insert_Rule_Non_Identify>0</Relationship_Parent_Insert_Rule_Non_Identify>
+<!-- 관계 부모 갱신 룰 비식별 : 10014 --> 
+<Relationship_Child_Update_Rule_Non_Identify>10014</Relationship_Child_Update_Rule_Non_Identify>
+<!-- 관계 자식 갱신 룰 비식별 : 0 --> 
+<Relationship_Child_Delete_Rule_Non_Identify>0</Relationship_Child_Delete_Rule_Non_Identify>
+<!-- 관계 자식 삭제 룰 비식별 : 10010 --> 
+<Relationship_Child_Insert_Rule_Non_Identify>10010</Relationship_Child_Insert_Rule_Non_Identify>
+<!-- 관계 자식 입력 룰 비식별 : 10000 --> 
+<Relationship_Parent_Update_Rule_Non_Identify_Not_Null>10000</Relationship_Parent_Update_Rule_Non_Identify_Not_Null>
+<!-- 관계 부모 갱신 룰 비식별 낫 널: 10004 --> 
+<Relationship_Parent_Delete_Rule_Non_Identify_Not_Null>10004</Relationship_Parent_Delete_Rule_Non_Identify_Not_Null>
+<!-- 관계 부모 삭제 룰 비식별 낫 널: 0 --> 
+<Relationship_Parent_Insert_Rule_Non_Identify_Not_Null>0</Relationship_Parent_Insert_Rule_Non_Identify_Not_Null>
+<!-- 관계 부모 입력 룰 비식별 낫 널: 10012 --> 
+<Relationship_Child_Update_Rule_Non_Identify_Not_Null>10012</Relationship_Child_Update_Rule_Non_Identify_Not_Null>
+<!-- 관계 자식 갱신 룰 비식별 낫 널: 0 --> 
+<Relationship_Child_Delete_Rule_Non_Identify_Not_Null>0</Relationship_Child_Delete_Rule_Non_Identify_Not_Null>
+<!-- 관계 부모 삭제 룰 비식별 낫 널: 10008 --> 
+<Relationship_Child_Insert_Rule_Non_Identify_Not_Null>10008</Relationship_Child_Insert_Rule_Non_Identify_Not_Null>
+<!-- 관계 부모 입력 룰 비식별 : 10001 --> 
+<Relationship_Parent_Update_Rule_Subtype>10001</Relationship_Parent_Update_Rule_Subtype>
+<!-- 관계 부모 갱신 룰 서브타입 : 10005 --> 
+<Relationship_Parent_Delete_Rule_Subtype>10005</Relationship_Parent_Delete_Rule_Subtype>
+<!-- 관계 부모 삭제 룰 서브타입 : 0 --> 
+<Relationship_Parent_Insert_Rule_Subtype>0</Relationship_Parent_Insert_Rule_Subtype>
+<!-- 관계 부모 입력 룰 서브타입 : 10012 --> 
+<Relationship_Child_Update_Rule_Subtype>10012</Relationship_Child_Update_Rule_Subtype>
+<!-- 관계 자식 갱신 룰 서브타입 : 0 --> 
+<Relationship_Child_Delete_Rule_Subtype>0</Relationship_Child_Delete_Rule_Subtype>
+<!-- 관계 자식 삭제 룰 서브타입 : 10008 --> 
+<Relationship_Child_Insert_Rule_Subtype>10008</Relationship_Child_Insert_Rule_Subtype>
+<!-- 메타버젼 : 700  --> 
+<Metadata_Version>700</Metadata_Version>
+<!-- 의존 객체 참조 어래이 여부 (중요)  --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- Non Transaction 객체 아이디 <EM2:Model_Proxy_Object id 부분과 Long ID 부분에 들어감  --> 
+<Non_Tx_Proxy_Object_Id Tool="Y" ReadOnly="Y">{2BD4FFB4-998F-462C-9B17-CD45318FB419}+00000000</Non_Tx_Proxy_Object_Id>
+<!-- 옵션 사용 데이터타입 인 통합 : True  --> 
+<Option_Use_Datatype_In_Unification>true</Option_Use_Datatype_In_Unification>
+<!-- 목표 서버와 버젼 배열 --> 
+<Target_Server_And_Version_Array>
+<!-- 목표서버와 버젼 인덱스 ??? 무슨 의미   --> 
+<Target_Server_And_Version index="0">1075858979</Target_Server_And_Version>
+<!-- 목표 서버 와 버젼 인덱스 10   --> 
+<Target_Server_And_Version index="1">10</Target_Server_And_Version>
+<!-- 목표서버와 버젼 인덱스   --> 
+<Target_Server_And_Version index="2">0</Target_Server_And_Version>
+<!-- 목표서버와 버젼 배열   --> 
+</Target_Server_And_Version_Array>
+<!-- 이력 이벤트 실행  --> 
+<History_Event_Executing>1</History_Event_Executing>
+<!-- 사용자 형식 이름  : 실제 모델이름 써야함 (중요)  --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">{__MODEL_NAME}</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 : 실제 물리 이름 써야함  --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">{__MODEL_PHYSICAL_NAME}</User_Formatted_Physical_Name>
+</ModelProps><!-- 도메인 그룹 --> 
+
+<!-- 도메인 그룹들 --> 
+<Domain_Groups>
+<!-- 도메인 그룹 ID --> 
+<Domain id="{__DOMAIN_GROUP_ID}/*{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000*/" name="<root>">
+<!-- 도메인 그룹 속성 --> 
+<DomainProps>
+<!-- 빌트인 ID (????)-->
+<Built-in_Id>6</Built-in_Id>
+<!-- 이름 <root> (????)-->
+<Name><root></Name>
+<!--도메인 ID : line 4-->  
+<Long_Id>{__DOMAIN_GROUP_ID}/*{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000*/</Long_Id>
+<!-- 모델 이름 : Model_2 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 타입 : 4 (???) --> 
+<Type>4</Type>
+<!-- 널 옵션 --> 
+<Null_Option>0</Null_Option>
+<!-- 물리이름 : ROOT--> 
+<Physical_Name><root></Physical_Name>
+<!-- 논리 데이터 타입 --> 
+<Logical_Datatype>CHAR(18)</Logical_Datatype>
+<!-- 의존 객체 참조 배열 -->
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존 객체 참조 인덱스 0 --> 
+<Dependent_Objects_Ref index="0">{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<!-- Attribute 이름 --> 
+<Attribute_Name>%AttDomain</Attribute_Name>
+<!-- 컬럼 이름 --> 
+<Column_Name>%AttName</Column_Name>
+<!-- 컬럼 주석 --> 
+<Column_Comment>%AttDef</Column_Comment>
+<!-- 사용자 형식 이름 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y"><root></User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y"><root></User_Formatted_Physical_Name>
+<!-- 도메인 속성 끝 --> 
+</DomainProps>
+<!-- 도메인 끝 --> 
+</Domain>
+<!-- 도메인 ID : 위쪽 상단 의존 객체 참조 인덱스 0을 참조 : 26 line--> 
+<Domain id="{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/" name="<default>">
+<!-- 도메인 속성들 -->
+<DomainProps>
+<!-- 빌트인 ID : 1 (???)-->
+<Built-in_Id>1</Built-in_Id>
+<!-- 이름 <default> --> 
+<Name><default></Name>
+<!-- 아이디 : 도메인 ID 26 line -->
+<Long_Id>{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/</Long_Id>
+<!-- 소유자 경로 --> 
+<Owner_Path Derived="Y">{__MODEL_NAME}</Owner_Path>
+<!-- 타입 : 3 (???)-->
+<Type>3</Type>
+<!-- 데이터 타입 : CHAR(18) (???) --> 
+<Datatype Derived="Y">CHAR(18)</Datatype>
+<!-- 아이콘 ID --> 
+<Icon>{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Icon>
+<!-- 널 옵션 : 0 (???) --> 
+<Null_Option Derived="Y">0</Null_Option>
+<!-- 물리 이름 : <default> --> 
+<Physical_Name Derived="Y"><default></Physical_Name>
+<!-- 논리 이름 : CHAR(18) --> 
+<Logical_Datatype>CHAR(18)</Logical_Datatype>
+<!-- 부모 도메인 : line 4 --> 
+<Parent_Domain>{__DOMAIN_GROUP_ID|/*{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000*/</Parent_Domain>
+<!-- 의존 객체 참조 배열 -->
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존 객체 참조 --> 
+<!-- 중요 
+	아래 네개는 엔티티나 attribute 여부와 상관없이 무조건 존재 
+    index = 0 : String 
+    index = 1 : Number 
+    index = 2 : DateTime 
+    index = 3 : Blob
+
+    이 뒤로 오는 내용은 각 엔티티 별로 Attribute를 순서대로 나열함. 
+--> 
+<!-- 의존 객체 참조 : 100 line String Domain ID 참조 -->  
+<Dependent_Objects_Ref index="0">{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 133 line Number Domain ID 참조 -->  
+<Dependent_Objects_Ref index="1">{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 155 line DateTime Domain ID 참조 -->  
+<Dependent_Objects_Ref index="2">{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 177 line Blob Domain ID 참조 -->  
+<Dependent_Objects_Ref index="3">{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 고객 고객번호ID Domain ID 참조 -->  
+<Dependent_Objects_Ref index="4">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 고객 고객명 Domain ID 참조 -->  
+<Dependent_Objects_Ref index="5">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 고객 고객주소 String Domain ID 참조 -->  
+<Dependent_Objects_Ref index="6">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 고객 기타 String Domain ID 참조 -->  
+<Dependent_Objects_Ref index="7">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : Erwin_AttributeGroups 분석 80 line 거래처번호 Domain ID 참조 -->  
+<Dependent_Objects_Ref index="8">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : Erwin_AttributeGroups 분석 123 line 거래처명 Domain ID 참조 -->  
+<Dependent_Objects_Ref index="9">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : Erwin_AttributeGroups 분석 172 line 거래처주소 Domain ID 참조 -->  
+<Dependent_Objects_Ref index="10">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : Erwin_AttributeGroups 분석 194 line 기타 Domain ID 참조 -->  
+<Dependent_Objects_Ref index="11">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<!-- 속성 이름 -->
+<Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
+<!-- 컬럼 이름 --> 
+<Column_Name Derived="Y">%AttName</Column_Name>
+<!-- 컬럼 주석 --> 
+<Column_Comment Derived="Y">%AttDef</Column_Comment>
+<!-- Attribute 아이콘 --> 
+<Attribute_Icon Derived="Y">{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Attribute_Icon>
+<!-- 사용자 형식 이름 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y"><default></User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 -->
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y"><default></User_Formatted_Physical_Name>
+<!-- 도메인 속성 종료 -->
+</DomainProps>
+<!-- 도메인 종료-->
+</Domain>
+<!-- 도메인 시작 --> 
+<Domain id="{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000" name="String">
+<!-- 도메인 속성 --> 
+<DomainProps>
+<!-- 빌트인 ID (???) --> 
+<Built-in_Id>2</Built-in_Id>
+<!-- 이름 : 스트링 --> 
+<Name>String</Name>
+<!-- 스트링 id --> 
+<Long_Id>{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Long_Id>
+<!-- 소유자 경로 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 타입 : 5 (???) --> 
+<Type>5</Type>
+<!-- 데이터 타입 : VARCHAR2(20) --> 
+<Datatype Derived="Y">VARCHAR2(20)</Datatype>
+<!-- 아이콘 ID : Bitmap id와 연결됨 --> 
+<Icon>{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Icon>
+<!-- 널 옵션 : 0(???)-->
+<Null_Option Derived="Y">0</Null_Option>
+<!-- 물리 이름 : String --> 
+<Physical_Name Derived="Y">String</Physical_Name>
+<!-- 논리 데이터 타입 : VARCHAR(20) --> 
+<Logical_Datatype>VARCHAR(20)</Logical_Datatype>
+<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
+<Parent_Domain>{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/</Parent_Domain>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- Attribute 이름 --> 
+<Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
+<!-- 컬럼 이름 --> 
+<Column_Name Derived="Y">%AttName</Column_Name>
+<!-- 컬럼 주석 --> 
+<Column_Comment Derived="Y">%AttDef</Column_Comment>
+<!-- 속성 아이콘 : Bitmap Groups 부분 도메인 ID 참조--> 
+<Attribute_Icon Derived="Y">{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Attribute_Icon>
+<!-- 사용자 포맷 이름 : String --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">String</User_Formatted_Name>
+<!-- 사용자 물리 이름 : String --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">String</User_Formatted_Physical_Name>
+<!-- 도메인 속성 종료 --> 
+</DomainProps>
+<!-- 도메인 종료 --> 
+</Domain>
+<!-- 도메인 이름 : Number-->
+<Domain id="{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000" name="Number">
+<!-- 도메인 속성 시작 --> 
+<DomainProps>
+<!-- 빌트인 ID : 3 (???) -->
+<Built-in_Id>3</Built-in_Id>
+<!-- 이름 : Number --> 
+<Name>Number</Name>
+<!-- 아이디 --> 
+<Long_Id>{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Long_Id>
+<!-- 소유자 경로 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 타입 : 6 (???)-->
+<Type>6</Type>
+<!-- 데이터 타입 : Integer --> 
+<Datatype Derived="Y">INTEGER</Datatype>
+<!-- 아이콘 : Bitmap Default Number Icon과 연결됨 --> 
+<Icon>{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Icon>
+<!-- 널 옵션 : 0 (???) --> 
+<Null_Option Derived="Y">0</Null_Option>
+<!-- 물리 이름 : Number --> 
+<Physical_Name Derived="Y">Number</Physical_Name>
+<!-- 논리 데이터 타입 : Integer --> 
+<Logical_Datatype>INTEGER</Logical_Datatype>
+<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
+<Parent_Domain>{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/</Parent_Domain>
+<!-- 의존 객체 참조 배열 -->
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 속성 이름 --> 
+<Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
+<!-- 컬럼 이름 --> 
+<Column_Name Derived="Y">%AttName</Column_Name>
+<!-- 컬럼  주석 --> 
+<Column_Comment Derived="Y">%AttDef</Column_Comment>
+<!-- 컬럼 속성 아이콘 : Default Number Icon -->
+<Attribute_Icon Derived="Y">{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Attribute_Icon>
+<!-- 사용자 형식 이름 : Number --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Number</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 : Number --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Number</User_Formatted_Physical_Name>
+<!-- 도메인 속성 종료-->
+</DomainProps>
+<!-- 도메인 종료-->
+</Domain>
+<!-- 도메인 아이디 -->
+<Domain id="{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000" name="Datetime">
+<!-- 도메인 속성 -->
+<DomainProps>
+<!-- 빌트인 아이디 : 4 (???) --> 
+<Built-in_Id>4</Built-in_Id>
+<!-- 이름 : Datetime -->
+<Name>Datetime</Name>
+<!-- 아이디 -->
+<Long_Id>{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Long_Id>
+<!-- 소유자 경로 : Model_2 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 타입 : 7 --> 
+<Type>7</Type>
+<!-- 데이타타입 : DATE -->
+<Datatype Derived="Y">DATE</Datatype>
+<!-- 아이콘 id : Bitmap Default Datetime icon id --> 
+<Icon>{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Icon>
+<!-- 널 옵션 -->
+<Null_Option Derived="Y">0</Null_Option>
+<!-- 물리 이름 : Datetime --> 
+<Physical_Name Derived="Y">Datetime</Physical_Name>
+<!-- 논리 데이터 타입 : Date --> 
+<Logical_Datatype>DATE</Logical_Datatype>
+<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
+<Parent_Domain>{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/</Parent_Domain>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 속성 이름 --> 
+<Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
+<!-- 컬럼 이름 --> 
+<Column_Name Derived="Y">%AttName</Column_Name>
+<!-- 컬럼 주석 --> 
+<Column_Comment Derived="Y">%AttDef</Column_Comment>
+<!-- 속성 아이콘 : Bitmap Default Datetime icon id--> 
+<Attribute_Icon Derived="Y">{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Attribute_Icon>
+<!-- 사용자 형식 이름 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Datetime</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Datetime</User_Formatted_Physical_Name>
+<!-- 도메인 속성 종료 --> 
+</DomainProps>
+<!-- 도메인 종료 --> 
+</Domain>
+<!-- 도메인 이름 : Blob--> 
+<Domain id="{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000" name="Blob">
+<!-- 도메인 속성 --> 
+<DomainProps>
+<!-- 빌트 인 id : 5 --> 
+<Built-in_Id>5</Built-in_Id>
+<!-- 이름 : Blob --> 
+<Name>Blob</Name>
+<!-- 아이디 : Bitmap Default Blob icon --> 
+<Long_Id>{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Long_Id>
+<!-- 사용자 경로 : Model_2 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- Type : 8 --> 
+<Type>8</Type>
+<!-- 데이터 타입 : Blob --> 
+<Datatype Derived="Y">BLOB</Datatype>
+<!-- Blob 아이콘 : Bitmap Default Blob icon --> 
+<Icon>{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Icon>
+<!--널 옵션 : 0 --> 
+<Null_Option Derived="Y">0</Null_Option>
+<!-- 물리 이름 : Blob --> 
+<Physical_Name Derived="Y">Blob</Physical_Name>
+<!-- 논리 데이터 타입 : LARGE BINARY --> 
+<Logical_Datatype>LARGE BINARY</Logical_Datatype>
+<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
+<Parent_Domain>{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/</Parent_Domain>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- Attribute Name --> 
+<Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
+<!-- 컬럼 이름 --> 
+<Column_Name Derived="Y">%AttName</Column_Name>
+<!-- 컬럼 주석 --> 
+<Column_Comment Derived="Y">%AttDef</Column_Comment>
+<!-- Attribute 아이콘 : Bitmap Groups Default Blob icon id 와 연결 --> 
+<Attribute_Icon Derived="Y">{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Attribute_Icon>
+<!-- 사용자 형식 이름 : Blob -->
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Blob</User_Formatted_Name>
+<!-- 사용자 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Blob</User_Formatted_Physical_Name>
+<!-- 도메인 속성 끝 --> 
+</DomainProps>
+<!-- 도메인 이름 끝 --> 
+</Domain>
+<!-- 도메인 그룹 끝 --> 
+</Domain_Groups>
+
+
+<!-- 비트맵 그룹 --> 
+<!-- 비트맵 그룹 생성 --> 
+<Bitmap_Groups>
+<!-- 비트맵 아이디 하단의 LongID와 동일하게 사용 다른데서는 사용안함. --> 
+<Bitmap id="{6E62DD7E-786C-47B4-A1C7-16BEA72E02C2}+00000000" name="Default Entity Icon">
+<!-- 비트맵 속성 --> 
+<BitmapProps>
+<!-- 빌트인 id : 21 무슨 의미인지 모름 --> 
+<Built-in_Id>21</Built-in_Id>
+<!-- 이름 : 기본 엔티티 아이콘 --> 
+<Name>Default Entity Icon</Name>
+<!-- 롱id : 아이디가 위쪽 비트맵 아이디랑 동일함 --> 
+<Long_Id>{6E62DD7E-786C-47B4-A1C7-16BEA72E02C2}+00000000</Long_Id>
+<!-- 소유자 경로 : Model_2 모델명이 들어가야함(중요) --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 비트맵 파일이름 Default Entity Icon --> 
+<Bitmap_Filename Derived="Y">Default Entity Icon</Bitmap_Filename>
+<!-- 플래그 번호 : 65 --> 
+<Flags>65</Flags>
+<!-- 이미지 인덱스 --> 
+<Image_Index>1</Image_Index>
+<!-- 의존 겍체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 사용자 형식 이름 : Default Entity Icon --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default Entity Icon</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Entity Icon</User_Formatted_Physical_Name>
+<!-- 비트맵 속성 종료 --> 
+</BitmapProps>
+<!-- 비트맵 종료 --> 
+</Bitmap>
+
+<Bitmap id="{7A37FE88-5CB6-4012-89F0-C5C334B10506}+00000000" name="Default Entity Small Icon">
+<BitmapProps>
+<Built-in_Id>22</Built-in_Id>
+<Name>Default Entity Small Icon</Name>
+<Long_Id>{7A37FE88-5CB6-4012-89F0-C5C334B10506}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename Derived="Y">Default Entity Small Icon</Bitmap_Filename>
+<Flags>128</Flags>
+<Image_Index>2</Image_Index>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default Entity Small Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Entity Small Icon</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+<Bitmap id="{4B233DDF-4943-45E1-B07F-989536920B10}+00000000" name="Default <unknown> Icon">
+<BitmapProps>
+<Built-in_Id>11</Built-in_Id>
+<Name>Default <unknown> Icon</Name>
+<Long_Id>{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename Derived="Y">Default <unknown> Icon</Bitmap_Filename>
+<Flags>2</Flags>
+<Image_Index>4</Image_Index>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default <unknown> Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default <unknown> Icon</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+<Bitmap id="{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000" name="Default String Icon">
+<BitmapProps>
+<Built-in_Id>12</Built-in_Id>
+<Name>Default String Icon</Name>
+<Long_Id>{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename Derived="Y">Default String Icon</Bitmap_Filename>
+<Flags>32</Flags>
+<Image_Index>5</Image_Index>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default String Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default String Icon</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+<Bitmap id="{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000" name="Default Number Icon">
+<BitmapProps>
+<Built-in_Id>13</Built-in_Id>
+<Name>Default Number Icon</Name>
+<Long_Id>{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename Derived="Y">Default Number Icon</Bitmap_Filename>
+<Flags>16</Flags>
+<Image_Index>6</Image_Index>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default Number Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Number Icon</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+<Bitmap id="{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000" name="Default Datetime Icon">
+<BitmapProps>
+<Built-in_Id>14</Built-in_Id>
+<Name>Default Datetime Icon</Name>
+<Long_Id>{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename Derived="Y">Default Datetime Icon</Bitmap_Filename>
+<Flags>8</Flags>
+<Image_Index>7</Image_Index>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default Datetime Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Datetime Icon</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+<Bitmap id="{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000" name="Default Blob Icon">
+<BitmapProps>
+<Built-in_Id>15</Built-in_Id>
+<Name>Default Blob Icon</Name>
+<Long_Id>{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename Derived="Y">Default Blob Icon</Bitmap_Filename>
+<Flags>4</Flags>
+<Image_Index>8</Image_Index>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default Blob Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Blob Icon</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+<Bitmap id="{5F6D7CE3-2B31-4138-A613-4698DA274998}+00000000" name="-- -- --">
+<BitmapProps>
+<Name>-- -- --</Name>
+<Long_Id>{5F6D7CE3-2B31-4138-A613-4698DA274998}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename>-- -- --</Bitmap_Filename>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">-- -- --</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">-- -- --</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+</Bitmap_Groups><!-- 주제항목 그룹 -->
+
+
+
+<!-- 주제영역 그룹 --> 
+<Subject_Area_Groups>
+<!-- 주제영역 id : 메인 주제영역 <EM2:Model_Proxy_Object Current_Subject_Area_Ref의 text 값으로 값이 들어감--> 
+<Subject_Area id="{_SUBJECT_AREA_ID_1}/*{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000*/" name="<Main Subject Area>">
+<!-- 주제영역 속성 -->
+<Subject_AreaProps>
+<!-- 빌트인 아이디ㅣ : 31 --> 
+<Built-in_Id>31</Built-in_Id>
+<!-- 메인 주제영역 : 주제영역이름과 동일함 (중요)--> 
+<Name><Main Subject Area></Name>
+<!-- 주제영역 아이디 : 위의 서브젝트 아이디값과 동일해야 함 --> 
+<Long_Id>{_SUBJECT_AREA_ID_1}/*{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000*/</Long_Id>
+<!-- 소유자 경로 : 모델명과 동일 --> 
+<Owner_Path Derived="Y">{__MODEL_NAME}/*Model_2*/</Owner_Path>
+<!-- 참조된 엔티티 배열 --> 
+<Referenced_Entities_Array>
+<!-- 참조된 엔티티 인덱스 : 하단의 Model_Object_Reference의 값과 동일함. (중요) --> 
+<Referenced_Entities index="0">{__REF_ENTITY_ID_1}/*{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000*/</Referenced_Entities>
+<!-- 참조된 엔티티 인덱스 : 하단의 Model_Object_Reference의 값과 동일함. (중요) --> 
+<Referenced_Entities index="1">{__REF_ENTITY_ID_2}/*{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000*/</Referenced_Entities>
+<!-- 참조 엔티티 배열  종료 --> 
+</Referenced_Entities_Array>
+<!-- 생성시간 : ??? --> 
+<Created_Time>1503928519</Created_Time>
+<!-- 수정시간 : ???? --> 
+<Modified_Time>1503928519</Modified_Time>
+<!-- 객체 순서 : 0 (무슨 의미) --> 
+<Object_Order>0</Object_Order>
+<!-- 메인 주제영역 존재 여부 : true (중요) --> 
+<Is_Main_Subject_Area>true</Is_Main_Subject_Area>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 비 트랜잭션 프록시 객체 아이디 EM2:Model_Proxy_Object  내부의 <Subject_Area_Proxy_Object_Groups> Subject_Area_Proxy_Object id값과 LongId의 text값에 들어감
+(중요)--> 
+<Non_Tx_Proxy_Object_Id>{2E04E1EE-DDB4-4F94-B2E5-068B0435577F}+00000000</Non_Tx_Proxy_Object_Id>
+<!-- 사용자 저장된 이름 : 메인 주제영역 (중요) -->
+<User_Formatted_Name ReadOnly="Y" Derived="Y">{__MAIN_SUBJECT_AREA_NAME}/*<Main Subject Area>*/</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 : 메인 주제영역 (중요)--> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">{__MAIN_SUBJECT_AREA_PHYSICAL_NAME}/*<Main Subject Area>*/</User_Formatted_Physical_Name>
+<!-- 주제영역 속성 종료 --> 
+</Subject_AreaProps>
+<!-- 저장된 출력 그룹들 --> 
+<Stored_Display_Groups>
+<!-- 저장된 출력 아이디 EM2:Model_Proxy_Object <Stored_Display_Proxy_Object_Groups> <Stored_Display_Proxy_Object> <Stored_Display_Proxy_ObjectProps> <Proxied_Object_Id>의 text값으로 들어가야함 (중요)--> 
+<Stored_Display id="{A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000" name="Display1">
+<!-- 저장된 출력 속성 --> 
+<Stored_DisplayProps>
+<!-- 디스플레이 이름 : ???-->
+<Name>Display1</Name>
+<!-- LongID : 상단의 저장된 출력 아이디와 동일해야함 (중요) --> 
+<Long_Id>{A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000</Long_Id>
+<!-- 소유자 경로 : 모델_2.메인주제영역   모델명 + 메인주제영역명 --> 
+<Owner_Path Derived="Y">Model_2.<Main Subject Area></Owner_Path>
+<!-- 생성시간 --> 
+<Created_Time>1503928519</Created_Time>
+<!-- 수정 시간 --> 
+<Modified_Time>1503928519</Modified_Time>
+<!-- 객체 순서 --> 
+<Object_Order>0</Object_Order>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 비 트랜잭션 객체 아이디 <EM2:Model_Proxy_Object> <Stored_Display_Proxy_Object_Groups> <Stored_Display_Proxy_Object 의 속성 id값과 <Stored_Display_Proxy_ObjectProps>의 LongId의 text값에 들어감--> 
+<Non_Tx_Proxy_Object_Id>{AAF8097C-FA29-44AC-9C3B-B3750DA5AFC4}+00000000</Non_Tx_Proxy_Object_Id>
+<!-- 출력 경계선 : true --> 
+<Print_Border>true</Print_Border>
+<!-- 출력 밑바닥 여백 --> 
+<Print_Bottom_Margin>0</Print_Bottom_Margin>
+<!-- 출력 컬럼 -->
+<Print_Color>true</Print_Color>
+<!-- 출력 풋터 --> 
+<Print_Footer>%CurrentPage% / %TotalPages% -- %Time% , %Date%</Print_Footer>
+<!-- 출력 헤더 --> 
+<Print_Header>%File% -- %Display% / %SubjectArea%</Print_Header>
+<!-- 출력 왼쪽 마진 --> 
+<Print_Left_Margin>0</Print_Left_Margin>
+<!-- 출력 범위 : 1 ???? (무슨 의미) --> 
+<Print_Range>1</Print_Range>
+<!-- 출력 오른쪽 마진 : 0 --> 
+<Print_Right_Margin>0</Print_Right_Margin>
+<!-- 출력 비율 : 100 --> 
+<Print_Scaling>100</Print_Scaling>
+<!-- 출력 위 마진 : 0 --> 
+<Print_Top_Margin>0</Print_Top_Margin>
+<!-- 사용자 형식 이름 : Display1 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Display1</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 : Display1 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Display1</User_Formatted_Physical_Name>
+</Stored_DisplayProps>
+<!-- 그림 그리는 객체 엔티티 그룹 --> 
+<Drawing_Object_Entity_Groups>
+<!-- 그리는 객체 엔티티 id :아래 LongID와 맞추면 됨(중요)--> 
+<Drawing_Object_Entity id="{__DRAWING_OBJECT_ENTITY_ID_1}/*{A74A79CF-B821-4F80-8E84-3DE5B3A9A9AD}+00000000" name="{__DRAWING_OJBECT_ENTITY_NAME_ID_1}/*고객*/">
+<!-- 그리는 객체 엔티티 속성들 --> 
+<Drawing_Object_EntityProps>
+<!-- 그리는 객체 엔티티 이름 : 고객 (엔티티명) (중요) --> 
+<Name Derived="Y">{__DRAWING_OJBECT_ENTITY_NAME_ID_1}/*고객*/</Name>
+<!-- LongId : 롱아이이디 --> 
+<Long_Id>{__DRAWING_OBJECT_ENTITY_ID_1}/*{A74A79CF-B821-4F80-8E84-3DE5B3A9A9AD}+00000000*/</Long_Id>
+<!-- 소유자 경로 : Model_2.<Main Subject Area>.Display1 모델명 + 주제영역명 + 출력 --> 
+<Owner_Path Derived="Y">{__MODEL_NAME} + '." + {__MAIN_SUBJECT_AREA} + "." + {__DISPLAY_NAME_1}/*Model_2.<Main Subject Area>.Display1*/</Owner_Path>
+<!-- 물리 엔티티 이름 : 고객 (중요) --> 
+<Physical_Name Derived="Y">{__ENTITY_PHYSICAL_NAME}/*고객*/</Physical_Name>
+<!-- 위치 : ???? --> 
+<Location Tool="Y" ReadOnly="Y" Derived="Y">12 -1 88 101</Location>
+<!-- 모델 객체 참조 : <ERwin> <EMX:Model> <Subject_Area_Groups> <Referenced_Entities_Array> <Referenced_Entities index="0">의 text값 --> 
+<Model_Object_Ref>{__REF_ENTITY_ID_1}/*{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000*/</Model_Object_Ref>
+<!-- DO 폰트 컬러 --> 
+<DO_Font_Color Derived="Y">0</DO_Font_Color>
+<!-- 칠 색상 --> 
+<Fill_Color Derived="Y">16777215</Fill_Color>
+<!-- 외곽 컬러 --> 
+<Outline_Color Derived="Y">0</Outline_Color>
+<!-- 정의 폰트 참조 : 폰트 그룹 아이디와 연결됨 <Font_Groups> <Font id의 속성값에 들어가고 <FontProps> <LongId>의 text값에 들어감 --> 
+<Definition_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Definition_Font_Ref>
+<!-- 폰트 객체 참조 : 위의 아이디와 동일한 값 연결 --> 
+<Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Font_Ref>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존 객체 참조 인덱스 : <ERwin <EMX:Model <Subject_Area_Groups> <Subject_Area <Subject_AreaProps> <Referenced_Entities_Array> <Referenced_Entities index="0">의 text값과 동일 (중요)--> 
+<Dependent_Objects_Ref index="0">{__REF_ENTITY_ID_1}/*{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000*/</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 배열 종료 --> 
+</Dependent_Objects_Ref_Array>
+<!-- 위치 정보 (중요) y좌표, x좌표--> 
+<Anchor_Point>50 50</Anchor_Point>
+<!-- 정의 색상 : 0 무슨의미 ?? --> 
+<Definition_Color Derived="Y">0</Definition_Color>
+<!-- 앵커 포인트 위치가 기본인가 ? : true --> 
+<Anchor_Point_Is_Default>true</Anchor_Point_Is_Default>
+<!-- 사용자 형식 엔티티 이름 : 고객 (중요) --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">{__DRAWING_OJBECT_ENTITY_NAME_ID_1}/*고객*/</User_Formatted_Name>
+<!-- 사용자 형식 물리 엔티티 이름 : 고객(중요) -->  
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">{__DRAWING_OJBECT_ENTITY_PHYSICAL_NAME_ID_1}/*고객*/</User_Formatted_Physical_Name>
+<!-- 그리는 객체 엔티티 속성 : 종료 --> 
+</Drawing_Object_EntityProps>
+<!-- 그리는 객체 엔티티 종료 --> 
+</Drawing_Object_Entity>
+<Drawing_Object_Entity id="{7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7F8}+00000000" name="{__DRAWING_OJBECT_ENTITY_NAME_ID_2}/*거래처*/">
+<Drawing_Object_EntityProps>
+<Name Derived="Y">{__DRAWING_OJBECT_ENTITY_NAME_ID_2}/*거래처*/</Name>
+<Long_Id>{7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7F8}+00000000</Long_Id>
+<Owner_Path Derived="Y">{__MODEL_NAME} + '." + {__MAIN_SUBJECT_AREA} + "." + {__DISPLAY_NAME_1}/*Model_2.<Main Subject Area>.Display1*/</Owner_Path>
+<Physical_Name Derived="Y">{__DRAWING_OJBECT_ENTITY_NAME_ID_2}/*거래처*/</Physical_Name>
+<Location Tool="Y" ReadOnly="Y" Derived="Y">102 18 192 120</Location>
+<Model_Object_Ref>{__REF_ENTITY_ID_2}/*{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000*/</Model_Object_Ref>
+<DO_Font_Color Derived="Y">0</DO_Font_Color>
+<Fill_Color Derived="Y">16777215</Fill_Color>
+<Outline_Color Derived="Y">0</Outline_Color>
+<Definition_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Definition_Font_Ref>
+<Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Font_Ref>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{__REF_ENTITY_ID_2}/*{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000*/</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Anchor_Point>147 69</Anchor_Point>
+<Definition_Color Derived="Y">0</Definition_Color>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">{__DRAWING_OJBECT_ENTITY_NAME_ID_2}/*거래처*/</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">{__DRAWING_OJBECT_ENTITY_PHYSICAL_NAME_ID_2}/*거래처*/</User_Formatted_Physical_Name>
+</Drawing_Object_EntityProps>
+</Drawing_Object_Entity>
+</Drawing_Object_Entity_Groups>
+</Stored_Display>
+</Stored_Display_Groups>
+</Subject_Area>
+</Subject_Area_Groups><!-- 트리거 템플릿 그룹 --> 
+
+<!-- 트리거 템플릿 그룹스 --> 
+<Trigger_Template_Groups>
+<!-- 트리거 템플릿 아이디 : Default Template Groups ID와 동일 --> 
+<Trigger_Template id="{34ED2162-9FF1-4B16-A44A-25CA1120F462}+00000000" name="PARENT UPDATE RESTRICT">
+<Trigger_TemplateProps>
+<!-- 빌트인 ID : 61 --> 
+<Built-in_Id>61</Built-in_Id>
+<!-- 부모 업데이트 제한 --> 
+<Name>PARENT UPDATE RESTRICT</Name>
+<Long_Id>{34ED2162-9FF1-4B16-A44A-25CA1120F462}+00000000</Long_Id>
+<!-- 소유자 경로 : Model_2 (중요) --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 타입 : 10000 --> 
+<Type>10000</Type>
+<!-- 템플릿 코드 ???? --> 
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update restrict */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," <> "," OR ") */ %JoinPKPK(:%Old,:%New," <> "," OR ") THEN SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20005, 'Cannot update %Parent because %Child exists.' ); END IF; END IF;
+</Template_Code>
+<!-- 의존 객체들 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존 객체들 참조 인덱스 
+<Default_Trigger_Template_Groups>
+<Default_Trigger_Template id>
+--> 
+<Dependent_Objects_Ref index="0">{E472DD47-51E5-4B86-9FF8-D6793111F970}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 배열 종료 --> 
+</Dependent_Objects_Ref_Array>
+<!-- 생성 안되기 : true 무슨 의미 ???? --> 
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<!-- 사용자 포맷 이름 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE RESTRICT</User_Formatted_Name>
+<!-- 사용자 포맷 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE RESTRICT</User_Formatted_Physical_Name>
+<!-- 트리거 탬플릿 속성 --> 
+</Trigger_TemplateProps>
+<!-- 트리거 탬플렛 --> 
+</Trigger_Template>
+<Trigger_Template id="{73D3C95D-07DA-4526-9390-ABDAD7A2AD57}+00000000" name="PARENT UPDATE CASCADE">
+<Trigger_TemplateProps>
+<Built-in_Id>62</Built-in_Id>
+<Name>PARENT UPDATE CASCADE</Name>
+<Long_Id>{73D3C95D-07DA-4526-9390-ABDAD7A2AD57}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10001</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update cascade */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," <> "," OR ") */ %JoinPKPK(:%Old,:%New," <> "," OR ") THEN UPDATE %Child SET /* %%JoinFKPK(%Child,:%%New," = ",",") */ %JoinFKPK(%Child,:%New," = ",",") WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{F6C6804D-E339-43C1-B294-253CF0D1DF48}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE CASCADE</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{FE8B2A86-9925-4D40-87CA-9ADD53B903CB}+00000000" name="PARENT UPDATE SET NULL">
+<Trigger_TemplateProps>
+<Built-in_Id>63</Built-in_Id>
+<Name>PARENT UPDATE SET NULL</Name>
+<Long_Id>{FE8B2A86-9925-4D40-87CA-9ADD53B903CB}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10002</Type>
+<Template_Code>
+/* %Parent %VerbPhrase %Child on parent update set null */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," <> "," OR ") */ %JoinPKPK(:%Old,:%New," <> "," OR ") THEN UPDATE %Child SET /* %%SetFK(%Child,NULL) */ %SetFK(%Child,NULL) WHERE /* %%JoinFKPK(%Child,:%%Old," = ",",") */ %JoinFKPK(%Child,:%Old," = "," AND"); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{B610272C-6056-4574-9585-961C90D62AB7}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET NULL</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{B67AFC1E-6B1A-46BE-87B1-8044AE133D37}+00000000" name="PARENT DELETE RESTRICT">
+<Trigger_TemplateProps>
+<Built-in_Id>71</Built-in_Id>
+<Name>PARENT DELETE RESTRICT</Name>
+<Long_Id>{B67AFC1E-6B1A-46BE-87B1-8044AE133D37}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10004</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent delete restrict */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20001, 'Cannot delete %Parent because %Child exists.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{85FB716F-B715-4FC3-BA29-54C5D5C3B28F}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE RESTRICT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{2292FB3F-E3CB-4105-8320-6B1DD9366166}+00000000" name="PARENT DELETE CASCADE">
+<Trigger_TemplateProps>
+<Built-in_Id>72</Built-in_Id>
+<Name>PARENT DELETE CASCADE</Name>
+<Long_Id>{2292FB3F-E3CB-4105-8320-6B1DD9366166}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10005</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent delete cascade */ /* %ErwinRelationInfo */ DELETE FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND");
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{CB49D7F2-490B-4AA0-98B2-803538327340}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE CASCADE</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{F8DEE513-A3A0-4AD0-9C3F-46B6B5F54FB3}+00000000" name="PARENT DELETE SET NULL">
+<Trigger_TemplateProps>
+<Built-in_Id>73</Built-in_Id>
+<Name>PARENT DELETE SET NULL</Name>
+<Long_Id>{F8DEE513-A3A0-4AD0-9C3F-46B6B5F54FB3}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10006</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent delete set null */ /* %ErwinRelationInfo */ UPDATE %Child SET /* %%SetFK(%Child,NULL) */ %SetFK(%Child,NULL) WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND");
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{F0D881D9-8824-4567-945C-D691794C0DE8}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET NULL</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{517EA445-68C3-480F-AF68-F2977D6F792F}+00000000" name="CHILD INSERT RESTRICT">
+<Trigger_TemplateProps>
+<Built-in_Id>111</Built-in_Id>
+<Name>CHILD INSERT RESTRICT</Name>
+<Long_Id>{517EA445-68C3-480F-AF68-F2977D6F792F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10008</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child insert restrict */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND"); IF ( /* %%NotnullFK(:%%New," IS NOT NULL AND") */ %NotnullFK(:%New," IS NOT NULL AND") NUMROWS = 0 ) THEN raise_application_error( -20002, 'Cannot insert %Child because %Parent does not exist.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{BD48B001-7972-49A0-9E87-F5C90EB01C65}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT RESTRICT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{55E5C87D-F2C3-4B29-BBB4-7475F1837296}+00000000" name="CHILD INSERT CASCADE">
+<Trigger_TemplateProps>
+<Built-in_Id>112</Built-in_Id>
+<Name>CHILD INSERT CASCADE</Name>
+<Long_Id>{55E5C87D-F2C3-4B29-BBB4-7475F1837296}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10009</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child insert cascade */ /* %ErwinRelationInfo */ INSERT INTO %Parent (%ParentPK(",",)) SELECT %ChildFK(",",) FROM %Child WHERE /* %%NotnullFK(:%%New," IS NOT NULL AND") */ %NotnullFK(:%New," IS NOT NULL AND") NOT EXISTS ( SELECT * FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND") );
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{4A2C3A99-6F6D-4888-BB60-192398D5C7C4}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT CASCADE</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{FA7F081C-0D8A-4749-BEF1-E73BFB6CFD4A}+00000000" name="CHILD INSERT SET NULL">
+<Trigger_TemplateProps>
+<Built-in_Id>113</Built-in_Id>
+<Name>CHILD INSERT SET NULL</Name>
+<Long_Id>{FA7F081C-0D8A-4749-BEF1-E73BFB6CFD4A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10010</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child insert set null */ /* %ErwinRelationInfo */ UPDATE %Child SET /* %%SetFK(%Child,NULL) */ %SetFK(%Child,NULL) WHERE NOT EXISTS ( SELECT * FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND") ) /* %%JoinPKPK(%Child,:%%New," = "," AND") */ %JoinPKPK(%Child,:%New," = "," AND");
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{F9DF9BCF-8668-4C75-8B82-1A712FEB7C6D}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET NULL</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{FB0C5DB3-A094-4644-832A-36FF20DC073A}+00000000" name="CHILD UPDATE RESTRICT">
+<Trigger_TemplateProps>
+<Built-in_Id>91</Built-in_Id>
+<Name>CHILD UPDATE RESTRICT</Name>
+<Long_Id>{FB0C5DB3-A094-4644-832A-36FF20DC073A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10012</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child update restrict */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND"); IF ( /* %%NotnullFK(:%%New," IS NOT NULL AND") */ %NotnullFK(:%New," IS NOT NULL AND") NUMROWS = 0 ) THEN raise_application_error( -20007, 'Cannot update %Child because %Parent does not exist.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{67030C01-F58E-4E93-B40F-376BB3BD8815}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE RESTRICT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{E90EBDF1-34E7-4F78-9B89-7B89C48258B3}+00000000" name="CHILD UPDATE CASCADE">
+<Trigger_TemplateProps>
+<Built-in_Id>92</Built-in_Id>
+<Name>CHILD UPDATE CASCADE</Name>
+<Long_Id>{E90EBDF1-34E7-4F78-9B89-7B89C48258B3}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10013</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child update cascade */ /* %ErwinRelationInfo */ INSERT INTO %Parent (%ParentPK(",",)) SELECT %ChildFK(",",) FROM %Child WHERE /* %%NotnullFK(:%%New," IS NOT NULL AND") */ %NotnullFK(:%New," IS NOT NULL AND") NOT EXISTS ( SELECT * FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND") );
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{2B402E44-FDA5-417E-9973-6AECCB72FD8A}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE CASCADE</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{A568BF96-1B07-497E-8A55-5583925BE893}+00000000" name="CHILD UPDATE SET NULL">
+<Trigger_TemplateProps>
+<Built-in_Id>93</Built-in_Id>
+<Name>CHILD UPDATE SET NULL</Name>
+<Long_Id>{A568BF96-1B07-497E-8A55-5583925BE893}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10014</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child update set null */ /* %ErwinRelationInfo */ UPDATE %Child SET /* %%SetFK(%Child,NULL) */ %SetFK(%Child,NULL) WHERE NOT EXISTS ( SELECT * FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND") ) /* %%JoinPKPK(%Child,:%%New," = "," AND") */ %JoinPKPK(%Child,:%New," = "," AND");
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{0EABEF6E-FF38-4823-8C95-9C29A93E5EA6}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET NULL</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{D38CA85F-7A4F-4DAF-8FCE-AC606B60364B}+00000000" name="CHILD DELETE RESTRICT">
+<Trigger_TemplateProps>
+<Built-in_Id>101</Built-in_Id>
+<Name>CHILD DELETE RESTRICT</Name>
+<Long_Id>{D38CA85F-7A4F-4DAF-8FCE-AC606B60364B}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10016</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child delete restrict */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Parent WHERE /* %%JoinFKPK(:%%Old,%Parent," = "," AND") */ %JoinFKPK(:%Old,%Parent," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20010, 'Cannot delete %Child because %Parent exists.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{6FF5CDC9-7CCE-48A4-866C-934B283A7030}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE RESTRICT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{F615F439-028D-4BC3-B6B4-02080BB58BB4}+00000000" name="CHILD DELETE CASCADE">
+<Trigger_TemplateProps>
+<Built-in_Id>102</Built-in_Id>
+<Name>CHILD DELETE CASCADE</Name>
+<Long_Id>{F615F439-028D-4BC3-B6B4-02080BB58BB4}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10017</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child delete cascade */ /* %ErwinRelationInfo */ DELETE FROM %Parent WHERE /* %%JoinFKPK(:%%Old,%Parent," = "," AND") */ %JoinFKPK(:%Old,%Parent," = "," AND");
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{3B3068D2-FD60-42BB-84A3-628C76C5AEC7}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE CASCADE</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{3CD28F61-44FC-41B6-8E97-E755A51B868D}+00000000" name="PARENT INSERT RESTRICT">
+<Trigger_TemplateProps>
+<Built-in_Id>81</Built-in_Id>
+<Name>PARENT INSERT RESTRICT</Name>
+<Long_Id>{3CD28F61-44FC-41B6-8E97-E755A51B868D}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10020</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent insert restrict */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%New," = "," AND") */ %JoinFKPK(%Child,:%New," = "," AND"); IF (NUMROWS = 0) THEN raise_application_error( -20011, 'Cannot insert %Parent because %Child does not.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{61CEE56F-43DC-4EED-8778-7AB1C3C8475A}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT RESTRICT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{1C88CAE9-F560-4AE4-864C-9C7B6B945FC0}+00000000" name="UPDATE HEADER">
+<Trigger_TemplateProps>
+<Built-in_Id>121</Built-in_Id>
+<Name>UPDATE HEADER</Name>
+<Long_Id>{1C88CAE9-F560-4AE4-864C-9C7B6B945FC0}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10024</Type>
+<Template_Code>
+CREATE %CreateOrReplace TRIGGER %ProcedureOwner(.)t%1Action_%27TableName AFTER %Action ON %TableName for each row -- ERwin Builtin %Datetime -- %Action trigger on %TableName DECLARE NUMROWS INTEGER; BEGIN
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{2B0EC90C-33B0-4E12-8C9B-C16A4F394D04}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">UPDATE HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">UPDATE HEADER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{CDCE4AF7-7C5B-48F0-8563-EEB7D9CF6DA5}+00000000" name="UPDATE FOOTER">
+<Trigger_TemplateProps>
+<Built-in_Id>122</Built-in_Id>
+<Name>UPDATE FOOTER</Name>
+<Long_Id>{CDCE4AF7-7C5B-48F0-8563-EEB7D9CF6DA5}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10025</Type>
+<Template_Code>-- ERwin Builtin %Datetime END; /</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{1D03C71C-E378-40ED-9954-CCFAE7891E19}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">UPDATE FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">UPDATE FOOTER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{20EAF79F-BB4E-42A1-A8C7-E62975A4BE7F}+00000000" name="DELETE HEADER">
+<Trigger_TemplateProps>
+<Built-in_Id>123</Built-in_Id>
+<Name>DELETE HEADER</Name>
+<Long_Id>{20EAF79F-BB4E-42A1-A8C7-E62975A4BE7F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10026</Type>
+<Template_Code>
+CREATE %CreateOrReplace TRIGGER %ProcedureOwner(.)t%1Action_%27TableName AFTER %Action ON %TableName for each row -- ERwin Builtin %Datetime -- %Action trigger on %TableName DECLARE NUMROWS INTEGER; BEGIN
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{D4153B24-3DBC-46D3-A1CC-4687286AD696}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">DELETE HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">DELETE HEADER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{09B0FCE4-D8D1-4858-98DB-0A535FE00D0B}+00000000" name="DELETE FOOTER">
+<Trigger_TemplateProps>
+<Built-in_Id>124</Built-in_Id>
+<Name>DELETE FOOTER</Name>
+<Long_Id>{09B0FCE4-D8D1-4858-98DB-0A535FE00D0B}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10027</Type>
+<Template_Code>-- ERwin Builtin %Datetime END; /</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{A2C12FA0-AF09-4696-BD73-6915B05CCB0A}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">DELETE FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">DELETE FOOTER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{DA73EB69-5952-45D6-8687-70C07056F590}+00000000" name="INSERT HEADER">
+<Trigger_TemplateProps>
+<Built-in_Id>125</Built-in_Id>
+<Name>INSERT HEADER</Name>
+<Long_Id>{DA73EB69-5952-45D6-8687-70C07056F590}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10028</Type>
+<Template_Code>
+CREATE %CreateOrReplace TRIGGER %ProcedureOwner(.)t%1Action_%27TableName BEFORE %Action ON %TableName for each row -- ERwin Builtin %Datetime -- %Action trigger on %TableName DECLARE NUMROWS INTEGER; BEGIN
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{02F16755-C1C9-4DEF-9262-FE8914F0D1A9}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">INSERT HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">INSERT HEADER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{8F6B6E77-D849-444B-8009-135BD5F6B895}+00000000" name="INSERT FOOTER">
+<Trigger_TemplateProps>
+<Built-in_Id>126</Built-in_Id>
+<Name>INSERT FOOTER</Name>
+<Long_Id>{8F6B6E77-D849-444B-8009-135BD5F6B895}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10029</Type>
+<Template_Code>-- ERwin Builtin %Datetime END; /</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{E9FC0CD6-31AB-49BE-B323-9124D03F2727}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">INSERT FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">INSERT FOOTER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{F7DC8F68-5C56-4EAD-B137-B97AB83D395A}+00000000" name="CUSTOM TRIGGER HEADER">
+<Trigger_TemplateProps>
+<Built-in_Id>131</Built-in_Id>
+<Name>CUSTOM TRIGGER HEADER</Name>
+<Long_Id>{F7DC8F68-5C56-4EAD-B137-B97AB83D395A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10030</Type>
+<Template_Code>
+CREATE %CreateOrReplace TRIGGER %ProcedureOwner(.)%TriggerName %Fire %Actions(" OR ") ON %TableName %RefClause %Scope %TriggerWhen
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{AC15699B-1883-40FF-968B-B05F2B0E54FC}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER HEADER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{FDB52390-E64A-45D3-B5A5-97C8CDD8CA46}+00000000" name="CUSTOM TRIGGER FOOTER">
+<Trigger_TemplateProps>
+<Built-in_Id>132</Built-in_Id>
+<Name>CUSTOM TRIGGER FOOTER</Name>
+<Long_Id>{FDB52390-E64A-45D3-B5A5-97C8CDD8CA46}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10031</Type>
+<Template_Code>/</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{12B10626-1E61-4B9C-8A65-860DB0E6EFEC}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER FOOTER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{3164061A-C98E-429B-BCBD-3F131B83BC42}+00000000" name="CUSTOM TRIGGER DEFAULT BODY">
+<Trigger_TemplateProps>
+<Built-in_Id>133</Built-in_Id>
+<Name>CUSTOM TRIGGER DEFAULT BODY</Name>
+<Long_Id>{3164061A-C98E-429B-BCBD-3F131B83BC42}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10032</Type>
+<Template_Code>
+CREATE %CreateOrReplace TRIGGER %ProcedureOwner(.)%TriggerName %Fire %Actions(" OR ") ON %TableName %RefClause %Scope %TriggerWhen /* ERwin Builtin %Datetime */ /* default body for %TriggerName */ DECLARE NUMROWS INTEGER; BEGIN %ForEachChildRel() { %RelTemplate } %ForEachParentRel() { %RelTemplate } END;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{410B16C1-8096-4F1D-89E6-D2345D2B90F1}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER DEFAULT BODY</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER DEFAULT BODY</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{86E6450B-BE24-4F7E-8081-08CECB19E8B0}+00000000" name="PARENT UPDATE SET DEFAULT">
+<Trigger_TemplateProps>
+<Built-in_Id>64</Built-in_Id>
+<Name>PARENT UPDATE SET DEFAULT</Name>
+<Long_Id>{86E6450B-BE24-4F7E-8081-08CECB19E8B0}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10003</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update set default */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{207BD8B0-5377-4E50-9858-F83DBE13C09D}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET DEFAULT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{989F9093-DBBF-4171-B0EF-0B977BD66EAC}+00000000" name="PARENT DELETE SET DEFAULT">
+<Trigger_TemplateProps>
+<Built-in_Id>74</Built-in_Id>
+<Name>PARENT DELETE SET DEFAULT</Name>
+<Long_Id>{989F9093-DBBF-4171-B0EF-0B977BD66EAC}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10007</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent delete set default */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{6B60401C-2D35-424C-94AB-6142F8EED3A9}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET DEFAULT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{59F2A306-1772-4AF6-8C04-746C91DD44D8}+00000000" name="PARENT INSERT SET DEFAULT">
+<Trigger_TemplateProps>
+<Built-in_Id>84</Built-in_Id>
+<Name>PARENT INSERT SET DEFAULT</Name>
+<Long_Id>{59F2A306-1772-4AF6-8C04-746C91DD44D8}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10023</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent insert set default */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{860E4A3F-150D-43E8-B83A-A756746CC222}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET DEFAULT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{7DC68BAB-BB17-4AA0-AE74-A0D1245AEC23}+00000000" name="CHILD INSERT SET DEFAULT">
+<Trigger_TemplateProps>
+<Built-in_Id>114</Built-in_Id>
+<Name>CHILD INSERT SET DEFAULT</Name>
+<Long_Id>{7DC68BAB-BB17-4AA0-AE74-A0D1245AEC23}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10011</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child insert set default */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{929A8934-E263-4A2F-8689-37D59D1568B8}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET DEFAULT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{D684CC07-1815-432C-A74D-FC906C1C2C8F}+00000000" name="CHILD UPDATE SET DEFAULT">
+<Trigger_TemplateProps>
+<Built-in_Id>94</Built-in_Id>
+<Name>CHILD UPDATE SET DEFAULT</Name>
+<Long_Id>{D684CC07-1815-432C-A74D-FC906C1C2C8F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10015</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child update set default */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{25CB9FAA-4A38-4A83-9475-471A14198B36}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET DEFAULT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{5AB6F6E7-A091-4851-8FE6-FA90A7B02A9F}+00000000" name="CHILD DELETE SET DEFAULT">
+<Trigger_TemplateProps>
+<Built-in_Id>104</Built-in_Id>
+<Name>CHILD DELETE SET DEFAULT</Name>
+<Long_Id>{5AB6F6E7-A091-4851-8FE6-FA90A7B02A9F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10019</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child delete set default */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{E8BCBB3F-FBC5-4C57-A3B1-54FEC4EF61E3}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET DEFAULT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{4EC51A17-4D75-40AF-B43F-CD6D4841B486}+00000000" name="CHILD DELETE SET NULL">
+<Trigger_TemplateProps>
+<Built-in_Id>103</Built-in_Id>
+<Name>CHILD DELETE SET NULL</Name>
+<Long_Id>{4EC51A17-4D75-40AF-B43F-CD6D4841B486}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10018</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child delete set null */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{8874A7D9-11CB-45A9-A8B2-A7C4C8C18225}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET NULL</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{5F15923B-ECD4-4122-B1FE-FA718833CAEF}+00000000" name="PARENT INSERT SET NULL">
+<Trigger_TemplateProps>
+<Built-in_Id>83</Built-in_Id>
+<Name>PARENT INSERT SET NULL</Name>
+<Long_Id>{5F15923B-ECD4-4122-B1FE-FA718833CAEF}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10022</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent insert set null */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{521ED443-F266-4871-B0E0-4407FD929E70}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET NULL</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{8361E08F-98CB-49EA-83F3-C901444532C8}+00000000" name="PARENT INSERT CASCADE">
+<Trigger_TemplateProps>
+<Built-in_Id>82</Built-in_Id>
+<Name>PARENT INSERT CASCADE</Name>
+<Long_Id>{8361E08F-98CB-49EA-83F3-C901444532C8}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10021</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent insert cascade */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{C89FD9EF-019A-4602-B11E-4E52E5FDF2FF}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT CASCADE</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{23583DFA-7EEC-44F4-96A8-2F03C1E53B86}+00000000" name="PARENT UPDATE NO ACTION">
+<Trigger_TemplateProps>
+<Built-in_Id>65</Built-in_Id>
+<Name>PARENT UPDATE NO ACTION</Name>
+<Long_Id>{23583DFA-7EEC-44F4-96A8-2F03C1E53B86}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>9998</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update no action */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," <> "," OR ") */ %JoinPKPK(:%Old,:%New," <> "," OR ") THEN SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20005, 'Cannot update %Parent because %Child exists.' ); END IF; END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{EFA69D78-D584-46BC-8103-67776B25C470}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE NO ACTION</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{A848ED76-996F-4A6F-8E13-AFAECF819BBC}+00000000" name="CHILD UPDATE NO ACTION">
+<Trigger_TemplateProps>
+<Built-in_Id>95</Built-in_Id>
+<Name>CHILD UPDATE NO ACTION</Name>
+<Long_Id>{A848ED76-996F-4A6F-8E13-AFAECF819BBC}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>9995</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child update no action */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND"); IF ( /* %%NotnullFK(:%%New," IS NOT NULL AND") */ %NotnullFK(:%New," IS NOT NULL AND") NUMROWS = 0 ) THEN raise_application_error( -20007, 'Cannot update %Child because %Parent does not exist.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{3E23C942-8C54-4C5D-A25B-8F4BF80FDB7F}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE NO ACTION</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{461225A9-D902-4243-A74E-4EFEF3452E3F}+00000000" name="PARENT DELETE NO ACTION">
+<Trigger_TemplateProps>
+<Built-in_Id>75</Built-in_Id>
+<Name>PARENT DELETE NO ACTION</Name>
+<Long_Id>{461225A9-D902-4243-A74E-4EFEF3452E3F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>9999</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent delete no action */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20001, 'Cannot DELETE %Parent because %Child exists.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{C78572F9-7556-4912-86CC-3AC04432A661}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE NO ACTION</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{A0D5EB31-0707-4611-86B0-D49075BCDEB8}+00000000" name="CHILD DELETE NO ACTION">
+<Trigger_TemplateProps>
+<Built-in_Id>105</Built-in_Id>
+<Name>CHILD DELETE NO ACTION</Name>
+<Long_Id>{A0D5EB31-0707-4611-86B0-D49075BCDEB8}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>9996</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child delete no action */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Parent WHERE /* %%JoinFKPK(:%%Old,%Parent," = "," AND") */ %JoinFKPK(:%Old,%Parent," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20010, 'Cannot DELETE %Child because %Parent exists.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{5B43A4E3-9D7A-4DAA-B608-1238B28F0952}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE NO ACTION</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{4A194AAF-CBED-45EB-B079-2E43BAB1CB23}+00000000" name="CHILD INSERT NO ACTION">
+<Trigger_TemplateProps>
+<Built-in_Id>115</Built-in_Id>
+<Name>CHILD INSERT NO ACTION</Name>
+<Long_Id>{4A194AAF-CBED-45EB-B079-2E43BAB1CB23}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>9994</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child insert no action */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND"); IF ( /* %%NotnullFK(:%%New," IS NOT NULL AND") */ %NotnullFK(:%New," IS NOT NULL AND") NUMROWS = 0 ) THEN raise_application_error( -20002, 'Cannot insert %Child because %Parent does not exist.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{BF63AE9F-D05F-43FE-8E44-F56D966B6F0A}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT NO ACTION</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{AD640FC2-CBF2-4B08-BCEA-822FA08EDF8A}+00000000" name="PARENT INSERT NO ACTION">
+<Trigger_TemplateProps>
+<Built-in_Id>85</Built-in_Id>
+<Name>PARENT INSERT NO ACTION</Name>
+<Long_Id>{AD640FC2-CBF2-4B08-BCEA-822FA08EDF8A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>9997</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent insert no action */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%New," = "," AND") */ %JoinFKPK(%Child,:%New," = "," AND"); IF (NUMROWS = 0) THEN raise_application_error( -20011, 'Cannot insert %Parent because %Child does not.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{683CCACE-9BE2-4CEB-84E7-FA27F7383133}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT NO ACTION</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+</Trigger_Template_Groups>
+
+<Default_Trigger_Template_Groups>
+<Default_Trigger_Template id="{E472DD47-51E5-4B86-9FF8-D6793111F970}+00000000" name="PARENT UPDATE RESTRICT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>151</Built-in_Id>
+<Name>PARENT UPDATE RESTRICT</Name>
+<Long_Id>{E472DD47-51E5-4B86-9FF8-D6793111F970}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{34ED2162-9FF1-4B16-A44A-25CA1120F462}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT UPDATE RESTRICT</Template_Purpose_Text>
+<Template_Purpose>10000</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE RESTRICT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{F6C6804D-E339-43C1-B294-253CF0D1DF48}+00000000" name="PARENT UPDATE CASCADE">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>152</Built-in_Id>
+<Name>PARENT UPDATE CASCADE</Name>
+<Long_Id>{F6C6804D-E339-43C1-B294-253CF0D1DF48}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{73D3C95D-07DA-4526-9390-ABDAD7A2AD57}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT UPDATE CASCADE</Template_Purpose_Text>
+<Template_Purpose>10001</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE CASCADE</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{B610272C-6056-4574-9585-961C90D62AB7}+00000000" name="PARENT UPDATE SET NULL">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>153</Built-in_Id>
+<Name>PARENT UPDATE SET NULL</Name>
+<Long_Id>{B610272C-6056-4574-9585-961C90D62AB7}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{FE8B2A86-9925-4D40-87CA-9ADD53B903CB}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT UPDATE SET NULL</Template_Purpose_Text>
+<Template_Purpose>10002</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET NULL</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{207BD8B0-5377-4E50-9858-F83DBE13C09D}+00000000" name="PARENT UPDATE SET DEFAULT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>154</Built-in_Id>
+<Name>PARENT UPDATE SET DEFAULT</Name>
+<Long_Id>{207BD8B0-5377-4E50-9858-F83DBE13C09D}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{86E6450B-BE24-4F7E-8081-08CECB19E8B0}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT UPDATE SET DEFAULT</Template_Purpose_Text>
+<Template_Purpose>10003</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET DEFAULT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{EFA69D78-D584-46BC-8103-67776B25C470}+00000000" name="PARENT UPDATE NO ACTION">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>155</Built-in_Id>
+<Name>PARENT UPDATE NO ACTION</Name>
+<Long_Id>{EFA69D78-D584-46BC-8103-67776B25C470}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{23583DFA-7EEC-44F4-96A8-2F03C1E53B86}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT UPDATE NO ACTION</Template_Purpose_Text>
+<Template_Purpose>9998</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE NO ACTION</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{85FB716F-B715-4FC3-BA29-54C5D5C3B28F}+00000000" name="PARENT DELETE RESTRICT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>161</Built-in_Id>
+<Name>PARENT DELETE RESTRICT</Name>
+<Long_Id>{85FB716F-B715-4FC3-BA29-54C5D5C3B28F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{B67AFC1E-6B1A-46BE-87B1-8044AE133D37}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT DELETE RESTRICT</Template_Purpose_Text>
+<Template_Purpose>10004</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE RESTRICT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{CB49D7F2-490B-4AA0-98B2-803538327340}+00000000" name="PARENT DELETE CASCADE">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>162</Built-in_Id>
+<Name>PARENT DELETE CASCADE</Name>
+<Long_Id>{CB49D7F2-490B-4AA0-98B2-803538327340}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{2292FB3F-E3CB-4105-8320-6B1DD9366166}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT DELETE CASCADE</Template_Purpose_Text>
+<Template_Purpose>10005</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE CASCADE</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{F0D881D9-8824-4567-945C-D691794C0DE8}+00000000" name="PARENT DELETE SET NULL">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>163</Built-in_Id>
+<Name>PARENT DELETE SET NULL</Name>
+<Long_Id>{F0D881D9-8824-4567-945C-D691794C0DE8}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{F8DEE513-A3A0-4AD0-9C3F-46B6B5F54FB3}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT DELETE SET NULL</Template_Purpose_Text>
+<Template_Purpose>10006</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET NULL</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{6B60401C-2D35-424C-94AB-6142F8EED3A9}+00000000" name="PARENT DELETE SET DEFAULT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>164</Built-in_Id>
+<Name>PARENT DELETE SET DEFAULT</Name>
+<Long_Id>{6B60401C-2D35-424C-94AB-6142F8EED3A9}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{989F9093-DBBF-4171-B0EF-0B977BD66EAC}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT DELETE SET DEFAULT</Template_Purpose_Text>
+<Template_Purpose>10007</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET DEFAULT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{C78572F9-7556-4912-86CC-3AC04432A661}+00000000" name="PARENT DELETE NO ACTION">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>165</Built-in_Id>
+<Name>PARENT DELETE NO ACTION</Name>
+<Long_Id>{C78572F9-7556-4912-86CC-3AC04432A661}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{461225A9-D902-4243-A74E-4EFEF3452E3F}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT DELETE NO ACTION</Template_Purpose_Text>
+<Template_Purpose>9999</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE NO ACTION</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{61CEE56F-43DC-4EED-8778-7AB1C3C8475A}+00000000" name="PARENT INSERT RESTRICT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>171</Built-in_Id>
+<Name>PARENT INSERT RESTRICT</Name>
+<Long_Id>{61CEE56F-43DC-4EED-8778-7AB1C3C8475A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{3CD28F61-44FC-41B6-8E97-E755A51B868D}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT INSERT RESTRICT</Template_Purpose_Text>
+<Template_Purpose>10020</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT RESTRICT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{C89FD9EF-019A-4602-B11E-4E52E5FDF2FF}+00000000" name="PARENT INSERT CASCADE">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>172</Built-in_Id>
+<Name>PARENT INSERT CASCADE</Name>
+<Long_Id>{C89FD9EF-019A-4602-B11E-4E52E5FDF2FF}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{8361E08F-98CB-49EA-83F3-C901444532C8}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT INSERT CASCADE</Template_Purpose_Text>
+<Template_Purpose>10021</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT CASCADE</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{521ED443-F266-4871-B0E0-4407FD929E70}+00000000" name="PARENT INSERT SET NULL">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>173</Built-in_Id>
+<Name>PARENT INSERT SET NULL</Name>
+<Long_Id>{521ED443-F266-4871-B0E0-4407FD929E70}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{5F15923B-ECD4-4122-B1FE-FA718833CAEF}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT INSERT SET NULL</Template_Purpose_Text>
+<Template_Purpose>10022</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET NULL</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{860E4A3F-150D-43E8-B83A-A756746CC222}+00000000" name="PARENT INSERT SET DEFAULT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>174</Built-in_Id>
+<Name>PARENT INSERT SET DEFAULT</Name>
+<Long_Id>{860E4A3F-150D-43E8-B83A-A756746CC222}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{59F2A306-1772-4AF6-8C04-746C91DD44D8}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT INSERT SET DEFAULT</Template_Purpose_Text>
+<Template_Purpose>10023</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET DEFAULT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{683CCACE-9BE2-4CEB-84E7-FA27F7383133}+00000000" name="PARENT INSERT NO ACTION">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>175</Built-in_Id>
+<Name>PARENT INSERT NO ACTION</Name>
+<Long_Id>{683CCACE-9BE2-4CEB-84E7-FA27F7383133}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{AD640FC2-CBF2-4B08-BCEA-822FA08EDF8A}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT INSERT NO ACTION</Template_Purpose_Text>
+<Template_Purpose>9997</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT NO ACTION</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{67030C01-F58E-4E93-B40F-376BB3BD8815}+00000000" name="CHILD UPDATE RESTRICT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>181</Built-in_Id>
+<Name>CHILD UPDATE RESTRICT</Name>
+<Long_Id>{67030C01-F58E-4E93-B40F-376BB3BD8815}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{FB0C5DB3-A094-4644-832A-36FF20DC073A}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD UPDATE RESTRICT</Template_Purpose_Text>
+<Template_Purpose>10012</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE RESTRICT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{2B402E44-FDA5-417E-9973-6AECCB72FD8A}+00000000" name="CHILD UPDATE CASCADE">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>182</Built-in_Id>
+<Name>CHILD UPDATE CASCADE</Name>
+<Long_Id>{2B402E44-FDA5-417E-9973-6AECCB72FD8A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{E90EBDF1-34E7-4F78-9B89-7B89C48258B3}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD UPDATE CASCADE</Template_Purpose_Text>
+<Template_Purpose>10013</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE CASCADE</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{0EABEF6E-FF38-4823-8C95-9C29A93E5EA6}+00000000" name="CHILD UPDATE SET NULL">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>183</Built-in_Id>
+<Name>CHILD UPDATE SET NULL</Name>
+<Long_Id>{0EABEF6E-FF38-4823-8C95-9C29A93E5EA6}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{A568BF96-1B07-497E-8A55-5583925BE893}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD UPDATE SET NULL</Template_Purpose_Text>
+<Template_Purpose>10014</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET NULL</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{25CB9FAA-4A38-4A83-9475-471A14198B36}+00000000" name="CHILD UPDATE SET DEFAULT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>184</Built-in_Id>
+<Name>CHILD UPDATE SET DEFAULT</Name>
+<Long_Id>{25CB9FAA-4A38-4A83-9475-471A14198B36}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{D684CC07-1815-432C-A74D-FC906C1C2C8F}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD UPDATE SET DEFAULT</Template_Purpose_Text>
+<Template_Purpose>10015</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET DEFAULT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{3E23C942-8C54-4C5D-A25B-8F4BF80FDB7F}+00000000" name="CHILD UPDATE NO ACTION">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>185</Built-in_Id>
+<Name>CHILD UPDATE NO ACTION</Name>
+<Long_Id>{3E23C942-8C54-4C5D-A25B-8F4BF80FDB7F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{A848ED76-996F-4A6F-8E13-AFAECF819BBC}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD UPDATE NO ACTION</Template_Purpose_Text>
+<Template_Purpose>9995</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE NO ACTION</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{6FF5CDC9-7CCE-48A4-866C-934B283A7030}+00000000" name="CHILD DELETE RESTRICT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>191</Built-in_Id>
+<Name>CHILD DELETE RESTRICT</Name>
+<Long_Id>{6FF5CDC9-7CCE-48A4-866C-934B283A7030}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{D38CA85F-7A4F-4DAF-8FCE-AC606B60364B}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD DELETE RESTRICT</Template_Purpose_Text>
+<Template_Purpose>10016</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE RESTRICT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{3B3068D2-FD60-42BB-84A3-628C76C5AEC7}+00000000" name="CHILD DELETE CASCADE">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>192</Built-in_Id>
+<Name>CHILD DELETE CASCADE</Name>
+<Long_Id>{3B3068D2-FD60-42BB-84A3-628C76C5AEC7}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{F615F439-028D-4BC3-B6B4-02080BB58BB4}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD DELETE CASCADE</Template_Purpose_Text>
+<Template_Purpose>10017</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE CASCADE</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{8874A7D9-11CB-45A9-A8B2-A7C4C8C18225}+00000000" name="CHILD DELETE SET NULL">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>193</Built-in_Id>
+<Name>CHILD DELETE SET NULL</Name>
+<Long_Id>{8874A7D9-11CB-45A9-A8B2-A7C4C8C18225}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{4EC51A17-4D75-40AF-B43F-CD6D4841B486}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD DELETE SET NULL</Template_Purpose_Text>
+<Template_Purpose>10018</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET NULL</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{E8BCBB3F-FBC5-4C57-A3B1-54FEC4EF61E3}+00000000" name="CHILD DELETE SET DEFAULT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>194</Built-in_Id>
+<Name>CHILD DELETE SET DEFAULT</Name>
+<Long_Id>{E8BCBB3F-FBC5-4C57-A3B1-54FEC4EF61E3}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{5AB6F6E7-A091-4851-8FE6-FA90A7B02A9F}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD DELETE SET DEFAULT</Template_Purpose_Text>
+<Template_Purpose>10019</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET DEFAULT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{5B43A4E3-9D7A-4DAA-B608-1238B28F0952}+00000000" name="CHILD DELETE NO ACTION">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>195</Built-in_Id>
+<Name>CHILD DELETE NO ACTION</Name>
+<Long_Id>{5B43A4E3-9D7A-4DAA-B608-1238B28F0952}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{A0D5EB31-0707-4611-86B0-D49075BCDEB8}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD DELETE NO ACTION</Template_Purpose_Text>
+<Template_Purpose>9996</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE NO ACTION</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{BD48B001-7972-49A0-9E87-F5C90EB01C65}+00000000" name="CHILD INSERT RESTRICT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>201</Built-in_Id>
+<Name>CHILD INSERT RESTRICT</Name>
+<Long_Id>{BD48B001-7972-49A0-9E87-F5C90EB01C65}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{517EA445-68C3-480F-AF68-F2977D6F792F}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD INSERT RESTRICT</Template_Purpose_Text>
+<Template_Purpose>10008</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT RESTRICT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{4A2C3A99-6F6D-4888-BB60-192398D5C7C4}+00000000" name="CHILD INSERT CASCADE">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>202</Built-in_Id>
+<Name>CHILD INSERT CASCADE</Name>
+<Long_Id>{4A2C3A99-6F6D-4888-BB60-192398D5C7C4}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{55E5C87D-F2C3-4B29-BBB4-7475F1837296}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD INSERT CASCADE</Template_Purpose_Text>
+<Template_Purpose>10009</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT CASCADE</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{F9DF9BCF-8668-4C75-8B82-1A712FEB7C6D}+00000000" name="CHILD INSERT SET NULL">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>203</Built-in_Id>
+<Name>CHILD INSERT SET NULL</Name>
+<Long_Id>{F9DF9BCF-8668-4C75-8B82-1A712FEB7C6D}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{FA7F081C-0D8A-4749-BEF1-E73BFB6CFD4A}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD INSERT SET NULL</Template_Purpose_Text>
+<Template_Purpose>10010</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET NULL</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{929A8934-E263-4A2F-8689-37D59D1568B8}+00000000" name="CHILD INSERT SET DEFAULT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>204</Built-in_Id>
+<Name>CHILD INSERT SET DEFAULT</Name>
+<Long_Id>{929A8934-E263-4A2F-8689-37D59D1568B8}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{7DC68BAB-BB17-4AA0-AE74-A0D1245AEC23}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD INSERT SET DEFAULT</Template_Purpose_Text>
+<Template_Purpose>10011</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET DEFAULT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{BF63AE9F-D05F-43FE-8E44-F56D966B6F0A}+00000000" name="CHILD INSERT NO ACTION">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>205</Built-in_Id>
+<Name>CHILD INSERT NO ACTION</Name>
+<Long_Id>{BF63AE9F-D05F-43FE-8E44-F56D966B6F0A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{4A194AAF-CBED-45EB-B079-2E43BAB1CB23}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD INSERT NO ACTION</Template_Purpose_Text>
+<Template_Purpose>9994</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT NO ACTION</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{2B0EC90C-33B0-4E12-8C9B-C16A4F394D04}+00000000" name="TRIGGER UPDATE HEADER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>211</Built-in_Id>
+<Name>TRIGGER UPDATE HEADER</Name>
+<Long_Id>{2B0EC90C-33B0-4E12-8C9B-C16A4F394D04}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{1C88CAE9-F560-4AE4-864C-9C7B6B945FC0}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>TRIGGER UPDATE HEADER</Template_Purpose_Text>
+<Template_Purpose>10024</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">TRIGGER UPDATE HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">TRIGGER UPDATE HEADER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{1D03C71C-E378-40ED-9954-CCFAE7891E19}+00000000" name="TRIGGER UPDATE FOOTER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>212</Built-in_Id>
+<Name>TRIGGER UPDATE FOOTER</Name>
+<Long_Id>{1D03C71C-E378-40ED-9954-CCFAE7891E19}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{CDCE4AF7-7C5B-48F0-8563-EEB7D9CF6DA5}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>TRIGGER UPDATE FOOTER</Template_Purpose_Text>
+<Template_Purpose>10025</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">TRIGGER UPDATE FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">TRIGGER UPDATE FOOTER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{D4153B24-3DBC-46D3-A1CC-4687286AD696}+00000000" name="TRIGGER DELETE HEADER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>213</Built-in_Id>
+<Name>TRIGGER DELETE HEADER</Name>
+<Long_Id>{D4153B24-3DBC-46D3-A1CC-4687286AD696}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{20EAF79F-BB4E-42A1-A8C7-E62975A4BE7F}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>TRIGGER DELETE HEADER</Template_Purpose_Text>
+<Template_Purpose>10026</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">TRIGGER DELETE HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">TRIGGER DELETE HEADER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{A2C12FA0-AF09-4696-BD73-6915B05CCB0A}+00000000" name="TRIGGER DELETE FOOTER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>214</Built-in_Id>
+<Name>TRIGGER DELETE FOOTER</Name>
+<Long_Id>{A2C12FA0-AF09-4696-BD73-6915B05CCB0A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{09B0FCE4-D8D1-4858-98DB-0A535FE00D0B}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>TRIGGER DELETE FOOTER</Template_Purpose_Text>
+<Template_Purpose>10027</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">TRIGGER DELETE FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">TRIGGER DELETE FOOTER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{02F16755-C1C9-4DEF-9262-FE8914F0D1A9}+00000000" name="TRIGGER INSERT HEADER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>215</Built-in_Id>
+<Name>TRIGGER INSERT HEADER</Name>
+<Long_Id>{02F16755-C1C9-4DEF-9262-FE8914F0D1A9}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{DA73EB69-5952-45D6-8687-70C07056F590}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>TRIGGER INSERT HEADER</Template_Purpose_Text>
+<Template_Purpose>10028</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">TRIGGER INSERT HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">TRIGGER INSERT HEADER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{E9FC0CD6-31AB-49BE-B323-9124D03F2727}+00000000" name="TRIGGER INSERT FOOTER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>216</Built-in_Id>
+<Name>TRIGGER INSERT FOOTER</Name>
+<Long_Id>{E9FC0CD6-31AB-49BE-B323-9124D03F2727}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{8F6B6E77-D849-444B-8009-135BD5F6B895}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>TRIGGER INSERT FOOTER</Template_Purpose_Text>
+<Template_Purpose>10029</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">TRIGGER INSERT FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">TRIGGER INSERT FOOTER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{410B16C1-8096-4F1D-89E6-D2345D2B90F1}+00000000" name="CUSTOM TRIGGER DEFAULT BODY">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>223</Built-in_Id>
+<Name>CUSTOM TRIGGER DEFAULT BODY</Name>
+<Long_Id>{410B16C1-8096-4F1D-89E6-D2345D2B90F1}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{3164061A-C98E-429B-BCBD-3F131B83BC42}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CUSTOM TRIGGER DEFAULT BODY</Template_Purpose_Text>
+<Template_Purpose>10032</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER DEFAULT BODY</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER DEFAULT BODY</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{AC15699B-1883-40FF-968B-B05F2B0E54FC}+00000000" name="CUSTOM TRIGGER HEADER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>221</Built-in_Id>
+<Name>CUSTOM TRIGGER HEADER</Name>
+<Long_Id>{AC15699B-1883-40FF-968B-B05F2B0E54FC}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{F7DC8F68-5C56-4EAD-B137-B97AB83D395A}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CUSTOM TRIGGER HEADER</Template_Purpose_Text>
+<Template_Purpose>10030</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER HEADER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{12B10626-1E61-4B9C-8A65-860DB0E6EFEC}+00000000" name="CUSTOM TRIGGER FOOTER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>222</Built-in_Id>
+<Name>CUSTOM TRIGGER FOOTER</Name>
+<Long_Id>{12B10626-1E61-4B9C-8A65-860DB0E6EFEC}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{FDB52390-E64A-45D3-B5A5-97C8CDD8CA46}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CUSTOM TRIGGER FOOTER</Template_Purpose_Text>
+<Template_Purpose>10031</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER FOOTER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{2838CD1A-0BF4-48D0-97CE-85D35742EBDF}+00000000" name="RAISE EXCEPTION PROC">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>231</Built-in_Id>
+<Name>RAISE EXCEPTION PROC</Name>
+<Long_Id>{2838CD1A-0BF4-48D0-97CE-85D35742EBDF}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Template_Purpose_Text>RAISE EXCEPTION PROC</Template_Purpose_Text>
+<Template_Purpose>10033</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">RAISE EXCEPTION PROC</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">RAISE EXCEPTION PROC</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+</Default_Trigger_Template_Groups><!-- 이름 맵핑 그룹 --> 
+
+<!-- 이름 맵핑 그룹들 : 시작 --> 
+<Name_Mapping_Groups>
+<!-- 이름 맵핑 아이디 아래 Long Id 와 맵핑 --> 
+<Name_Mapping id="{A946C1AE-40EB-4D4C-8EBC-C81A16B6C58D}+00000000" name="EntityNameMappingOption">
+<!-- 이름 맵핑 속성 --> 
+<Name_MappingProps>
+<!-- 빌트인 id : 41 --> 
+<Built-in_Id>41</Built-in_Id>
+<1-- Entity이름 맵핑 속성 옵션 --> 
+<Name>EntityNameMappingOption</Name>
+<!-- Long id : 속성 아이디 --> 
+<Long_Id>{A946C1AE-40EB-4D4C-8EBC-C81A16B6C58D}+00000000</Long_Id>
+<!-- 소유자 경로 : 모델 명 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 이름 맵핑 사용자 용어사전 : false --> 
+<Name_Mapping_Use_Glossary>false</Name_Mapping_Use_Glossary>
+<!-- 이름 맵핑 대체 축약 : true --> 
+<Name_Mapping_Alternate_Abbrev>true</Name_Mapping_Alternate_Abbrev>
+<!-- 이름 맵핑 매크로 텍스트 : 엔티티 이름 %EntityName() --> 
+<Name_Mapping_Macro_Text>%EntityName()</Name_Mapping_Macro_Text>
+<!--  이름 맵핑 앞붙임--> 
+<Name_Mapping_Prefix/>
+<!--  이름 맵핑 뒷붙임--> 
+<Name_Mapping_Suffix/>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 이름 맵핑 객체 타입 <Forward_Engineer_Owner_Override_Groups> <Forward_Engineer_Owner_Override> <Object_Type>의 text값과 동일 --> 
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200003</Name_Mapping_Obj_Type>
+<!-- 사용자 형식 이름 : EntityNameMappingOption --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">EntityNameMappingOption</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 : EntityNameMappingOption --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">EntityNameMappingOption</User_Formatted_Physical_Name>
+<!-- 이름 맵핑 속성 --> 
+</Name_MappingProps>
+<!-- 이름 맵핑 --> 
+</Name_Mapping>
+
+<Name_Mapping id="{25F5EDC0-FCA7-4159-9E17-613335BCCC79}+00000000" name="AttributeNameMappingOption">
+<Name_MappingProps>
+<Built-in_Id>42</Built-in_Id>
+<Name>AttributeNameMappingOption</Name>
+<Long_Id>{25F5EDC0-FCA7-4159-9E17-613335BCCC79}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Name_Mapping_Use_Glossary>false</Name_Mapping_Use_Glossary>
+<Name_Mapping_Alternate_Abbrev>true</Name_Mapping_Alternate_Abbrev>
+<Name_Mapping_Macro_Text>%AttName</Name_Mapping_Macro_Text>
+<Name_Mapping_Prefix/>
+<Name_Mapping_Suffix/>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200005</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">AttributeNameMappingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">AttributeNameMappingOption</User_Formatted_Physical_Name>
+</Name_MappingProps>
+</Name_Mapping>
+<Name_Mapping id="{565DF6EE-8215-4F44-A7F2-432D8F28AA2A}+00000000" name="DomainNameMappingOption">
+<Name_MappingProps>
+<Built-in_Id>43</Built-in_Id>
+<Name>DomainNameMappingOption</Name>
+<Long_Id>{565DF6EE-8215-4F44-A7F2-432D8F28AA2A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Name_Mapping_Use_Glossary>false</Name_Mapping_Use_Glossary>
+<Name_Mapping_Alternate_Abbrev>true</Name_Mapping_Alternate_Abbrev>
+<Name_Mapping_Macro_Text>%DomainName</Name_Mapping_Macro_Text>
+<Name_Mapping_Prefix/>
+<Name_Mapping_Suffix/>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200007</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">DomainNameMappingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">DomainNameMappingOption</User_Formatted_Physical_Name>
+</Name_MappingProps>
+</Name_Mapping>
+<Name_Mapping id="{182AB52E-A71C-4FDC-8543-53FE73CD4805}+00000000" name="RelationshipNameMappingOption">
+<Name_MappingProps>
+<Built-in_Id>44</Built-in_Id>
+<Name>RelationshipNameMappingOption</Name>
+<Long_Id>{182AB52E-A71C-4FDC-8543-53FE73CD4805}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Name_Mapping_Use_Glossary>false</Name_Mapping_Use_Glossary>
+<Name_Mapping_Alternate_Abbrev>false</Name_Mapping_Alternate_Abbrev>
+<Name_Mapping_Macro_Text/>
+<Name_Mapping_Prefix/>
+<Name_Mapping_Suffix/>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200028</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">RelationshipNameMappingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">RelationshipNameMappingOption</User_Formatted_Physical_Name>
+</Name_MappingProps>
+</Name_Mapping>
+<Name_Mapping id="{CCF30688-304E-4D27-983C-0DD666083220}+00000000" name="KeyGroupNameMappingOption">
+<Name_MappingProps>
+<Built-in_Id>45</Built-in_Id>
+<Name>KeyGroupNameMappingOption</Name>
+<Long_Id>{CCF30688-304E-4D27-983C-0DD666083220}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Name_Mapping_Use_Glossary>false</Name_Mapping_Use_Glossary>
+<Name_Mapping_Alternate_Abbrev>false</Name_Mapping_Alternate_Abbrev>
+<Name_Mapping_Macro_Text>%KeyName</Name_Mapping_Macro_Text>
+<Name_Mapping_Prefix/>
+<Name_Mapping_Suffix/>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200009</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">KeyGroupNameMappingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">KeyGroupNameMappingOption</User_Formatted_Physical_Name>
+</Name_MappingProps>
+</Name_Mapping>
+<Name_Mapping id="{5903D64E-427A-40B4-9ACB-EA3E9689CED6}+00000000" name="ValidationRuleNameMappingOption">
+<Name_MappingProps>
+<Built-in_Id>46</Built-in_Id>
+<Name>ValidationRuleNameMappingOption</Name>
+<Long_Id>{5903D64E-427A-40B4-9ACB-EA3E9689CED6}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Name_Mapping_Use_Glossary>false</Name_Mapping_Use_Glossary>
+<Name_Mapping_Alternate_Abbrev>false</Name_Mapping_Alternate_Abbrev>
+<Name_Mapping_Macro_Text/>
+<Name_Mapping_Prefix/>
+<Name_Mapping_Suffix/>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+4020002C</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">ValidationRuleNameMappingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">ValidationRuleNameMappingOption</User_Formatted_Physical_Name>
+</Name_MappingProps>
+</Name_Mapping>
+</Name_Mapping_Groups><!-- 이름 옵션 그룹 --> 
+
+<!-- 이름 옵션 그룹들 --> 
+<Naming_Options_Groups>
+<!-- 이름 옵션 id : 아래 Long ID 와 맞춰야함 --> 
+<Naming_Options id="{D89B0707-8E1C-4957-8093-A8F98BAD2E49}+00000000" name="LogicalEntityNamingOption">
+<!-- 이름 옵션 속성 --> 
+<Naming_OptionsProps>
+<!-- 빌트인 아이디 : 251 --> 
+<Built-in_Id>251</Built-in_Id>
+<!-- 이름 : 로지컬 엔티티 이름 옵션 --> 
+<Name>LogicalEntityNamingOption</Name>
+<!-- 아이디 : 위쪽 아이디랑 동일함 --> 
+<Long_Id>{D89B0707-8E1C-4957-8093-A8F98BAD2E49}+00000000</Long_Id>
+<!-- 소유자 경로 : 모델 2 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 로지컬만 사용 : true --> 
+<Logical_Only>true</Logical_Only>
+<!-- 이름 맵핑 대소문자 컨버젼 : 0 (의미 ???? ) --> 
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<!-- 이름 맵핑 최대 길이 : 254 --> 
+<Name_Mapping_Maximum_Length>254</Name_Mapping_Maximum_Length>
+<!-- 의존 객체들 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 이름 맵핑 객체 타입 <Forward_Engineer_Owner_Override <Forward_Engineer_Owner_OverrideProps><Object_Type> 텍스트값--> 
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200003</Name_Mapping_Obj_Type>
+<!-- 사용자 형식 이름 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">LogicalEntityNamingOption</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">LogicalEntityNamingOption</User_Formatted_Physical_Name>
+<!-- 이름 옵션 속성들 : 종료 --> 
+</Naming_OptionsProps>
+<!-- 이름 옵션--> 
+</Naming_Options>
+<Naming_Options id="{B2B0C96B-14FF-46A6-A86D-3E5C7EA3ED96}+00000000" name="LogicalAttributeNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>252</Built-in_Id>
+<Name>LogicalAttributeNamingOption</Name>
+<Long_Id>{B2B0C96B-14FF-46A6-A86D-3E5C7EA3ED96}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Logical_Only>true</Logical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>254</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200005</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">LogicalAttributeNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">LogicalAttributeNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{23809E4E-006E-4CF8-907A-F19448FCA180}+00000000" name="LogicalDomainNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>253</Built-in_Id>
+<Name>LogicalDomainNamingOption</Name>
+<Long_Id>{23809E4E-006E-4CF8-907A-F19448FCA180}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Logical_Only>true</Logical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>254</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200007</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">LogicalDomainNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">LogicalDomainNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{434319EF-A375-401E-821F-0A3CCEF1C34B}+00000000" name="LogicalRelationshipNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>254</Built-in_Id>
+<Name>LogicalRelationshipNamingOption</Name>
+<Long_Id>{434319EF-A375-401E-821F-0A3CCEF1C34B}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Logical_Only>true</Logical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>254</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200028</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">LogicalRelationshipNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">LogicalRelationshipNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{B45EC4E8-E58D-496A-9B3A-DB4D0AD1325E}+00000000" name="LogicalKeyGroupNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>255</Built-in_Id>
+<Name>LogicalKeyGroupNamingOption</Name>
+<Long_Id>{B45EC4E8-E58D-496A-9B3A-DB4D0AD1325E}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Logical_Only>true</Logical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>254</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200009</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">LogicalKeyGroupNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">LogicalKeyGroupNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{68C38ED4-1724-4A88-9E8C-F1819683F213}+00000000" name="LogicalValidationRuleNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>256</Built-in_Id>
+<Name>LogicalValidationRuleNamingOption</Name>
+<Long_Id>{68C38ED4-1724-4A88-9E8C-F1819683F213}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Logical_Only>true</Logical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>254</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+4020002C</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">LogicalValidationRuleNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">LogicalValidationRuleNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{9E058B05-AF7A-4584-B214-2FAAFF4D1952}+00000000" name="PhysicalEntityNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>261</Built-in_Id>
+<Name>PhysicalEntityNamingOption</Name>
+<Long_Id>{9E058B05-AF7A-4584-B214-2FAAFF4D1952}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Physical_Only>true</Physical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>30</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200003</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PhysicalEntityNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PhysicalEntityNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{04015817-D871-41CC-BDA5-D0CD2B4BD608}+00000000" name="PhysicalAttributeNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>262</Built-in_Id>
+<Name>PhysicalAttributeNamingOption</Name>
+<Long_Id>{04015817-D871-41CC-BDA5-D0CD2B4BD608}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Physical_Only>true</Physical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>30</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200005</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PhysicalAttributeNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PhysicalAttributeNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{8F839A6F-A047-4FDA-8446-16751D2C1A42}+00000000" name="PhysicalDomainNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>263</Built-in_Id>
+<Name>PhysicalDomainNamingOption</Name>
+<Long_Id>{8F839A6F-A047-4FDA-8446-16751D2C1A42}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Physical_Only>true</Physical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>30</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200007</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PhysicalDomainNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PhysicalDomainNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{A5A73EC5-044D-4D68-9BE6-3A006E506B77}+00000000" name="PhysicalRelationshipNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>264</Built-in_Id>
+<Name>PhysicalRelationshipNamingOption</Name>
+<Long_Id>{A5A73EC5-044D-4D68-9BE6-3A006E506B77}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Physical_Only>true</Physical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>30</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200028</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PhysicalRelationshipNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PhysicalRelationshipNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{F8D93FD9-79D9-4CE2-AFB8-06AC09861ED1}+00000000" name="PhysicalKeyGroupNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>265</Built-in_Id>
+<Name>PhysicalKeyGroupNamingOption</Name>
+<Long_Id>{F8D93FD9-79D9-4CE2-AFB8-06AC09861ED1}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Physical_Only>true</Physical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>30</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200009</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PhysicalKeyGroupNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PhysicalKeyGroupNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{BB9E3301-13E6-472C-BA56-BEFB4B456FB1}+00000000" name="PhysicalValidationRuleNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>266</Built-in_Id>
+<Name>PhysicalValidationRuleNamingOption</Name>
+<Long_Id>{BB9E3301-13E6-472C-BA56-BEFB4B456FB1}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Physical_Only>true</Physical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>30</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+4020002C</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PhysicalValidationRuleNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PhysicalValidationRuleNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+</Naming_Options_Groups><!-- 이력 정보 그룹 --> 
+
+<!-- 이력 정보 그룹 --> 
+<History_Information_Groups>
+<!-- 이력 정보 그룹 아이디 : 아래 Longid와 동일해야함 --> 
+<History_Information id="{8521B199-F2C5-408D-B9DD-A7FDEACF3829}+00000000" name="History_Information_ID_51">
+<!-- 이력 정보 --> 
+<History_InformationProps>
+<!-- 빌트인 아이디 : 51 --> 
+<Built-in_Id>51</Built-in_Id>
+<!-- 이름 :-->
+<Name>History_Information_ID_51</Name>
+<!-- LongID 위 아이디랑 동일함 --> 
+<Long_Id>{8521B199-F2C5-408D-B9DD-A7FDEACF3829}+00000000</Long_Id>
+<!-- 소유자 패스 : Model_2 (모델 이름과 동일) (중요)--> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 생성 시간 --> 
+<Created_Time>1503933958</Created_Time>
+<!-- 설명 ???? --> 
+<Description>Current model was created</Description>
+<!-- 이력 이벤트 타입 1 --> 
+<History_Event_Type>1</History_Event_Type>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 사용자 형식 이름 : --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">History_Information_ID_51</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">History_Information_ID_51</User_Formatted_Physical_Name>
+<!-- 이력 정보속성 --> 
+</History_InformationProps>
+<!-- 이력 정보 --> 
+</History_Information>
+<!-- 이력 정보 그룹 --> 
+</History_Information_Groups>
+
+<Font_Groups>
+<!-- 폰트 아이디 : Default Font Group으로 들어감. 아래 값들의 text값에 들어감  
+<Default_Fonts_and_Colors_Object_Groups> 
+<Default_Entity_Name_Font_Ref Derived="Y">
+<Default_Entity_Definition_Font_Ref Derived="Y">
+<Default_Subtype_Name_Font_Ref Derived="Y">
+<Default_General_Font_Ref>
+<Default_Relation_Name_Font_Ref Derived="Y"
+<Default_Owned_Attribute_Font_Ref Derived="Y">
+<Default_FK_Attribute_Font_Ref Derived="Y">
+<Default_DO_Font_Ref Derived="Y">
+폰트 이름 : Microsoft Sans Serif-10-false-false-false-false
+--> 
+<Font id="{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000" name="Microsoft Sans Serif-10-false-false-false-false-">
+<!-- 폰트 속성들 --> 
+<FontProps>
+<!-- 빌트인 아이디 : 307 --> 
+<Built-in_Id>307</Built-in_Id>
+<!-- 폰트 이름 : Microsoft Sans Serif-10-false-false-false-false- --> 
+<Name Derived="Y">Microsoft Sans Serif-10-false-false-false-false-</Name>
+<!-- 폰트 아이디 : 위의 폰트 아이디랑 동일--> 
+<Long_Id>{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Long_Id>
+<!-- 소유자 경로 : 모델명 (중요) --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 폰트 타입 페이스 : Microsoft Sans Serif --> 
+<Font_Type_Face>Microsoft Sans Serif</Font_Type_Face>
+<!-- 폰트 사이즈 --> 
+<Font_Size>10</Font_Size>
+<!-- 폰트 굵게 --> 
+<Font_Bold>false</Font_Bold>
+<!-- 폰트 기울임 --> 
+<Font_Italic>false</Font_Italic>
+<!-- 폰트 밑줄 --> 
+<Font_Underline>false</Font_Underline>
+<!-- 폰트 취소선 --> 
+<Font_Strikeout>false</Font_Strikeout>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존 객체 참조 배열 <Default_Fonts_and_Colors_Object_Groups> <Default_Fonts_and_Colors_Object 의 id값으로 들어감--> 
+<Dependent_Objects_Ref index="0">{44AB2FF9-1A99-45A3-BCF9-7764C437F1B6}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<!-- 사용자 형식 이름 : Microsoft Sans Serif-10-false-false-false-false---> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Microsoft Sans Serif-10-false-false-false-false-</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 : Microsoft Sans Serif-10-false-false-false-false- --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Microsoft Sans Serif-10-false-false-false-false-</User_Formatted_Physical_Name>
+<!-- 폰트 속성 종료 --> 
+</FontProps>
+<!-- 폰트 종료 --> 
+</Font>
+<!-- 폰트 그룹 종료 --> 
+</Font_Groups>
+<!-- 기본 폰트들과 컬러 객체 그룹 --> 
+<Default_Fonts_and_Colors_Object_Groups>
+<!-- 디폴트 폰트들과 컬러 오브젝트 : 아래 LongId와 아이디 값으로 들어감 --> 
+<Default_Fonts_and_Colors_Object id="{44AB2FF9-1A99-45A3-BCF9-7764C437F1B6}+00000000" name="Default Font and Color">
+<!-- 기본 폰츠 와 색상 객체 속성 --> 
+<Default_Fonts_and_Colors_ObjectProps>
+<!-- 빌트인 번호 : 311 --> 
+<Built-in_Id>311</Built-in_Id>
+<!-- 이름 : 기본 폰트와 컬러 --> 
+<Name>Default Font and Color</Name>
+<!-- Long 아이디 --> 
+<Long_Id>{44AB2FF9-1A99-45A3-BCF9-7764C437F1B6}+00000000</Long_Id>
+<!-- 소유자 패스 : 모델_2 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 기본 엔티티 이름 폰트 참조 --> 
+<Default_Entity_Name_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_Entity_Name_Font_Ref>
+<!-- 기본 엔티티 정의 폰트 참조 --> 
+<Default_Entity_Definition_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_Entity_Definition_Font_Ref>
+<!-- 기본 서브타입 이름 폰트 참조 --> 
+<Default_Subtype_Name_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_Subtype_Name_Font_Ref>
+<!-- 기본 폰트 참조 --> 
+<Default_General_Font_Ref>{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_General_Font_Ref>
+<!-- 기본 연계 이름 폰트 참조 --> 
+<Default_Relation_Name_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_Relation_Name_Font_Ref>
+<!-- 기본 소유자 속성 폰트 참조 --> 
+<Default_Owned_Attribute_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_Owned_Attribute_Font_Ref>
+<!-- 기본 외래키  폰트 참조 --> 
+<Default_FK_Attribute_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_FK_Attribute_Font_Ref>
+<!-- 기본 폰트 참조 --> 
+<Default_DO_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_DO_Font_Ref>
+<!-- 기본 워드 브레이크 참조 --> 
+<Default_DO_Word_Break>true</Default_DO_Word_Break>
+<!-- 기본 조정 맞춤 -->  
+<Default_DO_Adjust_Fit>false</Default_DO_Adjust_Fit>
+<!-- 수직 정렬 --> 
+<Default_DO_Vertical_Alignment>256</Default_DO_Vertical_Alignment>
+<!-- 수평 정렬 --> 
+<Default_DO_Horizontal_Alignment>1</Default_DO_Horizontal_Alignment>
+<!-- 배경 스타일 --> 
+<Default_DO_Background_Style>0</Default_DO_Background_Style>
+<!-- 배경 패턴 --> 
+<Default_DO_Background_Pattern>0</Default_DO_Background_Pattern>
+<!-- 외곽 아웃라인 너비 --> 
+<Default_DO_Outline_Width>1</Default_DO_Outline_Width>
+<!-- 외곽 스타일 --> 
+<Default_DO_Outline_Style>0</Default_DO_Outline_Style>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 채우는 색상 : ??? 색상값 ??  --> 
+<Default_DO_Fill_Color>16777215</Default_DO_Fill_Color>
+<!-- 기본 폰트 컬러 --> 
+<Default_DO_Font_Color>0</Default_DO_Font_Color>
+<!-- 기본 외곽 색상 --> 
+<Default_DO_Outline_Color>0</Default_DO_Outline_Color>
+<!-- 기본 엔티티 참조 컬러 --> 
+<Default_Entity_Def_Color>0</Default_Entity_Def_Color>
+<!-- 기본 엔티티 채우기 색상 --> 
+<Default_Entity_Fill_Color>16777215</Default_Entity_Fill_Color>
+<!-- 기본 엔티티 이름 컬러 --> 
+<Default_Entity_Name_Color>0</Default_Entity_Name_Color>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_Entity_Outline_Color>0</Default_Entity_Outline_Color>
+<!-- 기본 전체 배경 색상 --> 
+<Default_General_Background_Color>16777215</Default_General_Background_Color>
+<!-- 기본 소유 속성 색상 --> 
+<Default_Owned_Attribute_Color>0</Default_Owned_Attribute_Color>
+<!-- 기본 관계 이름 색상 --> 
+<Default_Relation_Name_Color>0</Default_Relation_Name_Color>
+<!-- 기본 서브타입 색상 --> 
+<Default_Subtype_Fill_Color>16777215</Default_Subtype_Fill_Color>
+<!-- 기본 서브타입 외곽 색상 --> 
+<Default_Subtype_Outline_Color>0</Default_Subtype_Outline_Color>
+<!-- 기본 외래키 속성 색상 --> 
+<Default_FK_Attribute_Color_Inheritance_Type>-1</Default_FK_Attribute_Color_Inheritance_Type>
+<!-- 기본 외래키 속성 폰트  상속 --> 
+<Default_FK_Attribute_Font_Inheritance_Type>-1</Default_FK_Attribute_Font_Inheritance_Type>
+<!-- 기본 관계 색상 상속 --> 
+<Default_Relation_Color_Inherited>true</Default_Relation_Color_Inherited>
+<!-- 기본 관계 이름 속성 상속 --> 
+<Default_Relation_Name_Font_Inherited>true</Default_Relation_Name_Font_Inherited>
+<!-- 기본 서브타입 속성 상속 --> 
+<Default_Subtype_Color_Inherited>true</Default_Subtype_Color_Inherited>
+<!-- 기본 서브타입 이름 폰트 상속 --> 
+<Default_Subtype_Name_Font_Inherited>true</Default_Subtype_Name_Font_Inherited>
+<!-- 사용자 포맷 이름  --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default Font and Color</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름  --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Font and Color</User_Formatted_Physical_Name>
+</Default_Fonts_and_Colors_ObjectProps>
+</Default_Fonts_and_Colors_Object>
+</Default_Fonts_and_Colors_Object_Groups>
+</EMX:Model>

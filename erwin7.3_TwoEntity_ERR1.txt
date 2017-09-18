@@ -1,0 +1,13 @@
+ v7.2.1644.0
+Windows XP Professional Version: 6.1 Service Pack 1 (Build 7601)
+System Default Locale: 한국어(대한민국)
+User Default Locale: 한국어(대한민국)
+01 September 2017 10:27:54
+--------------------------------------------------
+
+Error XML - 137: Invalid XML format 'AllFusion_Repository'.  Only the "ERwin" XML format can be opened.
+
+
+Error XML - 155: Could not open 'C:\Users\kim\Desktop\xml분석\erwin7.3_TwoEntity.xml'.  If this XML file was not validated against the AllFusion ERwin DM schema, you may be able to obtain more information regarding this error by re-running the import with the XML validation option turned on. 
+
+

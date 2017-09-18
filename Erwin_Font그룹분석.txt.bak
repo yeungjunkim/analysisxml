@@ -1,0 +1,144 @@
+<!-- 폰트 그룹들 --> 
+<Font_Groups>
+<!-- 폰트 아이디 : Default Font Group으로 들어감. 아래 값들의 text값에 들어감  
+<Default_Fonts_and_Colors_Object_Groups> 
+<Default_Entity_Name_Font_Ref Derived="Y">
+<Default_Entity_Definition_Font_Ref Derived="Y">
+<Default_Subtype_Name_Font_Ref Derived="Y">
+<Default_General_Font_Ref>
+<Default_Relation_Name_Font_Ref Derived="Y"
+<Default_Owned_Attribute_Font_Ref Derived="Y">
+<Default_FK_Attribute_Font_Ref Derived="Y">
+<Default_DO_Font_Ref Derived="Y">
+폰트 이름 : Microsoft Sans Serif-10-false-false-false-false
+--> 
+<Font id="{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000" name="Microsoft Sans Serif-10-false-false-false-false-">
+<!-- 폰트 속성들 --> 
+<FontProps>
+<!-- 빌트인 아이디 : 307 --> 
+<Built-in_Id>307</Built-in_Id>
+<!-- 폰트 이름 : Microsoft Sans Serif-10-false-false-false-false- --> 
+<Name Derived="Y">Microsoft Sans Serif-10-false-false-false-false-</Name>
+<!-- 폰트 아이디 : 위의 폰트 아이디랑 동일--> 
+<Long_Id>{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Long_Id>
+<!-- 소유자 경로 : 모델명 (중요) --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 폰트 타입 페이스 : Microsoft Sans Serif --> 
+<Font_Type_Face>Microsoft Sans Serif</Font_Type_Face>
+<!-- 폰트 사이즈 --> 
+<Font_Size>10</Font_Size>
+<!-- 폰트 굵게 --> 
+<Font_Bold>false</Font_Bold>
+<!-- 폰트 기울임 --> 
+<Font_Italic>false</Font_Italic>
+<!-- 폰트 밑줄 --> 
+<Font_Underline>false</Font_Underline>
+<!-- 폰트 취소선 --> 
+<Font_Strikeout>false</Font_Strikeout>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존 객체 참조 배열 <Default_Fonts_and_Colors_Object_Groups> <Default_Fonts_and_Colors_Object 의 id값으로 들어감--> 
+<Dependent_Objects_Ref index="0">{44AB2FF9-1A99-45A3-BCF9-7764C437F1B6}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<!-- 사용자 형식 이름 : Microsoft Sans Serif-10-false-false-false-false---> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Microsoft Sans Serif-10-false-false-false-false-</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 : Microsoft Sans Serif-10-false-false-false-false- --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Microsoft Sans Serif-10-false-false-false-false-</User_Formatted_Physical_Name>
+<!-- 폰트 속성 종료 --> 
+</FontProps>
+<!-- 폰트 종료 --> 
+</Font>
+<!-- 폰트 그룹 종료 --> 
+</Font_Groups>
+<!-- 기본 폰트들과 컬러 객체 그룹 --> 
+<Default_Fonts_and_Colors_Object_Groups>
+<!-- 디폴트 폰트들과 컬러 오브젝트 : 아래 LongId와 아이디 값으로 들어감 --> 
+<Default_Fonts_and_Colors_Object id="{44AB2FF9-1A99-45A3-BCF9-7764C437F1B6}+00000000" name="Default Font and Color">
+<!-- 기본 폰츠 와 색상 객체 속성 --> 
+<Default_Fonts_and_Colors_ObjectProps>
+<!-- 빌트인 번호 : 311 --> 
+<Built-in_Id>311</Built-in_Id>
+<!-- 이름 : 기본 폰트와 컬러 --> 
+<Name>Default Font and Color</Name>
+<!-- Long 아이디 --> 
+<Long_Id>{44AB2FF9-1A99-45A3-BCF9-7764C437F1B6}+00000000</Long_Id>
+<!-- 소유자 패스 : 모델_2 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 기본 엔티티 이름 폰트 참조 --> 
+<Default_Entity_Name_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_Entity_Name_Font_Ref>
+<!-- 기본 엔티티 정의 폰트 참조 --> 
+<Default_Entity_Definition_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_Entity_Definition_Font_Ref>
+<!-- 기본 서브타입 이름 폰트 참조 --> 
+<Default_Subtype_Name_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_Subtype_Name_Font_Ref>
+<!-- 기본 폰트 참조 --> 
+<Default_General_Font_Ref>{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_General_Font_Ref>
+<!-- 기본 연계 이름 폰트 참조 --> 
+<Default_Relation_Name_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_Relation_Name_Font_Ref>
+<!-- 기본 소유자 속성 폰트 참조 --> 
+<Default_Owned_Attribute_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_Owned_Attribute_Font_Ref>
+<!-- 기본 외래키  폰트 참조 --> 
+<Default_FK_Attribute_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_FK_Attribute_Font_Ref>
+<!-- 기본 폰트 참조 --> 
+<Default_DO_Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Default_DO_Font_Ref>
+<!-- 기본 워드 브레이크 참조 --> 
+<Default_DO_Word_Break>true</Default_DO_Word_Break>
+<!-- 기본 조정 맞춤 -->  
+<Default_DO_Adjust_Fit>false</Default_DO_Adjust_Fit>
+<!-- 수직 정렬 --> 
+<Default_DO_Vertical_Alignment>256</Default_DO_Vertical_Alignment>
+<!-- 수평 정렬 --> 
+<Default_DO_Horizontal_Alignment>1</Default_DO_Horizontal_Alignment>
+<!-- 배경 스타일 --> 
+<Default_DO_Background_Style>0</Default_DO_Background_Style>
+<!-- 배경 패턴 --> 
+<Default_DO_Background_Pattern>0</Default_DO_Background_Pattern>
+<!-- 외곽 아웃라인 너비 --> 
+<Default_DO_Outline_Width>1</Default_DO_Outline_Width>
+<!-- 외곽 스타일 --> 
+<Default_DO_Outline_Style>0</Default_DO_Outline_Style>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 채우는 색상 : ??? 색상값 ??  --> 
+<Default_DO_Fill_Color>16777215</Default_DO_Fill_Color>
+<!-- 기본 폰트 컬러 --> 
+<Default_DO_Font_Color>0</Default_DO_Font_Color>
+<!-- 기본 외곽 색상 --> 
+<Default_DO_Outline_Color>0</Default_DO_Outline_Color>
+<!-- 기본 엔티티 참조 컬러 --> 
+<Default_Entity_Def_Color>0</Default_Entity_Def_Color>
+<!-- 기본 엔티티 채우기 색상 --> 
+<Default_Entity_Fill_Color>16777215</Default_Entity_Fill_Color>
+<!-- 기본 엔티티 이름 컬러 --> 
+<Default_Entity_Name_Color>0</Default_Entity_Name_Color>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_Entity_Outline_Color>0</Default_Entity_Outline_Color>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_General_Background_Color>16777215</Default_General_Background_Color>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_Owned_Attribute_Color>0</Default_Owned_Attribute_Color>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_Relation_Name_Color>0</Default_Relation_Name_Color>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_Subtype_Fill_Color>16777215</Default_Subtype_Fill_Color>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_Subtype_Outline_Color>0</Default_Subtype_Outline_Color>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_FK_Attribute_Color_Inheritance_Type>-1</Default_FK_Attribute_Color_Inheritance_Type>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_FK_Attribute_Font_Inheritance_Type>-1</Default_FK_Attribute_Font_Inheritance_Type>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_Relation_Color_Inherited>true</Default_Relation_Color_Inherited>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_Relation_Name_Font_Inherited>true</Default_Relation_Name_Font_Inherited>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_Subtype_Color_Inherited>true</Default_Subtype_Color_Inherited>
+<!-- 기본 엔티티 외곽 색상 --> 
+<Default_Subtype_Name_Font_Inherited>true</Default_Subtype_Name_Font_Inherited>
+<!-- 기본 엔티티 외곽 색상 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default Font and Color</User_Formatted_Name>
+<!-- 기본 엔티티 외곽 색상 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Font and Color</User_Formatted_Physical_Name>
+</Default_Fonts_and_Colors_ObjectProps>
+</Default_Fonts_and_Colors_Object>
+</Default_Fonts_and_Colors_Object_Groups>
+</EMX:Model>

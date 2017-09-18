@@ -1,0 +1,222 @@
+<!-- 엔티티 그룹스 태그 --> 
+<Entity_Groups>
+<!-- 엔티티 태그 -->
+<Entity id="{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000" name="고객">...</Entity>
+<!-- 엔티티 태그 : (중요)Entity ID는 EntityProps의 LongID에도 사용됨 --> 
+<!-- 엔티티 태그 : (중요)Entity ID는 EntityProps의 LongID에도 사용됨 --> 
+<Entity id="{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000" name="거래처">
+<!--
+	거래처 
+	----------------
+	거래처번호 (PK)
+	----------------
+	거래처명 
+	거래처주소
+	기타 
+-->
+<!-- 엔티티 속성 --> 
+<EntityProps>
+<!-- 엔티티 속성 : 이름 -->
+<Name>거래처</Name>
+<!-- 엔티티 속성 : Long ID = 엔티티 아이디랑 동일 -->
+<Long_Id>{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Long_Id>
+<!-- 소유자 경로 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 타입 -->
+<Type Tool="Y" ReadOnly="Y">1</Type>
+<!-- 물리적 이름 -->
+<Physical_Name Derived="Y">거래처</Physical_Name>
+<!-- 그림 그려주는 객체 참조 배열 --> 
+<Drawing_Objects_Ref_Array Tool="Y" ReadOnly="Y">
+<!-- 그림 그려주는 객체 참조 인덱스 --> 
+<Drawing_Objects_Ref index="0">{7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7F8}+00000000</Drawing_Objects_Ref>
+</Drawing_Objects_Ref_Array>
+<!-- 의존 객체 참조 배열 -->
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존 객체 참조 인덱스 --> 
+<Dependent_Objects_Ref index="0">{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 인덱스 --> 
+<Dependent_Objects_Ref index="1">{7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7F8}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<!-- 생성하지 마시오 파생여부  --> 
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<!-- 어트리뷰트 순서 리스트 어래이 --> 
+<Attribute_Order_List_Array>
+<!-- 어트리뷰트 순서 리스트 (각각의 ID가 순서가 있음)--> 
+<Attribute_Order_List index="0">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Attribute_Order_List>
+<Attribute_Order_List index="1">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Attribute_Order_List>
+<Attribute_Order_List index="2">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Attribute_Order_List>
+<Attribute_Order_List index="3">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Attribute_Order_List>
+</Attribute_Order_List_Array>
+<!-- 물리 순서 리스트 어래이 --> 
+<Physical_Order_List_Array>
+<!-- 물리 순서 리스트 (각각의 ID가 순서가 있음)--> 
+<Physical_Order_List index="0">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Physical_Order_List>
+<Physical_Order_List index="1">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Physical_Order_List>
+<Physical_Order_List index="2">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Physical_Order_List>
+<Physical_Order_List index="3">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Physical_Order_List>
+</Physical_Order_List_Array>
+<!-- 컬럼 순서 리스트 어래이 --> 
+<Column_Order_List_Array>
+<!-- 물리 순서 리스트 (각각의 ID가 순서가 있음)--> 
+<Column_Order_List index="0">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Column_Order_List>
+<Column_Order_List index="1">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Column_Order_List>
+<Column_Order_List index="2">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Column_Order_List>
+<Column_Order_List index="3">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Column_Order_List>
+</Column_Order_List_Array>
+<!-- 사용자 포맷 이름 리스트 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">거래처</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름  --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">거래처</User_Formatted_Physical_Name>
+</EntityProps><!--속성 그룹 -->
+<Attribute_Groups>
+<!-- 속성 id -->
+<Attribute id="{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000" name="거래처번호">
+<!-- 속성 Properties-->
+<AttributeProps>
+<!-- 속성 이름 --> 
+<Name>거래처번호</Name>
+<!-- 속성 id : 속성 ID의 값과 동일함 --> 
+<Long_Id>{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Long_Id>
+<!-- 소유자 경로 --> 
+<Owner_Path Derived="Y">Model_2.거래처</Owner_Path>
+<!-- 타입(???) --> 
+<Type>0</Type>
+<!-- 데이터 타입 --> 
+<Datatype Derived="Y">CHAR(18)</Datatype>
+<!-- 아이콘 -->
+<Icon Derived="Y">{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Icon>
+<!-- 널 옵션 -->
+<Null_Option Derived="Y">1</Null_Option>
+<!-- 주석 -->
+<Comment Derived="Y"/>
+<!-- 물리 이름 --> 
+<Physical_Name Derived="Y">거래처번호</Physical_Name>
+<!-- 논리 타입 --> 
+<Logical_Datatype Derived="Y">CHAR(18)</Logical_Datatype>
+<!-- 부모 도메인 --> 
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+<!-- 숨겨진 논리 툴 여부 --> 
+<Hide_in_Logical Tool="Y" ReadOnly="Y">false</Hide_in_Logical>
+<!-- 숨겨진 물리적 툴 여부 --> 
+<Hide_in_Physical Tool="Y" ReadOnly="Y">false</Hide_in_Physical>
+<!-- DO 폰트 컬러 여부 -->
+<DO_Font_Color Derived="Y">0</DO_Font_Color>
+<!-- 마스터 속성 툴 여부 : 속성 ID의 값과 동일함--> 
+<Master_Attribute Tool="Y" ReadOnly="Y" Derived="Y">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Master_Attribute>
+<!-- 폰트 참조 여부 --> 
+<Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Font_Ref>
+<!-- 의존 객체 참조 배열 -->
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존 객체 참조 : 아래 코드값은 거래처 Entity의 코드 ID -->
+<Dependent_Objects_Ref index="0">{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 아래 코드값은 어디에 쓰이는 값인지 모르겠음  -->
+<Dependent_Objects_Ref index="1">{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<!-- 사용자 포맷 이름 : 거래처번호 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">거래처번호</User_Formatted_Name>
+<!-- 사용자 물리적 이름 : 거래처 번호 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">거래처번호</User_Formatted_Physical_Name>
+</AttributeProps>
+</Attribute>
+<!-- Attribute 명 : 거래처명 --> 
+<Attribute id="{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000" name="거래처명">
+<!-- Attrivute 속성 --> 
+<AttributeProps>
+<!-- 속성 명 --> 
+<Name>거래처명</Name>
+<!-- 속성 ID -->
+<Long_Id>{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Long_Id>
+<!-- 소유자 경로 -->
+<Owner_Path Derived="Y">Model_2.거래처</Owner_Path>
+<!-- 타입 : 100은 일반 속성 0은 PK --> 
+<Type>100</Type>
+<!-- 데이터 타입 -->
+<Datatype Derived="Y">CHAR(18)</Datatype>
+<!-- 아이콘 -->
+<Icon Derived="Y">{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Icon>
+<!-- 널 옵션 -->
+<Null_Option Derived="Y">0</Null_Option>
+<!-- 커멘트 여부 --> 
+<Comment Derived="Y"/>
+<!-- 물리명 --> 
+<Physical_Name Derived="Y">거래처명</Physical_Name>
+<!-- 논리데이터 타입명 --> 
+<Logical_Datatype Derived="Y">CHAR(18)</Logical_Datatype>
+<!-- 부모 도메인 -->
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+<!-- 숨긴 로직 툴 여부 -->
+<Hide_in_Logical Tool="Y" ReadOnly="Y">false</Hide_in_Logical>
+<!-- 숨긴 물리적 툴 여부 --> 
+<Hide_in_Physical Tool="Y" ReadOnly="Y">false</Hide_in_Physical>
+<!-- DO 폰트 컬러 --> 
+<DO_Font_Color Derived="Y">0</DO_Font_Color>
+<!-- 마스터 속성 툴 여부 (???)--> 
+<Master_Attribute Tool="Y" ReadOnly="Y" Derived="Y">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Master_Attribute>
+<!-- 폰트 속성 여부 --> 
+<Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Font_Ref>
+<!-- 의존성객체 참조배열 여부 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존성 객체 참조 여부 --> 
+<Dependent_Objects_Ref index="0">{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<!-- 사용자 포맷 이름 : 거래처명 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">거래처명</User_Formatted_Name>
+<!-- 사용자 포맷 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">거래처명</User_Formatted_Physical_Name>
+</AttributeProps>
+</Attribute>
+<Attribute id="{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000" name="거래처주소">
+<AttributeProps>
+<Name>거래처주소</Name>
+<Long_Id>{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2.거래처</Owner_Path>
+<Type>100</Type>
+<Datatype Derived="Y">CHAR(18)</Datatype>
+<Icon Derived="Y">{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Icon>
+<Null_Option Derived="Y">0</Null_Option>
+<Comment Derived="Y"/>
+<Physical_Name Derived="Y">거래처주소</Physical_Name>
+<Logical_Datatype Derived="Y">CHAR(18)</Logical_Datatype>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+<Hide_in_Logical Tool="Y" ReadOnly="Y">false</Hide_in_Logical>
+<Hide_in_Physical Tool="Y" ReadOnly="Y">false</Hide_in_Physical>
+<DO_Font_Color Derived="Y">0</DO_Font_Color>
+<Master_Attribute Tool="Y" ReadOnly="Y" Derived="Y">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Master_Attribute>
+<Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Font_Ref>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">거래처주소</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">거래처주소</User_Formatted_Physical_Name>
+</AttributeProps>
+</Attribute>
+<Attribute id="{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000" name="기타">
+<AttributeProps>
+<Name>기타</Name>
+<Long_Id>{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2.거래처</Owner_Path>
+<Type>100</Type>
+<Datatype Derived="Y">CHAR(18)</Datatype>
+<Icon Derived="Y">{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Icon>
+<Null_Option Derived="Y">0</Null_Option>
+<Comment Derived="Y"/>
+<Physical_Name Derived="Y">기타</Physical_Name>
+<Logical_Datatype Derived="Y">CHAR(18)</Logical_Datatype>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+<Hide_in_Logical Tool="Y" ReadOnly="Y">false</Hide_in_Logical>
+<Hide_in_Physical Tool="Y" ReadOnly="Y">false</Hide_in_Physical>
+<DO_Font_Color Derived="Y">0</DO_Font_Color>
+<Master_Attribute Tool="Y" ReadOnly="Y" Derived="Y">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Master_Attribute>
+<Font_Ref Derived="Y">{CD510DED-F023-4B6B-A1E2-528FE1625C5D}+00000000</Font_Ref>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">기타</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">기타</User_Formatted_Physical_Name>
+</AttributeProps>
+</Attribute>
+</Attribute_Groups>
+<Key_Group_Groups>...</Key_Group_Groups>
+</Entity>
+</Entity_Groups>

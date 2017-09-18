@@ -1,0 +1,137 @@
+<!-- 비트맵 그룹 생성 --> 
+<Bitmap_Groups>
+<!-- 비트맵 아이디 하단의 LongID와 동일하게 사용 다른데서는 사용안함. --> 
+<Bitmap id="{6E62DD7E-786C-47B4-A1C7-16BEA72E02C2}+00000000" name="Default Entity Icon">
+<!-- 비트맵 속성 --> 
+<BitmapProps>
+<!-- 빌트인 id : 21 무슨 의미인지 모름 --> 
+<Built-in_Id>21</Built-in_Id>
+<!-- 이름 : 기본 엔티티 아이콘 --> 
+<Name>Default Entity Icon</Name>
+<!-- 롱id : 아이디가 위쪽 비트맵 아이디랑 동일함 --> 
+<Long_Id>{6E62DD7E-786C-47B4-A1C7-16BEA72E02C2}+00000000</Long_Id>
+<!-- 소유자 경로 : Model_2 모델명이 들어가야함(중요) --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 비트맵 파일이름 Default Entity Icon --> 
+<Bitmap_Filename Derived="Y">Default Entity Icon</Bitmap_Filename>
+<!-- 플래그 번호 : 65 --> 
+<Flags>65</Flags>
+<!-- 이미지 인덱스 --> 
+<Image_Index>1</Image_Index>
+<!-- 의존 겍체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 사용자 형식 이름 : Default Entity Icon --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default Entity Icon</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Entity Icon</User_Formatted_Physical_Name>
+<!-- 비트맵 속성 종료 --> 
+</BitmapProps>
+<!-- 비트맵 종료 --> 
+</Bitmap>
+
+<Bitmap id="{7A37FE88-5CB6-4012-89F0-C5C334B10506}+00000000" name="Default Entity Small Icon">
+<BitmapProps>
+<Built-in_Id>22</Built-in_Id>
+<Name>Default Entity Small Icon</Name>
+<Long_Id>{7A37FE88-5CB6-4012-89F0-C5C334B10506}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename Derived="Y">Default Entity Small Icon</Bitmap_Filename>
+<Flags>128</Flags>
+<Image_Index>2</Image_Index>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default Entity Small Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Entity Small Icon</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+<Bitmap id="{4B233DDF-4943-45E1-B07F-989536920B10}+00000000" name="Default <unknown> Icon">
+<BitmapProps>
+<Built-in_Id>11</Built-in_Id>
+<Name>Default <unknown> Icon</Name>
+<Long_Id>{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename Derived="Y">Default <unknown> Icon</Bitmap_Filename>
+<Flags>2</Flags>
+<Image_Index>4</Image_Index>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default <unknown> Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default <unknown> Icon</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+<Bitmap id="{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000" name="Default String Icon">
+<BitmapProps>
+<Built-in_Id>12</Built-in_Id>
+<Name>Default String Icon</Name>
+<Long_Id>{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename Derived="Y">Default String Icon</Bitmap_Filename>
+<Flags>32</Flags>
+<Image_Index>5</Image_Index>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default String Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default String Icon</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+<Bitmap id="{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000" name="Default Number Icon">
+<BitmapProps>
+<Built-in_Id>13</Built-in_Id>
+<Name>Default Number Icon</Name>
+<Long_Id>{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename Derived="Y">Default Number Icon</Bitmap_Filename>
+<Flags>16</Flags>
+<Image_Index>6</Image_Index>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default Number Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Number Icon</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+<Bitmap id="{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000" name="Default Datetime Icon">
+<BitmapProps>
+<Built-in_Id>14</Built-in_Id>
+<Name>Default Datetime Icon</Name>
+<Long_Id>{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename Derived="Y">Default Datetime Icon</Bitmap_Filename>
+<Flags>8</Flags>
+<Image_Index>7</Image_Index>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default Datetime Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Datetime Icon</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+<Bitmap id="{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000" name="Default Blob Icon">
+<BitmapProps>
+<Built-in_Id>15</Built-in_Id>
+<Name>Default Blob Icon</Name>
+<Long_Id>{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename Derived="Y">Default Blob Icon</Bitmap_Filename>
+<Flags>4</Flags>
+<Image_Index>8</Image_Index>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Default Blob Icon</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Blob Icon</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+<Bitmap id="{5F6D7CE3-2B31-4138-A613-4698DA274998}+00000000" name="-- -- --">
+<BitmapProps>
+<Name>-- -- --</Name>
+<Long_Id>{5F6D7CE3-2B31-4138-A613-4698DA274998}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Bitmap_Filename>-- -- --</Bitmap_Filename>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">-- -- --</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">-- -- --</User_Formatted_Physical_Name>
+</BitmapProps>
+</Bitmap>
+</Bitmap_Groups>

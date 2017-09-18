@@ -1,0 +1,60 @@
+<!-- ErWin 태그 --> 
+<ERwin xmlns="http://www.ca.com/erwin" xmlns:UDP="http://www.ca.com/erwin/metadata" xmlns:EMX="http://www.ca.com/erwin/data" xmlns:EM2="http://www.ca.com/erwin/EM2data" FileVersion="7.2.1644" Format="AllFusion_Repository">
+<!-- EMX Model 태그 --> 
+<EMX:Model xmlns="http://www.ca.com/erwin/data" id="{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000" name="Model_2">
+<!-- 모델 환경 속성 --> 
+<ModelEnvProps>
+<!-- 위치 :  erwin://  파일 절대 경로 붙이면 됨 --> 
+<Locator>
+erwin://C:\Users\kim\Desktop\xml분석\Erwin_MakeXML_1.xml
+</Locator>
+<!-- Disposion  읽기 전용 YES 무슨 의미인지 모르겠음 ?? --> 
+<Disposition>Read Only = Yes;</Disposition>
+<!-- 존재 유닛 아이디 이 아이디는 유니크하면서 아무 의미 없음 : Model ID와는 의미가 틀림  --> 
+<Persistence_Unit_Id>{2C079BB8-835F-4850-A40F-F2B1582A9F3D}+00000000</Persistence_Unit_Id>
+<!-- 모델 타입 : 3 ??? 의미 모르겠음 --> 
+<Model_Type>3</Model_Type>
+<!-- 타켓 서버 : 숫자의미 모르겠음 --> 
+<Target_Server>1075858979</Target_Server>
+<!-- 타켓 서버 버젼 10 의미 모르겠음 --> 
+<Target_Server_Version>10</Target_Server_Version>
+<!-- 타켓 서버 마이너 버젼 0 의미 모르겠음 --> 
+<Target_Server_Minor_Version>0</Target_Server_Minor_Version>
+<!-- 활성 모델 :  -1 의미 없음 --> 
+<Active_Model>-1</Active_Model>
+<!-- 숨겨진 모델 : 0 의미 모르겠음 --> 
+<Hidden_Model>0</Hidden_Model>
+<!-- 저장 포맷 : 4012 의미 모르겠음 --> 
+<Storage_Format>4012</Storage_Format>
+</ModelEnvProps>
+
+<ModelProps>...</ModelProps>
+<!-- 엔티티 그룹 : (중요)엔티티 저장해야지만 생김  --> 
+<Entity_Groups>...</Entity_Groups>
+<!-- 도메인 그룹 -->
+<Domain_Groups>...</Domain_Groups>
+<!-- ㅂ트맵 그룹 -->
+<Bitmap_Groups>...</Bitmap_Groups>
+<!-- 주제영역  그룹 -->
+<Subject_Area_Groups>...</Subject_Area_Groups>
+<!-- Trigger Template 그룹 : (중요)엔티티 저장해야지만 생김 --> 
+<Trigger_Template_Groups>...</Trigger_Template_Groups>
+<!-- Default Trigger Template 그룹 : (중요)엔티티 저장해야지만 생김 --> 
+<Default_Trigger_Template_Groups>...</Default_Trigger_Template_Groups>
+<!-- 이름 맵핑 그룹 --> 
+<Name_Mapping_Groups>...</Name_Mapping_Groups>
+<!-- 명명 옵션 그룹 --> 
+<Naming_Options_Groups>...</Naming_Options_Groups>
+</EMX:Model>
+<!-- EM2 모델 프록시 객체 --> 
+<EM2:Model_Proxy_Object xmlns="http://www.ca.com/erwin/EM2data" id="{2BD4FFB4-998F-462C-9B17-CD45318FB419}+00000000" name="Model_Proxy_Object_1">
+<!-- 모델 프록시 객체속성 -->
+<Model_Proxy_ObjectProps>...</Model_Proxy_ObjectProps>
+<!-- 저장된 화면 프록시 객체 그룹 --> 
+<Stored_Display_Proxy_Object_Groups>...</Stored_Display_Proxy_Object_Groups>
+<!-- 주제영역 프록시 객체 그룹 --> 
+<Subject_Area_Proxy_Object_Groups>...</Subject_Area_Proxy_Object_Groups>
+<!-- 선엔지니어 옵셔 리포트 그룹 :  (중요)엔티티 저장해야지만 생김 --> 
+<Forward_Engineer_Options_Report_Groups>...</Forward_Engineer_Options_Report_Groups>
+</EM2:Model_Proxy_Object>
+</ERwin>

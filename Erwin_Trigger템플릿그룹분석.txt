@@ -1,0 +1,1316 @@
+<!-- 트리거 템플릿 그룹스 --> 
+<Trigger_Template_Groups>
+<!-- 트리거 템플릿 아이디 : Default Template Groups ID와 동일 --> 
+<Trigger_Template id="{34ED2162-9FF1-4B16-A44A-25CA1120F462}+00000000" name="PARENT UPDATE RESTRICT">
+<Trigger_TemplateProps>
+<!-- 빌트인 ID : 61 --> 
+<Built-in_Id>61</Built-in_Id>
+<!-- 부모 업데이트 제한 --> 
+<Name>PARENT UPDATE RESTRICT</Name>
+<Long_Id>{34ED2162-9FF1-4B16-A44A-25CA1120F462}+00000000</Long_Id>
+<!-- 소유자 경로 : Model_2 (중요) --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 타입 : 10000 --> 
+<Type>10000</Type>
+<!-- 템플릿 코드 ???? --> 
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update restrict */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," <> "," OR ") */ %JoinPKPK(:%Old,:%New," <> "," OR ") THEN SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20005, 'Cannot update %Parent because %Child exists.' ); END IF; END IF;
+</Template_Code>
+<!-- 의존 객체들 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존 객체들 참조 인덱스 
+<Default_Trigger_Template_Groups>
+<Default_Trigger_Template id>
+--> 
+<Dependent_Objects_Ref index="0">{E472DD47-51E5-4B86-9FF8-D6793111F970}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 배열 종료 --> 
+</Dependent_Objects_Ref_Array>
+<!-- 생성 안되기 : true 무슨 의미 ???? --> 
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<!-- 사용자 포맷 이름 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE RESTRICT</User_Formatted_Name>
+<!-- 사용자 포맷 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE RESTRICT</User_Formatted_Physical_Name>
+<!-- 트리거 탬플릿 속성 --> 
+</Trigger_TemplateProps>
+<!-- 트리거 탬플렛 --> 
+</Trigger_Template>
+<Trigger_Template id="{73D3C95D-07DA-4526-9390-ABDAD7A2AD57}+00000000" name="PARENT UPDATE CASCADE">
+<Trigger_TemplateProps>
+<Built-in_Id>62</Built-in_Id>
+<Name>PARENT UPDATE CASCADE</Name>
+<Long_Id>{73D3C95D-07DA-4526-9390-ABDAD7A2AD57}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10001</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update cascade */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," <> "," OR ") */ %JoinPKPK(:%Old,:%New," <> "," OR ") THEN UPDATE %Child SET /* %%JoinFKPK(%Child,:%%New," = ",",") */ %JoinFKPK(%Child,:%New," = ",",") WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{F6C6804D-E339-43C1-B294-253CF0D1DF48}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE CASCADE</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{FE8B2A86-9925-4D40-87CA-9ADD53B903CB}+00000000" name="PARENT UPDATE SET NULL">
+<Trigger_TemplateProps>
+<Built-in_Id>63</Built-in_Id>
+<Name>PARENT UPDATE SET NULL</Name>
+<Long_Id>{FE8B2A86-9925-4D40-87CA-9ADD53B903CB}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10002</Type>
+<Template_Code>
+/* %Parent %VerbPhrase %Child on parent update set null */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," <> "," OR ") */ %JoinPKPK(:%Old,:%New," <> "," OR ") THEN UPDATE %Child SET /* %%SetFK(%Child,NULL) */ %SetFK(%Child,NULL) WHERE /* %%JoinFKPK(%Child,:%%Old," = ",",") */ %JoinFKPK(%Child,:%Old," = "," AND"); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{B610272C-6056-4574-9585-961C90D62AB7}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET NULL</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{B67AFC1E-6B1A-46BE-87B1-8044AE133D37}+00000000" name="PARENT DELETE RESTRICT">
+<Trigger_TemplateProps>
+<Built-in_Id>71</Built-in_Id>
+<Name>PARENT DELETE RESTRICT</Name>
+<Long_Id>{B67AFC1E-6B1A-46BE-87B1-8044AE133D37}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10004</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent delete restrict */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20001, 'Cannot delete %Parent because %Child exists.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{85FB716F-B715-4FC3-BA29-54C5D5C3B28F}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE RESTRICT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{2292FB3F-E3CB-4105-8320-6B1DD9366166}+00000000" name="PARENT DELETE CASCADE">
+<Trigger_TemplateProps>
+<Built-in_Id>72</Built-in_Id>
+<Name>PARENT DELETE CASCADE</Name>
+<Long_Id>{2292FB3F-E3CB-4105-8320-6B1DD9366166}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10005</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent delete cascade */ /* %ErwinRelationInfo */ DELETE FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND");
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{CB49D7F2-490B-4AA0-98B2-803538327340}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE CASCADE</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{F8DEE513-A3A0-4AD0-9C3F-46B6B5F54FB3}+00000000" name="PARENT DELETE SET NULL">
+<Trigger_TemplateProps>
+<Built-in_Id>73</Built-in_Id>
+<Name>PARENT DELETE SET NULL</Name>
+<Long_Id>{F8DEE513-A3A0-4AD0-9C3F-46B6B5F54FB3}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10006</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent delete set null */ /* %ErwinRelationInfo */ UPDATE %Child SET /* %%SetFK(%Child,NULL) */ %SetFK(%Child,NULL) WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND");
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{F0D881D9-8824-4567-945C-D691794C0DE8}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET NULL</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{517EA445-68C3-480F-AF68-F2977D6F792F}+00000000" name="CHILD INSERT RESTRICT">
+<Trigger_TemplateProps>
+<Built-in_Id>111</Built-in_Id>
+<Name>CHILD INSERT RESTRICT</Name>
+<Long_Id>{517EA445-68C3-480F-AF68-F2977D6F792F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10008</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child insert restrict */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND"); IF ( /* %%NotnullFK(:%%New," IS NOT NULL AND") */ %NotnullFK(:%New," IS NOT NULL AND") NUMROWS = 0 ) THEN raise_application_error( -20002, 'Cannot insert %Child because %Parent does not exist.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{BD48B001-7972-49A0-9E87-F5C90EB01C65}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT RESTRICT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{55E5C87D-F2C3-4B29-BBB4-7475F1837296}+00000000" name="CHILD INSERT CASCADE">
+<Trigger_TemplateProps>
+<Built-in_Id>112</Built-in_Id>
+<Name>CHILD INSERT CASCADE</Name>
+<Long_Id>{55E5C87D-F2C3-4B29-BBB4-7475F1837296}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10009</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child insert cascade */ /* %ErwinRelationInfo */ INSERT INTO %Parent (%ParentPK(",",)) SELECT %ChildFK(",",) FROM %Child WHERE /* %%NotnullFK(:%%New," IS NOT NULL AND") */ %NotnullFK(:%New," IS NOT NULL AND") NOT EXISTS ( SELECT * FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND") );
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{4A2C3A99-6F6D-4888-BB60-192398D5C7C4}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT CASCADE</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{FA7F081C-0D8A-4749-BEF1-E73BFB6CFD4A}+00000000" name="CHILD INSERT SET NULL">
+<Trigger_TemplateProps>
+<Built-in_Id>113</Built-in_Id>
+<Name>CHILD INSERT SET NULL</Name>
+<Long_Id>{FA7F081C-0D8A-4749-BEF1-E73BFB6CFD4A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10010</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child insert set null */ /* %ErwinRelationInfo */ UPDATE %Child SET /* %%SetFK(%Child,NULL) */ %SetFK(%Child,NULL) WHERE NOT EXISTS ( SELECT * FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND") ) /* %%JoinPKPK(%Child,:%%New," = "," AND") */ %JoinPKPK(%Child,:%New," = "," AND");
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{F9DF9BCF-8668-4C75-8B82-1A712FEB7C6D}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET NULL</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{FB0C5DB3-A094-4644-832A-36FF20DC073A}+00000000" name="CHILD UPDATE RESTRICT">
+<Trigger_TemplateProps>
+<Built-in_Id>91</Built-in_Id>
+<Name>CHILD UPDATE RESTRICT</Name>
+<Long_Id>{FB0C5DB3-A094-4644-832A-36FF20DC073A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10012</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child update restrict */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND"); IF ( /* %%NotnullFK(:%%New," IS NOT NULL AND") */ %NotnullFK(:%New," IS NOT NULL AND") NUMROWS = 0 ) THEN raise_application_error( -20007, 'Cannot update %Child because %Parent does not exist.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{67030C01-F58E-4E93-B40F-376BB3BD8815}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE RESTRICT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{E90EBDF1-34E7-4F78-9B89-7B89C48258B3}+00000000" name="CHILD UPDATE CASCADE">
+<Trigger_TemplateProps>
+<Built-in_Id>92</Built-in_Id>
+<Name>CHILD UPDATE CASCADE</Name>
+<Long_Id>{E90EBDF1-34E7-4F78-9B89-7B89C48258B3}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10013</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child update cascade */ /* %ErwinRelationInfo */ INSERT INTO %Parent (%ParentPK(",",)) SELECT %ChildFK(",",) FROM %Child WHERE /* %%NotnullFK(:%%New," IS NOT NULL AND") */ %NotnullFK(:%New," IS NOT NULL AND") NOT EXISTS ( SELECT * FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND") );
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{2B402E44-FDA5-417E-9973-6AECCB72FD8A}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE CASCADE</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{A568BF96-1B07-497E-8A55-5583925BE893}+00000000" name="CHILD UPDATE SET NULL">
+<Trigger_TemplateProps>
+<Built-in_Id>93</Built-in_Id>
+<Name>CHILD UPDATE SET NULL</Name>
+<Long_Id>{A568BF96-1B07-497E-8A55-5583925BE893}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10014</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child update set null */ /* %ErwinRelationInfo */ UPDATE %Child SET /* %%SetFK(%Child,NULL) */ %SetFK(%Child,NULL) WHERE NOT EXISTS ( SELECT * FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND") ) /* %%JoinPKPK(%Child,:%%New," = "," AND") */ %JoinPKPK(%Child,:%New," = "," AND");
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{0EABEF6E-FF38-4823-8C95-9C29A93E5EA6}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET NULL</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{D38CA85F-7A4F-4DAF-8FCE-AC606B60364B}+00000000" name="CHILD DELETE RESTRICT">
+<Trigger_TemplateProps>
+<Built-in_Id>101</Built-in_Id>
+<Name>CHILD DELETE RESTRICT</Name>
+<Long_Id>{D38CA85F-7A4F-4DAF-8FCE-AC606B60364B}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10016</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child delete restrict */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Parent WHERE /* %%JoinFKPK(:%%Old,%Parent," = "," AND") */ %JoinFKPK(:%Old,%Parent," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20010, 'Cannot delete %Child because %Parent exists.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{6FF5CDC9-7CCE-48A4-866C-934B283A7030}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE RESTRICT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{F615F439-028D-4BC3-B6B4-02080BB58BB4}+00000000" name="CHILD DELETE CASCADE">
+<Trigger_TemplateProps>
+<Built-in_Id>102</Built-in_Id>
+<Name>CHILD DELETE CASCADE</Name>
+<Long_Id>{F615F439-028D-4BC3-B6B4-02080BB58BB4}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10017</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child delete cascade */ /* %ErwinRelationInfo */ DELETE FROM %Parent WHERE /* %%JoinFKPK(:%%Old,%Parent," = "," AND") */ %JoinFKPK(:%Old,%Parent," = "," AND");
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{3B3068D2-FD60-42BB-84A3-628C76C5AEC7}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE CASCADE</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{3CD28F61-44FC-41B6-8E97-E755A51B868D}+00000000" name="PARENT INSERT RESTRICT">
+<Trigger_TemplateProps>
+<Built-in_Id>81</Built-in_Id>
+<Name>PARENT INSERT RESTRICT</Name>
+<Long_Id>{3CD28F61-44FC-41B6-8E97-E755A51B868D}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10020</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent insert restrict */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%New," = "," AND") */ %JoinFKPK(%Child,:%New," = "," AND"); IF (NUMROWS = 0) THEN raise_application_error( -20011, 'Cannot insert %Parent because %Child does not.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{61CEE56F-43DC-4EED-8778-7AB1C3C8475A}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT RESTRICT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{1C88CAE9-F560-4AE4-864C-9C7B6B945FC0}+00000000" name="UPDATE HEADER">
+<Trigger_TemplateProps>
+<Built-in_Id>121</Built-in_Id>
+<Name>UPDATE HEADER</Name>
+<Long_Id>{1C88CAE9-F560-4AE4-864C-9C7B6B945FC0}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10024</Type>
+<Template_Code>
+CREATE %CreateOrReplace TRIGGER %ProcedureOwner(.)t%1Action_%27TableName AFTER %Action ON %TableName for each row -- ERwin Builtin %Datetime -- %Action trigger on %TableName DECLARE NUMROWS INTEGER; BEGIN
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{2B0EC90C-33B0-4E12-8C9B-C16A4F394D04}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">UPDATE HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">UPDATE HEADER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{CDCE4AF7-7C5B-48F0-8563-EEB7D9CF6DA5}+00000000" name="UPDATE FOOTER">
+<Trigger_TemplateProps>
+<Built-in_Id>122</Built-in_Id>
+<Name>UPDATE FOOTER</Name>
+<Long_Id>{CDCE4AF7-7C5B-48F0-8563-EEB7D9CF6DA5}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10025</Type>
+<Template_Code>-- ERwin Builtin %Datetime END; /</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{1D03C71C-E378-40ED-9954-CCFAE7891E19}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">UPDATE FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">UPDATE FOOTER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{20EAF79F-BB4E-42A1-A8C7-E62975A4BE7F}+00000000" name="DELETE HEADER">
+<Trigger_TemplateProps>
+<Built-in_Id>123</Built-in_Id>
+<Name>DELETE HEADER</Name>
+<Long_Id>{20EAF79F-BB4E-42A1-A8C7-E62975A4BE7F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10026</Type>
+<Template_Code>
+CREATE %CreateOrReplace TRIGGER %ProcedureOwner(.)t%1Action_%27TableName AFTER %Action ON %TableName for each row -- ERwin Builtin %Datetime -- %Action trigger on %TableName DECLARE NUMROWS INTEGER; BEGIN
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{D4153B24-3DBC-46D3-A1CC-4687286AD696}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">DELETE HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">DELETE HEADER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{09B0FCE4-D8D1-4858-98DB-0A535FE00D0B}+00000000" name="DELETE FOOTER">
+<Trigger_TemplateProps>
+<Built-in_Id>124</Built-in_Id>
+<Name>DELETE FOOTER</Name>
+<Long_Id>{09B0FCE4-D8D1-4858-98DB-0A535FE00D0B}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10027</Type>
+<Template_Code>-- ERwin Builtin %Datetime END; /</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{A2C12FA0-AF09-4696-BD73-6915B05CCB0A}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">DELETE FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">DELETE FOOTER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{DA73EB69-5952-45D6-8687-70C07056F590}+00000000" name="INSERT HEADER">
+<Trigger_TemplateProps>
+<Built-in_Id>125</Built-in_Id>
+<Name>INSERT HEADER</Name>
+<Long_Id>{DA73EB69-5952-45D6-8687-70C07056F590}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10028</Type>
+<Template_Code>
+CREATE %CreateOrReplace TRIGGER %ProcedureOwner(.)t%1Action_%27TableName BEFORE %Action ON %TableName for each row -- ERwin Builtin %Datetime -- %Action trigger on %TableName DECLARE NUMROWS INTEGER; BEGIN
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{02F16755-C1C9-4DEF-9262-FE8914F0D1A9}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">INSERT HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">INSERT HEADER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{8F6B6E77-D849-444B-8009-135BD5F6B895}+00000000" name="INSERT FOOTER">
+<Trigger_TemplateProps>
+<Built-in_Id>126</Built-in_Id>
+<Name>INSERT FOOTER</Name>
+<Long_Id>{8F6B6E77-D849-444B-8009-135BD5F6B895}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10029</Type>
+<Template_Code>-- ERwin Builtin %Datetime END; /</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{E9FC0CD6-31AB-49BE-B323-9124D03F2727}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">INSERT FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">INSERT FOOTER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{F7DC8F68-5C56-4EAD-B137-B97AB83D395A}+00000000" name="CUSTOM TRIGGER HEADER">
+<Trigger_TemplateProps>
+<Built-in_Id>131</Built-in_Id>
+<Name>CUSTOM TRIGGER HEADER</Name>
+<Long_Id>{F7DC8F68-5C56-4EAD-B137-B97AB83D395A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10030</Type>
+<Template_Code>
+CREATE %CreateOrReplace TRIGGER %ProcedureOwner(.)%TriggerName %Fire %Actions(" OR ") ON %TableName %RefClause %Scope %TriggerWhen
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{AC15699B-1883-40FF-968B-B05F2B0E54FC}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER HEADER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{FDB52390-E64A-45D3-B5A5-97C8CDD8CA46}+00000000" name="CUSTOM TRIGGER FOOTER">
+<Trigger_TemplateProps>
+<Built-in_Id>132</Built-in_Id>
+<Name>CUSTOM TRIGGER FOOTER</Name>
+<Long_Id>{FDB52390-E64A-45D3-B5A5-97C8CDD8CA46}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10031</Type>
+<Template_Code>/</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{12B10626-1E61-4B9C-8A65-860DB0E6EFEC}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER FOOTER</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{3164061A-C98E-429B-BCBD-3F131B83BC42}+00000000" name="CUSTOM TRIGGER DEFAULT BODY">
+<Trigger_TemplateProps>
+<Built-in_Id>133</Built-in_Id>
+<Name>CUSTOM TRIGGER DEFAULT BODY</Name>
+<Long_Id>{3164061A-C98E-429B-BCBD-3F131B83BC42}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10032</Type>
+<Template_Code>
+CREATE %CreateOrReplace TRIGGER %ProcedureOwner(.)%TriggerName %Fire %Actions(" OR ") ON %TableName %RefClause %Scope %TriggerWhen /* ERwin Builtin %Datetime */ /* default body for %TriggerName */ DECLARE NUMROWS INTEGER; BEGIN %ForEachChildRel() { %RelTemplate } %ForEachParentRel() { %RelTemplate } END;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{410B16C1-8096-4F1D-89E6-D2345D2B90F1}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER DEFAULT BODY</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER DEFAULT BODY</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{86E6450B-BE24-4F7E-8081-08CECB19E8B0}+00000000" name="PARENT UPDATE SET DEFAULT">
+<Trigger_TemplateProps>
+<Built-in_Id>64</Built-in_Id>
+<Name>PARENT UPDATE SET DEFAULT</Name>
+<Long_Id>{86E6450B-BE24-4F7E-8081-08CECB19E8B0}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10003</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update set default */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{207BD8B0-5377-4E50-9858-F83DBE13C09D}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET DEFAULT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{989F9093-DBBF-4171-B0EF-0B977BD66EAC}+00000000" name="PARENT DELETE SET DEFAULT">
+<Trigger_TemplateProps>
+<Built-in_Id>74</Built-in_Id>
+<Name>PARENT DELETE SET DEFAULT</Name>
+<Long_Id>{989F9093-DBBF-4171-B0EF-0B977BD66EAC}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10007</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent delete set default */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{6B60401C-2D35-424C-94AB-6142F8EED3A9}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET DEFAULT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{59F2A306-1772-4AF6-8C04-746C91DD44D8}+00000000" name="PARENT INSERT SET DEFAULT">
+<Trigger_TemplateProps>
+<Built-in_Id>84</Built-in_Id>
+<Name>PARENT INSERT SET DEFAULT</Name>
+<Long_Id>{59F2A306-1772-4AF6-8C04-746C91DD44D8}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10023</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent insert set default */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{860E4A3F-150D-43E8-B83A-A756746CC222}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET DEFAULT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{7DC68BAB-BB17-4AA0-AE74-A0D1245AEC23}+00000000" name="CHILD INSERT SET DEFAULT">
+<Trigger_TemplateProps>
+<Built-in_Id>114</Built-in_Id>
+<Name>CHILD INSERT SET DEFAULT</Name>
+<Long_Id>{7DC68BAB-BB17-4AA0-AE74-A0D1245AEC23}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10011</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child insert set default */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{929A8934-E263-4A2F-8689-37D59D1568B8}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET DEFAULT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{D684CC07-1815-432C-A74D-FC906C1C2C8F}+00000000" name="CHILD UPDATE SET DEFAULT">
+<Trigger_TemplateProps>
+<Built-in_Id>94</Built-in_Id>
+<Name>CHILD UPDATE SET DEFAULT</Name>
+<Long_Id>{D684CC07-1815-432C-A74D-FC906C1C2C8F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10015</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child update set default */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{25CB9FAA-4A38-4A83-9475-471A14198B36}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET DEFAULT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{5AB6F6E7-A091-4851-8FE6-FA90A7B02A9F}+00000000" name="CHILD DELETE SET DEFAULT">
+<Trigger_TemplateProps>
+<Built-in_Id>104</Built-in_Id>
+<Name>CHILD DELETE SET DEFAULT</Name>
+<Long_Id>{5AB6F6E7-A091-4851-8FE6-FA90A7B02A9F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10019</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child delete set default */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{E8BCBB3F-FBC5-4C57-A3B1-54FEC4EF61E3}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET DEFAULT</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{4EC51A17-4D75-40AF-B43F-CD6D4841B486}+00000000" name="CHILD DELETE SET NULL">
+<Trigger_TemplateProps>
+<Built-in_Id>103</Built-in_Id>
+<Name>CHILD DELETE SET NULL</Name>
+<Long_Id>{4EC51A17-4D75-40AF-B43F-CD6D4841B486}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10018</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child delete set null */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{8874A7D9-11CB-45A9-A8B2-A7C4C8C18225}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET NULL</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{5F15923B-ECD4-4122-B1FE-FA718833CAEF}+00000000" name="PARENT INSERT SET NULL">
+<Trigger_TemplateProps>
+<Built-in_Id>83</Built-in_Id>
+<Name>PARENT INSERT SET NULL</Name>
+<Long_Id>{5F15923B-ECD4-4122-B1FE-FA718833CAEF}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10022</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent insert set null */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{521ED443-F266-4871-B0E0-4407FD929E70}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET NULL</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{8361E08F-98CB-49EA-83F3-C901444532C8}+00000000" name="PARENT INSERT CASCADE">
+<Trigger_TemplateProps>
+<Built-in_Id>82</Built-in_Id>
+<Name>PARENT INSERT CASCADE</Name>
+<Long_Id>{8361E08F-98CB-49EA-83F3-C901444532C8}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>10021</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent insert cascade */ /* %ErwinRelationInfo */ /* Application specific. Left out intentionally. */ NULL;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{C89FD9EF-019A-4602-B11E-4E52E5FDF2FF}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT CASCADE</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{23583DFA-7EEC-44F4-96A8-2F03C1E53B86}+00000000" name="PARENT UPDATE NO ACTION">
+<Trigger_TemplateProps>
+<Built-in_Id>65</Built-in_Id>
+<Name>PARENT UPDATE NO ACTION</Name>
+<Long_Id>{23583DFA-7EEC-44F4-96A8-2F03C1E53B86}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>9998</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent update no action */ /* %ErwinRelationInfo */ IF /* %%JoinPKPK(:%%Old,:%%New," <> "," OR ") */ %JoinPKPK(:%Old,:%New," <> "," OR ") THEN SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20005, 'Cannot update %Parent because %Child exists.' ); END IF; END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{EFA69D78-D584-46BC-8103-67776B25C470}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE NO ACTION</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{A848ED76-996F-4A6F-8E13-AFAECF819BBC}+00000000" name="CHILD UPDATE NO ACTION">
+<Trigger_TemplateProps>
+<Built-in_Id>95</Built-in_Id>
+<Name>CHILD UPDATE NO ACTION</Name>
+<Long_Id>{A848ED76-996F-4A6F-8E13-AFAECF819BBC}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>9995</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child update no action */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND"); IF ( /* %%NotnullFK(:%%New," IS NOT NULL AND") */ %NotnullFK(:%New," IS NOT NULL AND") NUMROWS = 0 ) THEN raise_application_error( -20007, 'Cannot update %Child because %Parent does not exist.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{3E23C942-8C54-4C5D-A25B-8F4BF80FDB7F}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE NO ACTION</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{461225A9-D902-4243-A74E-4EFEF3452E3F}+00000000" name="PARENT DELETE NO ACTION">
+<Trigger_TemplateProps>
+<Built-in_Id>75</Built-in_Id>
+<Name>PARENT DELETE NO ACTION</Name>
+<Long_Id>{461225A9-D902-4243-A74E-4EFEF3452E3F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>9999</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent delete no action */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%Old," = "," AND") */ %JoinFKPK(%Child,:%Old," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20001, 'Cannot DELETE %Parent because %Child exists.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{C78572F9-7556-4912-86CC-3AC04432A661}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE NO ACTION</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{A0D5EB31-0707-4611-86B0-D49075BCDEB8}+00000000" name="CHILD DELETE NO ACTION">
+<Trigger_TemplateProps>
+<Built-in_Id>105</Built-in_Id>
+<Name>CHILD DELETE NO ACTION</Name>
+<Long_Id>{A0D5EB31-0707-4611-86B0-D49075BCDEB8}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>9996</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child delete no action */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Parent WHERE /* %%JoinFKPK(:%%Old,%Parent," = "," AND") */ %JoinFKPK(:%Old,%Parent," = "," AND"); IF (NUMROWS > 0) THEN raise_application_error( -20010, 'Cannot DELETE %Child because %Parent exists.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{5B43A4E3-9D7A-4DAA-B608-1238B28F0952}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE NO ACTION</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{4A194AAF-CBED-45EB-B079-2E43BAB1CB23}+00000000" name="CHILD INSERT NO ACTION">
+<Trigger_TemplateProps>
+<Built-in_Id>115</Built-in_Id>
+<Name>CHILD INSERT NO ACTION</Name>
+<Long_Id>{4A194AAF-CBED-45EB-B079-2E43BAB1CB23}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>9994</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on child insert no action */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Parent WHERE /* %%JoinFKPK(:%%New,%Parent," = "," AND") */ %JoinFKPK(:%New,%Parent," = "," AND"); IF ( /* %%NotnullFK(:%%New," IS NOT NULL AND") */ %NotnullFK(:%New," IS NOT NULL AND") NUMROWS = 0 ) THEN raise_application_error( -20002, 'Cannot insert %Child because %Parent does not exist.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{BF63AE9F-D05F-43FE-8E44-F56D966B6F0A}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT NO ACTION</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+<Trigger_Template id="{AD640FC2-CBF2-4B08-BCEA-822FA08EDF8A}+00000000" name="PARENT INSERT NO ACTION">
+<Trigger_TemplateProps>
+<Built-in_Id>85</Built-in_Id>
+<Name>PARENT INSERT NO ACTION</Name>
+<Long_Id>{AD640FC2-CBF2-4B08-BCEA-822FA08EDF8A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>9997</Type>
+<Template_Code>
+/* ERwin Builtin %Datetime */ /* %Parent %VerbPhrase %Child on parent insert no action */ /* %ErwinRelationInfo */ SELECT count(*) INTO NUMROWS FROM %Child WHERE /* %%JoinFKPK(%Child,:%%New," = "," AND") */ %JoinFKPK(%Child,:%New," = "," AND"); IF (NUMROWS = 0) THEN raise_application_error( -20011, 'Cannot insert %Parent because %Child does not.' ); END IF;
+</Template_Code>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{683CCACE-9BE2-4CEB-84E7-FA27F7383133}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT NO ACTION</User_Formatted_Physical_Name>
+</Trigger_TemplateProps>
+</Trigger_Template>
+</Trigger_Template_Groups>
+
+<Default_Trigger_Template_Groups>
+<Default_Trigger_Template id="{E472DD47-51E5-4B86-9FF8-D6793111F970}+00000000" name="PARENT UPDATE RESTRICT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>151</Built-in_Id>
+<Name>PARENT UPDATE RESTRICT</Name>
+<Long_Id>{E472DD47-51E5-4B86-9FF8-D6793111F970}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{34ED2162-9FF1-4B16-A44A-25CA1120F462}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT UPDATE RESTRICT</Template_Purpose_Text>
+<Template_Purpose>10000</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE RESTRICT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{F6C6804D-E339-43C1-B294-253CF0D1DF48}+00000000" name="PARENT UPDATE CASCADE">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>152</Built-in_Id>
+<Name>PARENT UPDATE CASCADE</Name>
+<Long_Id>{F6C6804D-E339-43C1-B294-253CF0D1DF48}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{73D3C95D-07DA-4526-9390-ABDAD7A2AD57}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT UPDATE CASCADE</Template_Purpose_Text>
+<Template_Purpose>10001</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE CASCADE</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{B610272C-6056-4574-9585-961C90D62AB7}+00000000" name="PARENT UPDATE SET NULL">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>153</Built-in_Id>
+<Name>PARENT UPDATE SET NULL</Name>
+<Long_Id>{B610272C-6056-4574-9585-961C90D62AB7}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{FE8B2A86-9925-4D40-87CA-9ADD53B903CB}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT UPDATE SET NULL</Template_Purpose_Text>
+<Template_Purpose>10002</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET NULL</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{207BD8B0-5377-4E50-9858-F83DBE13C09D}+00000000" name="PARENT UPDATE SET DEFAULT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>154</Built-in_Id>
+<Name>PARENT UPDATE SET DEFAULT</Name>
+<Long_Id>{207BD8B0-5377-4E50-9858-F83DBE13C09D}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{86E6450B-BE24-4F7E-8081-08CECB19E8B0}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT UPDATE SET DEFAULT</Template_Purpose_Text>
+<Template_Purpose>10003</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE SET DEFAULT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{EFA69D78-D584-46BC-8103-67776B25C470}+00000000" name="PARENT UPDATE NO ACTION">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>155</Built-in_Id>
+<Name>PARENT UPDATE NO ACTION</Name>
+<Long_Id>{EFA69D78-D584-46BC-8103-67776B25C470}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{23583DFA-7EEC-44F4-96A8-2F03C1E53B86}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT UPDATE NO ACTION</Template_Purpose_Text>
+<Template_Purpose>9998</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT UPDATE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT UPDATE NO ACTION</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{85FB716F-B715-4FC3-BA29-54C5D5C3B28F}+00000000" name="PARENT DELETE RESTRICT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>161</Built-in_Id>
+<Name>PARENT DELETE RESTRICT</Name>
+<Long_Id>{85FB716F-B715-4FC3-BA29-54C5D5C3B28F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{B67AFC1E-6B1A-46BE-87B1-8044AE133D37}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT DELETE RESTRICT</Template_Purpose_Text>
+<Template_Purpose>10004</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE RESTRICT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{CB49D7F2-490B-4AA0-98B2-803538327340}+00000000" name="PARENT DELETE CASCADE">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>162</Built-in_Id>
+<Name>PARENT DELETE CASCADE</Name>
+<Long_Id>{CB49D7F2-490B-4AA0-98B2-803538327340}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{2292FB3F-E3CB-4105-8320-6B1DD9366166}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT DELETE CASCADE</Template_Purpose_Text>
+<Template_Purpose>10005</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE CASCADE</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{F0D881D9-8824-4567-945C-D691794C0DE8}+00000000" name="PARENT DELETE SET NULL">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>163</Built-in_Id>
+<Name>PARENT DELETE SET NULL</Name>
+<Long_Id>{F0D881D9-8824-4567-945C-D691794C0DE8}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{F8DEE513-A3A0-4AD0-9C3F-46B6B5F54FB3}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT DELETE SET NULL</Template_Purpose_Text>
+<Template_Purpose>10006</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET NULL</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{6B60401C-2D35-424C-94AB-6142F8EED3A9}+00000000" name="PARENT DELETE SET DEFAULT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>164</Built-in_Id>
+<Name>PARENT DELETE SET DEFAULT</Name>
+<Long_Id>{6B60401C-2D35-424C-94AB-6142F8EED3A9}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{989F9093-DBBF-4171-B0EF-0B977BD66EAC}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT DELETE SET DEFAULT</Template_Purpose_Text>
+<Template_Purpose>10007</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE SET DEFAULT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{C78572F9-7556-4912-86CC-3AC04432A661}+00000000" name="PARENT DELETE NO ACTION">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>165</Built-in_Id>
+<Name>PARENT DELETE NO ACTION</Name>
+<Long_Id>{C78572F9-7556-4912-86CC-3AC04432A661}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{461225A9-D902-4243-A74E-4EFEF3452E3F}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT DELETE NO ACTION</Template_Purpose_Text>
+<Template_Purpose>9999</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT DELETE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT DELETE NO ACTION</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{61CEE56F-43DC-4EED-8778-7AB1C3C8475A}+00000000" name="PARENT INSERT RESTRICT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>171</Built-in_Id>
+<Name>PARENT INSERT RESTRICT</Name>
+<Long_Id>{61CEE56F-43DC-4EED-8778-7AB1C3C8475A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{3CD28F61-44FC-41B6-8E97-E755A51B868D}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT INSERT RESTRICT</Template_Purpose_Text>
+<Template_Purpose>10020</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT RESTRICT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{C89FD9EF-019A-4602-B11E-4E52E5FDF2FF}+00000000" name="PARENT INSERT CASCADE">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>172</Built-in_Id>
+<Name>PARENT INSERT CASCADE</Name>
+<Long_Id>{C89FD9EF-019A-4602-B11E-4E52E5FDF2FF}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{8361E08F-98CB-49EA-83F3-C901444532C8}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT INSERT CASCADE</Template_Purpose_Text>
+<Template_Purpose>10021</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT CASCADE</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{521ED443-F266-4871-B0E0-4407FD929E70}+00000000" name="PARENT INSERT SET NULL">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>173</Built-in_Id>
+<Name>PARENT INSERT SET NULL</Name>
+<Long_Id>{521ED443-F266-4871-B0E0-4407FD929E70}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{5F15923B-ECD4-4122-B1FE-FA718833CAEF}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT INSERT SET NULL</Template_Purpose_Text>
+<Template_Purpose>10022</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET NULL</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{860E4A3F-150D-43E8-B83A-A756746CC222}+00000000" name="PARENT INSERT SET DEFAULT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>174</Built-in_Id>
+<Name>PARENT INSERT SET DEFAULT</Name>
+<Long_Id>{860E4A3F-150D-43E8-B83A-A756746CC222}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{59F2A306-1772-4AF6-8C04-746C91DD44D8}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT INSERT SET DEFAULT</Template_Purpose_Text>
+<Template_Purpose>10023</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT SET DEFAULT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{683CCACE-9BE2-4CEB-84E7-FA27F7383133}+00000000" name="PARENT INSERT NO ACTION">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>175</Built-in_Id>
+<Name>PARENT INSERT NO ACTION</Name>
+<Long_Id>{683CCACE-9BE2-4CEB-84E7-FA27F7383133}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{AD640FC2-CBF2-4B08-BCEA-822FA08EDF8A}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>PARENT INSERT NO ACTION</Template_Purpose_Text>
+<Template_Purpose>9997</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PARENT INSERT NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PARENT INSERT NO ACTION</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{67030C01-F58E-4E93-B40F-376BB3BD8815}+00000000" name="CHILD UPDATE RESTRICT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>181</Built-in_Id>
+<Name>CHILD UPDATE RESTRICT</Name>
+<Long_Id>{67030C01-F58E-4E93-B40F-376BB3BD8815}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{FB0C5DB3-A094-4644-832A-36FF20DC073A}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD UPDATE RESTRICT</Template_Purpose_Text>
+<Template_Purpose>10012</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE RESTRICT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{2B402E44-FDA5-417E-9973-6AECCB72FD8A}+00000000" name="CHILD UPDATE CASCADE">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>182</Built-in_Id>
+<Name>CHILD UPDATE CASCADE</Name>
+<Long_Id>{2B402E44-FDA5-417E-9973-6AECCB72FD8A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{E90EBDF1-34E7-4F78-9B89-7B89C48258B3}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD UPDATE CASCADE</Template_Purpose_Text>
+<Template_Purpose>10013</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE CASCADE</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{0EABEF6E-FF38-4823-8C95-9C29A93E5EA6}+00000000" name="CHILD UPDATE SET NULL">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>183</Built-in_Id>
+<Name>CHILD UPDATE SET NULL</Name>
+<Long_Id>{0EABEF6E-FF38-4823-8C95-9C29A93E5EA6}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{A568BF96-1B07-497E-8A55-5583925BE893}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD UPDATE SET NULL</Template_Purpose_Text>
+<Template_Purpose>10014</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET NULL</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{25CB9FAA-4A38-4A83-9475-471A14198B36}+00000000" name="CHILD UPDATE SET DEFAULT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>184</Built-in_Id>
+<Name>CHILD UPDATE SET DEFAULT</Name>
+<Long_Id>{25CB9FAA-4A38-4A83-9475-471A14198B36}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{D684CC07-1815-432C-A74D-FC906C1C2C8F}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD UPDATE SET DEFAULT</Template_Purpose_Text>
+<Template_Purpose>10015</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE SET DEFAULT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{3E23C942-8C54-4C5D-A25B-8F4BF80FDB7F}+00000000" name="CHILD UPDATE NO ACTION">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>185</Built-in_Id>
+<Name>CHILD UPDATE NO ACTION</Name>
+<Long_Id>{3E23C942-8C54-4C5D-A25B-8F4BF80FDB7F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{A848ED76-996F-4A6F-8E13-AFAECF819BBC}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD UPDATE NO ACTION</Template_Purpose_Text>
+<Template_Purpose>9995</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD UPDATE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD UPDATE NO ACTION</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{6FF5CDC9-7CCE-48A4-866C-934B283A7030}+00000000" name="CHILD DELETE RESTRICT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>191</Built-in_Id>
+<Name>CHILD DELETE RESTRICT</Name>
+<Long_Id>{6FF5CDC9-7CCE-48A4-866C-934B283A7030}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{D38CA85F-7A4F-4DAF-8FCE-AC606B60364B}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD DELETE RESTRICT</Template_Purpose_Text>
+<Template_Purpose>10016</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE RESTRICT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{3B3068D2-FD60-42BB-84A3-628C76C5AEC7}+00000000" name="CHILD DELETE CASCADE">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>192</Built-in_Id>
+<Name>CHILD DELETE CASCADE</Name>
+<Long_Id>{3B3068D2-FD60-42BB-84A3-628C76C5AEC7}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{F615F439-028D-4BC3-B6B4-02080BB58BB4}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD DELETE CASCADE</Template_Purpose_Text>
+<Template_Purpose>10017</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE CASCADE</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{8874A7D9-11CB-45A9-A8B2-A7C4C8C18225}+00000000" name="CHILD DELETE SET NULL">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>193</Built-in_Id>
+<Name>CHILD DELETE SET NULL</Name>
+<Long_Id>{8874A7D9-11CB-45A9-A8B2-A7C4C8C18225}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{4EC51A17-4D75-40AF-B43F-CD6D4841B486}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD DELETE SET NULL</Template_Purpose_Text>
+<Template_Purpose>10018</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET NULL</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{E8BCBB3F-FBC5-4C57-A3B1-54FEC4EF61E3}+00000000" name="CHILD DELETE SET DEFAULT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>194</Built-in_Id>
+<Name>CHILD DELETE SET DEFAULT</Name>
+<Long_Id>{E8BCBB3F-FBC5-4C57-A3B1-54FEC4EF61E3}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{5AB6F6E7-A091-4851-8FE6-FA90A7B02A9F}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD DELETE SET DEFAULT</Template_Purpose_Text>
+<Template_Purpose>10019</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE SET DEFAULT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{5B43A4E3-9D7A-4DAA-B608-1238B28F0952}+00000000" name="CHILD DELETE NO ACTION">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>195</Built-in_Id>
+<Name>CHILD DELETE NO ACTION</Name>
+<Long_Id>{5B43A4E3-9D7A-4DAA-B608-1238B28F0952}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{A0D5EB31-0707-4611-86B0-D49075BCDEB8}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD DELETE NO ACTION</Template_Purpose_Text>
+<Template_Purpose>9996</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD DELETE NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD DELETE NO ACTION</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{BD48B001-7972-49A0-9E87-F5C90EB01C65}+00000000" name="CHILD INSERT RESTRICT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>201</Built-in_Id>
+<Name>CHILD INSERT RESTRICT</Name>
+<Long_Id>{BD48B001-7972-49A0-9E87-F5C90EB01C65}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{517EA445-68C3-480F-AF68-F2977D6F792F}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD INSERT RESTRICT</Template_Purpose_Text>
+<Template_Purpose>10008</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT RESTRICT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT RESTRICT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{4A2C3A99-6F6D-4888-BB60-192398D5C7C4}+00000000" name="CHILD INSERT CASCADE">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>202</Built-in_Id>
+<Name>CHILD INSERT CASCADE</Name>
+<Long_Id>{4A2C3A99-6F6D-4888-BB60-192398D5C7C4}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{55E5C87D-F2C3-4B29-BBB4-7475F1837296}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD INSERT CASCADE</Template_Purpose_Text>
+<Template_Purpose>10009</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT CASCADE</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT CASCADE</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{F9DF9BCF-8668-4C75-8B82-1A712FEB7C6D}+00000000" name="CHILD INSERT SET NULL">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>203</Built-in_Id>
+<Name>CHILD INSERT SET NULL</Name>
+<Long_Id>{F9DF9BCF-8668-4C75-8B82-1A712FEB7C6D}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{FA7F081C-0D8A-4749-BEF1-E73BFB6CFD4A}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD INSERT SET NULL</Template_Purpose_Text>
+<Template_Purpose>10010</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET NULL</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET NULL</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{929A8934-E263-4A2F-8689-37D59D1568B8}+00000000" name="CHILD INSERT SET DEFAULT">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>204</Built-in_Id>
+<Name>CHILD INSERT SET DEFAULT</Name>
+<Long_Id>{929A8934-E263-4A2F-8689-37D59D1568B8}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{7DC68BAB-BB17-4AA0-AE74-A0D1245AEC23}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD INSERT SET DEFAULT</Template_Purpose_Text>
+<Template_Purpose>10011</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET DEFAULT</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT SET DEFAULT</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{BF63AE9F-D05F-43FE-8E44-F56D966B6F0A}+00000000" name="CHILD INSERT NO ACTION">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>205</Built-in_Id>
+<Name>CHILD INSERT NO ACTION</Name>
+<Long_Id>{BF63AE9F-D05F-43FE-8E44-F56D966B6F0A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{4A194AAF-CBED-45EB-B079-2E43BAB1CB23}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CHILD INSERT NO ACTION</Template_Purpose_Text>
+<Template_Purpose>9994</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CHILD INSERT NO ACTION</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CHILD INSERT NO ACTION</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{2B0EC90C-33B0-4E12-8C9B-C16A4F394D04}+00000000" name="TRIGGER UPDATE HEADER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>211</Built-in_Id>
+<Name>TRIGGER UPDATE HEADER</Name>
+<Long_Id>{2B0EC90C-33B0-4E12-8C9B-C16A4F394D04}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{1C88CAE9-F560-4AE4-864C-9C7B6B945FC0}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>TRIGGER UPDATE HEADER</Template_Purpose_Text>
+<Template_Purpose>10024</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">TRIGGER UPDATE HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">TRIGGER UPDATE HEADER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{1D03C71C-E378-40ED-9954-CCFAE7891E19}+00000000" name="TRIGGER UPDATE FOOTER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>212</Built-in_Id>
+<Name>TRIGGER UPDATE FOOTER</Name>
+<Long_Id>{1D03C71C-E378-40ED-9954-CCFAE7891E19}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{CDCE4AF7-7C5B-48F0-8563-EEB7D9CF6DA5}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>TRIGGER UPDATE FOOTER</Template_Purpose_Text>
+<Template_Purpose>10025</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">TRIGGER UPDATE FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">TRIGGER UPDATE FOOTER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{D4153B24-3DBC-46D3-A1CC-4687286AD696}+00000000" name="TRIGGER DELETE HEADER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>213</Built-in_Id>
+<Name>TRIGGER DELETE HEADER</Name>
+<Long_Id>{D4153B24-3DBC-46D3-A1CC-4687286AD696}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{20EAF79F-BB4E-42A1-A8C7-E62975A4BE7F}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>TRIGGER DELETE HEADER</Template_Purpose_Text>
+<Template_Purpose>10026</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">TRIGGER DELETE HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">TRIGGER DELETE HEADER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{A2C12FA0-AF09-4696-BD73-6915B05CCB0A}+00000000" name="TRIGGER DELETE FOOTER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>214</Built-in_Id>
+<Name>TRIGGER DELETE FOOTER</Name>
+<Long_Id>{A2C12FA0-AF09-4696-BD73-6915B05CCB0A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{09B0FCE4-D8D1-4858-98DB-0A535FE00D0B}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>TRIGGER DELETE FOOTER</Template_Purpose_Text>
+<Template_Purpose>10027</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">TRIGGER DELETE FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">TRIGGER DELETE FOOTER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{02F16755-C1C9-4DEF-9262-FE8914F0D1A9}+00000000" name="TRIGGER INSERT HEADER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>215</Built-in_Id>
+<Name>TRIGGER INSERT HEADER</Name>
+<Long_Id>{02F16755-C1C9-4DEF-9262-FE8914F0D1A9}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{DA73EB69-5952-45D6-8687-70C07056F590}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>TRIGGER INSERT HEADER</Template_Purpose_Text>
+<Template_Purpose>10028</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">TRIGGER INSERT HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">TRIGGER INSERT HEADER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{E9FC0CD6-31AB-49BE-B323-9124D03F2727}+00000000" name="TRIGGER INSERT FOOTER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>216</Built-in_Id>
+<Name>TRIGGER INSERT FOOTER</Name>
+<Long_Id>{E9FC0CD6-31AB-49BE-B323-9124D03F2727}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{8F6B6E77-D849-444B-8009-135BD5F6B895}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>TRIGGER INSERT FOOTER</Template_Purpose_Text>
+<Template_Purpose>10029</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">TRIGGER INSERT FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">TRIGGER INSERT FOOTER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{410B16C1-8096-4F1D-89E6-D2345D2B90F1}+00000000" name="CUSTOM TRIGGER DEFAULT BODY">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>223</Built-in_Id>
+<Name>CUSTOM TRIGGER DEFAULT BODY</Name>
+<Long_Id>{410B16C1-8096-4F1D-89E6-D2345D2B90F1}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{3164061A-C98E-429B-BCBD-3F131B83BC42}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CUSTOM TRIGGER DEFAULT BODY</Template_Purpose_Text>
+<Template_Purpose>10032</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER DEFAULT BODY</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER DEFAULT BODY</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{AC15699B-1883-40FF-968B-B05F2B0E54FC}+00000000" name="CUSTOM TRIGGER HEADER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>221</Built-in_Id>
+<Name>CUSTOM TRIGGER HEADER</Name>
+<Long_Id>{AC15699B-1883-40FF-968B-B05F2B0E54FC}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{F7DC8F68-5C56-4EAD-B137-B97AB83D395A}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CUSTOM TRIGGER HEADER</Template_Purpose_Text>
+<Template_Purpose>10030</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER HEADER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER HEADER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{12B10626-1E61-4B9C-8A65-860DB0E6EFEC}+00000000" name="CUSTOM TRIGGER FOOTER">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>222</Built-in_Id>
+<Name>CUSTOM TRIGGER FOOTER</Name>
+<Long_Id>{12B10626-1E61-4B9C-8A65-860DB0E6EFEC}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Trigger_Template_Ref>{FDB52390-E64A-45D3-B5A5-97C8CDD8CA46}+00000000</Trigger_Template_Ref>
+<Template_Purpose_Text>CUSTOM TRIGGER FOOTER</Template_Purpose_Text>
+<Template_Purpose>10031</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER FOOTER</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">CUSTOM TRIGGER FOOTER</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+<Default_Trigger_Template id="{2838CD1A-0BF4-48D0-97CE-85D35742EBDF}+00000000" name="RAISE EXCEPTION PROC">
+<Default_Trigger_TemplateProps>
+<Built-in_Id>231</Built-in_Id>
+<Name>RAISE EXCEPTION PROC</Name>
+<Long_Id>{2838CD1A-0BF4-48D0-97CE-85D35742EBDF}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Template_Purpose_Text>RAISE EXCEPTION PROC</Template_Purpose_Text>
+<Template_Purpose>10033</Template_Purpose>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Do_Not_Generate Derived="Y">false</Do_Not_Generate>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">RAISE EXCEPTION PROC</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">RAISE EXCEPTION PROC</User_Formatted_Physical_Name>
+</Default_Trigger_TemplateProps>
+</Default_Trigger_Template>
+</Default_Trigger_Template_Groups>

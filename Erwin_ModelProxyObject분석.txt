@@ -1,0 +1,22 @@
+<!-- 모델 프록시 객체 : id가 Long_id안쪽에 나오도록 함. --> 
+<EM2:Model_Proxy_Object xmlns="http://www.ca.com/erwin/EM2data" id="{2BD4FFB4-998F-462C-9B17-CD45318FB419}+00000000" name="Model_Proxy_Object_1">
+<!-- 모델 프록시 객체 속성 --> 
+<Model_Proxy_ObjectProps>
+<!-- 이름 : Model_Proxy_Object_1 --> 
+<Name>Model_Proxy_Object_1</Name>
+<!-- Long_Id --> 
+<Long_Id>{2BD4FFB4-998F-462C-9B17-CD45318FB419}+00000000</Long_Id>
+<!-- 프록시된 객체 아이디 EMX model id 와 동일함-(중요)-> 
+<Proxied_Object_Id Tool="Y" ReadOnly="Y">{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000</Proxied_Object_Id>
+<!-- 현재 주제영역 참조 : 서브젝트 그룹 아이디에서 참조함.(중요)
+<Subject_Area_Groups>
+<Subject_Area id 로 사용 
+--> 
+<Current_Subject_Area_Ref>{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000</Current_Subject_Area_Ref>
+<!-- 현재 엔지니어 옵션 리포트 참조 --> 
+<Current_Forward_Engineer_Option_Report_Ref>{E5D8AE09-36C3-4E04-8183-0EEB4D8ACA04}+00000000</Current_Forward_Engineer_Option_Report_Ref>
+<!-- 다음 UDP 아이디 --> 
+<Next_Udp_Id>1</Next_Udp_Id>
+<!-- 다음 이름 엔티티 --> 
+<Next_Name_Id_Entity Tool="Y" ReadOnly="Y">3</Next_Name_Id_Entity>
+</Model_Proxy_ObjectProps>

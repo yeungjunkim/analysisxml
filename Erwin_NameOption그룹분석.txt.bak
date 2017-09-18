@@ -1,0 +1,194 @@
+<!-- 이름 옵션 그룹들 --> 
+<Naming_Options_Groups>
+<!-- 이름 옵션 id : 아래 Long ID 와 맞춰야함 --> 
+<Naming_Options id="{D89B0707-8E1C-4957-8093-A8F98BAD2E49}+00000000" name="LogicalEntityNamingOption">
+<!-- 이름 옵션 속성 --> 
+<Naming_OptionsProps>
+<!-- 빌트인 아이디 : 251 --> 
+<Built-in_Id>251</Built-in_Id>
+<!-- 이름 : 로지컬 엔티티 이름 옵션 --> 
+<Name>LogicalEntityNamingOption</Name>
+<!-- 아이디 : 위쪽 아이디랑 동일함 --> 
+<Long_Id>{D89B0707-8E1C-4957-8093-A8F98BAD2E49}+00000000</Long_Id>
+<!-- 소유자 경로 : 모델 2 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 로지컬만 사용 : true --> 
+<Logical_Only>true</Logical_Only>
+<!-- 이름 맵핑 대소문자 컨버젼 : 0 (의미 ???? ) --> 
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<!-- 이름 맵핑 최대 길이 : 254 --> 
+<Name_Mapping_Maximum_Length>254</Name_Mapping_Maximum_Length>
+<!-- 의존 객체들 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 이름 맵핑 객체 타입 <Forward_Engineer_Owner_Override <Forward_Engineer_Owner_OverrideProps><Object_Type> 텍스트값--> 
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200003</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">LogicalEntityNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">LogicalEntityNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{B2B0C96B-14FF-46A6-A86D-3E5C7EA3ED96}+00000000" name="LogicalAttributeNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>252</Built-in_Id>
+<Name>LogicalAttributeNamingOption</Name>
+<Long_Id>{B2B0C96B-14FF-46A6-A86D-3E5C7EA3ED96}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Logical_Only>true</Logical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>254</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200005</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">LogicalAttributeNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">LogicalAttributeNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{23809E4E-006E-4CF8-907A-F19448FCA180}+00000000" name="LogicalDomainNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>253</Built-in_Id>
+<Name>LogicalDomainNamingOption</Name>
+<Long_Id>{23809E4E-006E-4CF8-907A-F19448FCA180}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Logical_Only>true</Logical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>254</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200007</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">LogicalDomainNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">LogicalDomainNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{434319EF-A375-401E-821F-0A3CCEF1C34B}+00000000" name="LogicalRelationshipNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>254</Built-in_Id>
+<Name>LogicalRelationshipNamingOption</Name>
+<Long_Id>{434319EF-A375-401E-821F-0A3CCEF1C34B}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Logical_Only>true</Logical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>254</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200028</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">LogicalRelationshipNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">LogicalRelationshipNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{B45EC4E8-E58D-496A-9B3A-DB4D0AD1325E}+00000000" name="LogicalKeyGroupNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>255</Built-in_Id>
+<Name>LogicalKeyGroupNamingOption</Name>
+<Long_Id>{B45EC4E8-E58D-496A-9B3A-DB4D0AD1325E}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Logical_Only>true</Logical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>254</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200009</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">LogicalKeyGroupNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">LogicalKeyGroupNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{68C38ED4-1724-4A88-9E8C-F1819683F213}+00000000" name="LogicalValidationRuleNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>256</Built-in_Id>
+<Name>LogicalValidationRuleNamingOption</Name>
+<Long_Id>{68C38ED4-1724-4A88-9E8C-F1819683F213}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Logical_Only>true</Logical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>254</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+4020002C</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">LogicalValidationRuleNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">LogicalValidationRuleNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{9E058B05-AF7A-4584-B214-2FAAFF4D1952}+00000000" name="PhysicalEntityNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>261</Built-in_Id>
+<Name>PhysicalEntityNamingOption</Name>
+<Long_Id>{9E058B05-AF7A-4584-B214-2FAAFF4D1952}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Physical_Only>true</Physical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>30</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200003</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PhysicalEntityNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PhysicalEntityNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{04015817-D871-41CC-BDA5-D0CD2B4BD608}+00000000" name="PhysicalAttributeNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>262</Built-in_Id>
+<Name>PhysicalAttributeNamingOption</Name>
+<Long_Id>{04015817-D871-41CC-BDA5-D0CD2B4BD608}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Physical_Only>true</Physical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>30</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200005</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PhysicalAttributeNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PhysicalAttributeNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{8F839A6F-A047-4FDA-8446-16751D2C1A42}+00000000" name="PhysicalDomainNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>263</Built-in_Id>
+<Name>PhysicalDomainNamingOption</Name>
+<Long_Id>{8F839A6F-A047-4FDA-8446-16751D2C1A42}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Physical_Only>true</Physical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>30</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200007</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PhysicalDomainNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PhysicalDomainNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{A5A73EC5-044D-4D68-9BE6-3A006E506B77}+00000000" name="PhysicalRelationshipNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>264</Built-in_Id>
+<Name>PhysicalRelationshipNamingOption</Name>
+<Long_Id>{A5A73EC5-044D-4D68-9BE6-3A006E506B77}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Physical_Only>true</Physical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>30</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200028</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PhysicalRelationshipNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PhysicalRelationshipNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{F8D93FD9-79D9-4CE2-AFB8-06AC09861ED1}+00000000" name="PhysicalKeyGroupNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>265</Built-in_Id>
+<Name>PhysicalKeyGroupNamingOption</Name>
+<Long_Id>{F8D93FD9-79D9-4CE2-AFB8-06AC09861ED1}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Physical_Only>true</Physical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>30</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200009</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PhysicalKeyGroupNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PhysicalKeyGroupNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+<Naming_Options id="{BB9E3301-13E6-472C-BA56-BEFB4B456FB1}+00000000" name="PhysicalValidationRuleNamingOption">
+<Naming_OptionsProps>
+<Built-in_Id>266</Built-in_Id>
+<Name>PhysicalValidationRuleNamingOption</Name>
+<Long_Id>{BB9E3301-13E6-472C-BA56-BEFB4B456FB1}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Physical_Only>true</Physical_Only>
+<Name_Mapping_Case_Conversion>0</Name_Mapping_Case_Conversion>
+<Name_Mapping_Maximum_Length>30</Name_Mapping_Maximum_Length>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+4020002C</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">PhysicalValidationRuleNamingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">PhysicalValidationRuleNamingOption</User_Formatted_Physical_Name>
+</Naming_OptionsProps>
+</Naming_Options>
+</Naming_Options_Groups>

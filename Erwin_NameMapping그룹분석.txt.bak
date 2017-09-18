@@ -1,0 +1,120 @@
+<!-- 이름 맵핑 그룹들 : 시작 --> 
+<Name_Mapping_Groups>
+<!-- 이름 맵핑 아이디 아래 Long Id 와 맵핑 --> 
+<Name_Mapping id="{A946C1AE-40EB-4D4C-8EBC-C81A16B6C58D}+00000000" name="EntityNameMappingOption">
+<!-- 이름 맵핑 속성 --> 
+<Name_MappingProps>
+<!-- 빌트인 id : 41 --> 
+<Built-in_Id>41</Built-in_Id>
+<1-- Entity이름 맵핑 속성 옵션 --> 
+<Name>EntityNameMappingOption</Name>
+<!-- Long id : 속성 아이디 --> 
+<Long_Id>{A946C1AE-40EB-4D4C-8EBC-C81A16B6C58D}+00000000</Long_Id>
+<!-- 소유자 경로 : 모델 명 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 이름 맵핑 사용자 용어사전 : false --> 
+<Name_Mapping_Use_Glossary>false</Name_Mapping_Use_Glossary>
+<!-- 이름 맵핑 대체 축약 : true --> 
+<Name_Mapping_Alternate_Abbrev>true</Name_Mapping_Alternate_Abbrev>
+<!-- 이름 맵핑 매크로 텍스트 : 엔티티 이름 %EntityName() --> 
+<Name_Mapping_Macro_Text>%EntityName()</Name_Mapping_Macro_Text>
+<!--  이름 맵핑 앞붙임--> 
+<Name_Mapping_Prefix/>
+<!--  이름 맵핑 뒷붙임--> 
+<Name_Mapping_Suffix/>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 이름 맵핑 객체 타입 <Forward_Engineer_Owner_Override_Groups> <Forward_Engineer_Owner_Override> <Object_Type>의 text값과 동일 --> 
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200003</Name_Mapping_Obj_Type>
+<!-- 사용자 형식 이름 : EntityNameMappingOption --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">EntityNameMappingOption</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 : EntityNameMappingOption --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">EntityNameMappingOption</User_Formatted_Physical_Name>
+</Name_MappingProps>
+</Name_Mapping>
+<Name_Mapping id="{25F5EDC0-FCA7-4159-9E17-613335BCCC79}+00000000" name="AttributeNameMappingOption">
+<Name_MappingProps>
+<Built-in_Id>42</Built-in_Id>
+<Name>AttributeNameMappingOption</Name>
+<Long_Id>{25F5EDC0-FCA7-4159-9E17-613335BCCC79}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Name_Mapping_Use_Glossary>false</Name_Mapping_Use_Glossary>
+<Name_Mapping_Alternate_Abbrev>true</Name_Mapping_Alternate_Abbrev>
+<Name_Mapping_Macro_Text>%AttName</Name_Mapping_Macro_Text>
+<Name_Mapping_Prefix/>
+<Name_Mapping_Suffix/>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200005</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">AttributeNameMappingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">AttributeNameMappingOption</User_Formatted_Physical_Name>
+</Name_MappingProps>
+</Name_Mapping>
+<Name_Mapping id="{565DF6EE-8215-4F44-A7F2-432D8F28AA2A}+00000000" name="DomainNameMappingOption">
+<Name_MappingProps>
+<Built-in_Id>43</Built-in_Id>
+<Name>DomainNameMappingOption</Name>
+<Long_Id>{565DF6EE-8215-4F44-A7F2-432D8F28AA2A}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Name_Mapping_Use_Glossary>false</Name_Mapping_Use_Glossary>
+<Name_Mapping_Alternate_Abbrev>true</Name_Mapping_Alternate_Abbrev>
+<Name_Mapping_Macro_Text>%DomainName</Name_Mapping_Macro_Text>
+<Name_Mapping_Prefix/>
+<Name_Mapping_Suffix/>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200007</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">DomainNameMappingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">DomainNameMappingOption</User_Formatted_Physical_Name>
+</Name_MappingProps>
+</Name_Mapping>
+<Name_Mapping id="{182AB52E-A71C-4FDC-8543-53FE73CD4805}+00000000" name="RelationshipNameMappingOption">
+<Name_MappingProps>
+<Built-in_Id>44</Built-in_Id>
+<Name>RelationshipNameMappingOption</Name>
+<Long_Id>{182AB52E-A71C-4FDC-8543-53FE73CD4805}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Name_Mapping_Use_Glossary>false</Name_Mapping_Use_Glossary>
+<Name_Mapping_Alternate_Abbrev>false</Name_Mapping_Alternate_Abbrev>
+<Name_Mapping_Macro_Text/>
+<Name_Mapping_Prefix/>
+<Name_Mapping_Suffix/>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200028</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">RelationshipNameMappingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">RelationshipNameMappingOption</User_Formatted_Physical_Name>
+</Name_MappingProps>
+</Name_Mapping>
+<Name_Mapping id="{CCF30688-304E-4D27-983C-0DD666083220}+00000000" name="KeyGroupNameMappingOption">
+<Name_MappingProps>
+<Built-in_Id>45</Built-in_Id>
+<Name>KeyGroupNameMappingOption</Name>
+<Long_Id>{CCF30688-304E-4D27-983C-0DD666083220}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Name_Mapping_Use_Glossary>false</Name_Mapping_Use_Glossary>
+<Name_Mapping_Alternate_Abbrev>false</Name_Mapping_Alternate_Abbrev>
+<Name_Mapping_Macro_Text>%KeyName</Name_Mapping_Macro_Text>
+<Name_Mapping_Prefix/>
+<Name_Mapping_Suffix/>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+40200009</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">KeyGroupNameMappingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">KeyGroupNameMappingOption</User_Formatted_Physical_Name>
+</Name_MappingProps>
+</Name_Mapping>
+<Name_Mapping id="{5903D64E-427A-40B4-9ACB-EA3E9689CED6}+00000000" name="ValidationRuleNameMappingOption">
+<Name_MappingProps>
+<Built-in_Id>46</Built-in_Id>
+<Name>ValidationRuleNameMappingOption</Name>
+<Long_Id>{5903D64E-427A-40B4-9ACB-EA3E9689CED6}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Name_Mapping_Use_Glossary>false</Name_Mapping_Use_Glossary>
+<Name_Mapping_Alternate_Abbrev>false</Name_Mapping_Alternate_Abbrev>
+<Name_Mapping_Macro_Text/>
+<Name_Mapping_Prefix/>
+<Name_Mapping_Suffix/>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Name_Mapping_Obj_Type>{E7AB3CC0-47AD-4A10-8972-C0FB869EE7CB}+4020002C</Name_Mapping_Obj_Type>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">ValidationRuleNameMappingOption</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">ValidationRuleNameMappingOption</User_Formatted_Physical_Name>
+</Name_MappingProps>
+</Name_Mapping>
+</Name_Mapping_Groups>

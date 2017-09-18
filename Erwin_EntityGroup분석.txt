@@ -1,0 +1,85 @@
+<!-- 도메인 그룹 --> 
+<Domain_Groups>
+<!-- 도메인 ID : 도메인 ID--> 
+<Domain id="{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000" name="<root>">
+
+<DomainProps>
+<Built-in_Id>6</Built-in_Id>
+<Name><root></Name>
+<Long_Id>{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>4</Type>
+<Null_Option>0</Null_Option>
+<Physical_Name><root></Physical_Name>
+<Logical_Datatype>CHAR(18)</Logical_Datatype>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Attribute_Name>%AttDomain</Attribute_Name>
+<Column_Name>%AttName</Column_Name>
+<Column_Comment>%AttDef</Column_Comment>
+<User_Formatted_Name ReadOnly="Y" Derived="Y"><root></User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y"><root></User_Formatted_Physical_Name>
+</DomainProps>
+</Domain>
+<Domain id="{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000" name="<default>">
+<DomainProps>
+<Built-in_Id>1</Built-in_Id>
+<Name><default></Name>
+<Long_Id>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>3</Type>
+<Datatype Derived="Y">CHAR(18)</Datatype>
+<Icon>{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Icon>
+<Null_Option Derived="Y">0</Null_Option>
+<Physical_Name Derived="Y"><default></Physical_Name>
+<Logical_Datatype>CHAR(18)</Logical_Datatype>
+<Parent_Domain>{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000</Parent_Domain>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<Dependent_Objects_Ref index="0">{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Dependent_Objects_Ref>
+<Dependent_Objects_Ref index="1">{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Dependent_Objects_Ref>
+<Dependent_Objects_Ref index="2">{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Dependent_Objects_Ref>
+<Dependent_Objects_Ref index="3">{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Dependent_Objects_Ref>
+<Dependent_Objects_Ref index="4">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Dependent_Objects_Ref>
+<Dependent_Objects_Ref index="5">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Dependent_Objects_Ref>
+<Dependent_Objects_Ref index="6">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Dependent_Objects_Ref>
+<Dependent_Objects_Ref index="7">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Dependent_Objects_Ref>
+<Dependent_Objects_Ref index="8">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Dependent_Objects_Ref>
+<Dependent_Objects_Ref index="9">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Dependent_Objects_Ref>
+<Dependent_Objects_Ref index="10">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Dependent_Objects_Ref>
+<Dependent_Objects_Ref index="11">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
+<Column_Name Derived="Y">%AttName</Column_Name>
+<Column_Comment Derived="Y">%AttDef</Column_Comment>
+<Attribute_Icon Derived="Y">{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Attribute_Icon>
+<User_Formatted_Name ReadOnly="Y" Derived="Y"><default></User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y"><default></User_Formatted_Physical_Name>
+</DomainProps>
+</Domain>
+<Domain id="{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000" name="String">
+<DomainProps>
+<Built-in_Id>2</Built-in_Id>
+<Name>String</Name>
+<Long_Id>{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Long_Id>
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Type>5</Type>
+<Datatype Derived="Y">VARCHAR2(20)</Datatype>
+<Icon>{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Icon>
+<Null_Option Derived="Y">0</Null_Option>
+<Physical_Name Derived="Y">String</Physical_Name>
+<Logical_Datatype>VARCHAR(20)</Logical_Datatype>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
+<Column_Name Derived="Y">%AttName</Column_Name>
+<Column_Comment Derived="Y">%AttDef</Column_Comment>
+<Attribute_Icon Derived="Y">{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Attribute_Icon>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">String</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">String</User_Formatted_Physical_Name>
+</DomainProps>
+</Domain>
+<Domain id="{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000" name="Number">...</Domain>
+<Domain id="{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000" name="Datetime">...</Domain>
+<Domain id="{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000" name="Blob">...</Domain>
+</Domain_Groups>

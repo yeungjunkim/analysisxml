@@ -1,0 +1,23 @@
+<!-- 이력 정보 그룹 --> 
+<History_Information_Groups>
+<!-- 이력 정보 그룹 아이디 : 아래 Longid와 동일해야함 --> 
+<History_Information id="{8521B199-F2C5-408D-B9DD-A7FDEACF3829}+00000000" name="History_Information_ID_51">
+<!-- 이력 정보 --> 
+<History_InformationProps>
+<!-- 빌트인 아이디 : 51 --> 
+<Built-in_Id>51</Built-in_Id>
+<!-- 이름 :-->
+<Name>History_Information_ID_51</Name>
+<!-- LongID 위 아이디랑 동일함 --> 
+<Long_Id>{8521B199-F2C5-408D-B9DD-A7FDEACF3829}+00000000</Long_Id>
+<!-- 소유자 패스 : Model_2 (모델 이름과 동일) (중요)--> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<Created_Time>1503933958</Created_Time>
+<Description>Current model was created</Description>
+<History_Event_Type>1</History_Event_Type>
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<User_Formatted_Name ReadOnly="Y" Derived="Y">History_Information_ID_51</User_Formatted_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">History_Information_ID_51</User_Formatted_Physical_Name>
+</History_InformationProps>
+</History_Information>
+</History_Information_Groups>

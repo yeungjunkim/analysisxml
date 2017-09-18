@@ -1,0 +1,41 @@
+<!-- Erwin Tag --> 
+<ERwin xmlns="http://www.ca.com/erwin" xmlns:UDP="http://www.ca.com/erwin/metadata" xmlns:EMX="http://www.ca.com/erwin/data" xmlns:EM2="http://www.ca.com/erwin/EM2data" FileVersion="7.2.1644" Format="AllFusion_Repository">
+<!-- EMX Model 태그 --> 
+<EMX:Model xmlns="http://www.ca.com/erwin/data" id="{4AFF045C-D2FF-4910-9AA5-C61671F4E919}+00000000" name="Model_1">
+<!-- 모델 환경 속성 -->
+<ModelEnvProps>...</ModelEnvProps>
+<!-- 모델 속성 -->
+<ModelProps>...</ModelProps>
+<!-- 도메인 그룹 --> 
+<Domain_Groups>...</Domain_Groups>
+<!-- 비트맵 그룹 --> 
+<Bitmap_Groups>...</Bitmap_Groups>
+<!-- 주제항목 그룹 --> 
+<Subject_Area_Groups>...</Subject_Area_Groups>
+<!-- 트리거 템플릿 그룹 --> 
+<Trigger_Template_Groups>...</Trigger_Template_Groups>
+<!-- 기본 트리거 템플릿 그룹 --> 
+<Default_Trigger_Template_Groups>...</Default_Trigger_Template_Groups>
+<!-- 이름 맵핑 그룹 --> 
+<Name_Mapping_Groups>...</Name_Mapping_Groups>
+<!-- 이름 옵션 그룹 --> 
+<Naming_Options_Groups>...</Naming_Options_Groups>
+<!-- 이력 정보 그룹 --> 
+<History_Information_Groups>...</History_Information_Groups>
+<!-- 폰트 그룹 --> 
+<Font_Groups>...</Font_Groups>
+<!-- 디폴트 폰트 그룹 --> 
+<Default_Fonts_and_Colors_Object_Groups>...</Default_Fonts_and_Colors_Object_Groups>
+</EMX:Model>
+<!-- Erwin EM2 모델 프록시 객체 태그 --> 
+<EM2:Model_Proxy_Object xmlns="http://www.ca.com/erwin/EM2data" id="{0DCFE6A6-1F0B-4B4E-B86C-E90C481F9271}+00000000" name="Model_Proxy_Object_1">
+<!-- 모델 프록시 객체 속성 -->
+<Model_Proxy_ObjectProps>...</Model_Proxy_ObjectProps>
+<!-- 저장 출력 프록시 객체 그룹 --> 
+<Stored_Display_Proxy_Object_Groups>...</Stored_Display_Proxy_Object_Groups>
+<!-- 주제영역 프록시 객체 그룹 --> 
+<Subject_Area_Proxy_Object_Groups>...</Subject_Area_Proxy_Object_Groups>
+</EM2:Model_Proxy_Object>
+</ERwin>
+
+

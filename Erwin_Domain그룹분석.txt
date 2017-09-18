@@ -1,0 +1,298 @@
+<!-- 도메인 그룹들 --> 
+<Domain_Groups>
+<!-- 도메인 그룹 ID --> 
+<Domain id="{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000" name="<root>">
+<!-- 도메인 그룹 속성 --> 
+<DomainProps>
+<!-- 빌트인 ID (????)-->
+<Built-in_Id>6</Built-in_Id>
+<!-- 이름 <root> (????)-->
+<Name><root></Name>
+<!--도메인 ID : line 4-->  
+<Long_Id>{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000</Long_Id>
+<!-- 모델 이름 : Model_2 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 타입 : 4 (???) --> 
+<Type>4</Type>
+<!-- 널 옵션 --> 
+<Null_Option>0</Null_Option>
+<!-- 물리이름 : ROOT--> 
+<Physical_Name><root></Physical_Name>
+<!-- 논리 데이터 타입 --> 
+<Logical_Datatype>CHAR(18)</Logical_Datatype>
+<!-- 의존 객체 참조 배열 -->
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존 객체 참조 인덱스 0 --> 
+<Dependent_Objects_Ref index="0">{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<!-- Attribute 이름 --> 
+<Attribute_Name>%AttDomain</Attribute_Name>
+<!-- 컬럼 이름 --> 
+<Column_Name>%AttName</Column_Name>
+<!-- 컬럼 주석 --> 
+<Column_Comment>%AttDef</Column_Comment>
+<!-- 사용자 형식 이름 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y"><root></User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y"><root></User_Formatted_Physical_Name>
+<!-- 도메인 속성 끝 --> 
+</DomainProps>
+<!-- 도메인 끝 --> 
+</Domain>
+<!-- 도메인 ID : 위쪽 상단 의존 객체 참조 인덱스 0을 참조 : 26 line--> 
+<Domain id="{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000" name="<default>">
+<!-- 도메인 속성들 -->
+<DomainProps>
+<!-- 빌트인 ID : 1 (???)-->
+<Built-in_Id>1</Built-in_Id>
+<!-- 이름 <default> --> 
+<Name><default></Name>
+<!-- 아이디 : 도메인 ID 26 line -->
+<Long_Id>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Long_Id>
+<!-- 소유자 경로 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 타입 : 3 (???)-->
+<Type>3</Type>
+<!-- 데이터 타입 : CHAR(18) (???) --> 
+<Datatype Derived="Y">CHAR(18)</Datatype>
+<!-- 아이콘 ID --> 
+<Icon>{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Icon>
+<!-- 널 옵션 : 0 (???) --> 
+<Null_Option Derived="Y">0</Null_Option>
+<!-- 물리 이름 : <default> --> 
+<Physical_Name Derived="Y"><default></Physical_Name>
+<!-- 논리 이름 : CHAR(18) --> 
+<Logical_Datatype>CHAR(18)</Logical_Datatype>
+<!-- 부모 도메인 : line 4 --> 
+<Parent_Domain>{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000</Parent_Domain>
+<!-- 의존 객체 참조 배열 -->
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
+<!-- 의존 객체 참조 --> 
+<!-- 중요 
+	아래 네개는 엔티티나 attribute 여부와 상관없이 무조건 존재 
+    index = 0 : String 
+    index = 1 : Number 
+    index = 2 : DateTime 
+    index = 3 : Blob
+
+    이 뒤로 오는 내용은 각 엔티티 별로 Attribute를 순서대로 나열함. 
+--> 
+<!-- 의존 객체 참조 : 100 line String Domain ID 참조 -->  
+<Dependent_Objects_Ref index="0">{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 133 line Number Domain ID 참조 -->  
+<Dependent_Objects_Ref index="1">{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 155 line DateTime Domain ID 참조 -->  
+<Dependent_Objects_Ref index="2">{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 177 line Blob Domain ID 참조 -->  
+<Dependent_Objects_Ref index="3">{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 고객 고객번호ID Domain ID 참조 -->  
+<Dependent_Objects_Ref index="4">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 고객 고객명 Domain ID 참조 -->  
+<Dependent_Objects_Ref index="5">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 고객 고객주소 String Domain ID 참조 -->  
+<Dependent_Objects_Ref index="6">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : 고객 기타 String Domain ID 참조 -->  
+<Dependent_Objects_Ref index="7">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : Erwin_AttributeGroups 분석 80 line 거래처번호 Domain ID 참조 -->  
+<Dependent_Objects_Ref index="8">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : Erwin_AttributeGroups 분석 123 line 거래처명 Domain ID 참조 -->  
+<Dependent_Objects_Ref index="9">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : Erwin_AttributeGroups 분석 172 line 거래처주소 Domain ID 참조 -->  
+<Dependent_Objects_Ref index="10">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Dependent_Objects_Ref>
+<!-- 의존 객체 참조 : Erwin_AttributeGroups 분석 194 line 기타 Domain ID 참조 -->  
+<Dependent_Objects_Ref index="11">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Dependent_Objects_Ref>
+</Dependent_Objects_Ref_Array>
+<!-- 속성 이름 -->
+<Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
+<!-- 컬럼 이름 --> 
+<Column_Name Derived="Y">%AttName</Column_Name>
+<!-- 컬럼 주석 --> 
+<Column_Comment Derived="Y">%AttDef</Column_Comment>
+<!-- Attribute 아이콘 --> 
+<Attribute_Icon Derived="Y">{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Attribute_Icon>
+<!-- 사용자 형식 이름 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y"><default></User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 -->
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y"><default></User_Formatted_Physical_Name>
+<!-- 도메인 속성 종료 -->
+</DomainProps>
+<!-- 도메인 종료-->
+</Domain>
+<!-- 도메인 시작 --> 
+<Domain id="{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000" name="String">
+<!-- 도메인 속성 --> 
+<DomainProps>
+<!-- 빌트인 ID (???) --> 
+<Built-in_Id>2</Built-in_Id>
+<!-- 이름 : 스트링 --> 
+<Name>String</Name>
+<!-- 스트링 id --> 
+<Long_Id>{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Long_Id>
+<!-- 소유자 경로 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 타입 : 5 (???) --> 
+<Type>5</Type>
+<!-- 데이터 타입 : VARCHAR2(20) --> 
+<Datatype Derived="Y">VARCHAR2(20)</Datatype>
+<!-- 아이콘 ID : Bitmap id와 연결됨 --> 
+<Icon>{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Icon>
+<!-- 널 옵션 : 0(???)-->
+<Null_Option Derived="Y">0</Null_Option>
+<!-- 물리 이름 : String --> 
+<Physical_Name Derived="Y">String</Physical_Name>
+<!-- 논리 데이터 타입 : VARCHAR(20) --> 
+<Logical_Datatype>VARCHAR(20)</Logical_Datatype>
+<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- Attribute 이름 --> 
+<Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
+<!-- 컬럼 이름 --> 
+<Column_Name Derived="Y">%AttName</Column_Name>
+<!-- 컬럼 주석 --> 
+<Column_Comment Derived="Y">%AttDef</Column_Comment>
+<!-- 속성 아이콘 : Bitmap Groups 부분 도메인 ID 참조--> 
+<Attribute_Icon Derived="Y">{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Attribute_Icon>
+<!-- 사용자 포맷 이름 : String --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">String</User_Formatted_Name>
+<!-- 사용자 물리 이름 : String --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">String</User_Formatted_Physical_Name>
+<!-- 도메인 속성 종료 --> 
+</DomainProps>
+<!-- 도메인 종료 --> 
+</Domain>
+<!-- 도메인 이름 : Number-->
+<Domain id="{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000" name="Number">
+<!-- 도메인 속성 시작 --> 
+<DomainProps>
+<!-- 빌트인 ID : 3 (???) -->
+<Built-in_Id>3</Built-in_Id>
+<!-- 이름 : Number --> 
+<Name>Number</Name>
+<!-- 아이디 --> 
+<Long_Id>{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Long_Id>
+<!-- 소유자 경로 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 타입 : 6 (???)-->
+<Type>6</Type>
+<!-- 데이터 타입 : Integer --> 
+<Datatype Derived="Y">INTEGER</Datatype>
+<!-- 아이콘 : Bitmap Default Number Icon과 연결됨 --> 
+<Icon>{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Icon>
+<!-- 널 옵션 : 0 (???) --> 
+<Null_Option Derived="Y">0</Null_Option>
+<!-- 물리 이름 : Number --> 
+<Physical_Name Derived="Y">Number</Physical_Name>
+<!-- 논리 데이터 타입 : Integer --> 
+<Logical_Datatype>INTEGER</Logical_Datatype>
+<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+<!-- 의존 객체 참조 배열 -->
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 속성 이름 --> 
+<Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
+<!-- 컬럼 이름 --> 
+<Column_Name Derived="Y">%AttName</Column_Name>
+<!-- 컬럼  주석 --> 
+<Column_Comment Derived="Y">%AttDef</Column_Comment>
+<!-- 컬럼 속성 아이콘 : Default Number Icon -->
+<Attribute_Icon Derived="Y">{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Attribute_Icon>
+<!-- 사용자 형식 이름 : Number --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Number</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 : Number --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Number</User_Formatted_Physical_Name>
+<!-- 도메인 속성 종료-->
+</DomainProps>
+<!-- 도메인 종료-->
+</Domain>
+<!-- 도메인 아이디 -->
+<Domain id="{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000" name="Datetime">
+<!-- 도메인 속성 -->
+<DomainProps>
+<!-- 빌트인 아이디 : 4 (???) --> 
+<Built-in_Id>4</Built-in_Id>
+<!-- 이름 : Datetime -->
+<Name>Datetime</Name>
+<!-- 아이디 -->
+<Long_Id>{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Long_Id>
+<!-- 소유자 경로 : Model_2 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- 타입 : 7 --> 
+<Type>7</Type>
+<!-- 데이타타입 : DATE -->
+<Datatype Derived="Y">DATE</Datatype>
+<!-- 아이콘 id : Bitmap Default Datetime icon id --> 
+<Icon>{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Icon>
+<!-- 널 옵션 -->
+<Null_Option Derived="Y">0</Null_Option>
+<!-- 물리 이름 : Datetime --> 
+<Physical_Name Derived="Y">Datetime</Physical_Name>
+<!-- 논리 데이터 타입 : Date --> 
+<Logical_Datatype>DATE</Logical_Datatype>
+<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- 속성 이름 --> 
+<Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
+<!-- 컬럼 이름 --> 
+<Column_Name Derived="Y">%AttName</Column_Name>
+<!-- 컬럼 주석 --> 
+<Column_Comment Derived="Y">%AttDef</Column_Comment>
+<!-- 속성 아이콘 : Bitmap Default Datetime icon id--> 
+<Attribute_Icon Derived="Y">{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Attribute_Icon>
+<!-- 사용자 형식 이름 --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Datetime</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Datetime</User_Formatted_Physical_Name>
+<!-- 도메인 속성 종료 --> 
+</DomainProps>
+<!-- 도메인 종료 --> 
+</Domain>
+<!-- 도메인 이름 : Blob--> 
+<Domain id="{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000" name="Blob">
+<!-- 도메인 속성 --> 
+<DomainProps>
+<!-- 빌트 인 id : 5 --> 
+<Built-in_Id>5</Built-in_Id>
+<!-- 이름 : Blob --> 
+<Name>Blob</Name>
+<!-- 아이디 : Bitmap Default Blob icon --> 
+<Long_Id>{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Long_Id>
+<!-- 사용자 경로 : Model_2 --> 
+<Owner_Path Derived="Y">Model_2</Owner_Path>
+<!-- Type : 8 --> 
+<Type>8</Type>
+<!-- 데이터 타입 : Blob --> 
+<Datatype Derived="Y">BLOB</Datatype>
+<!-- Blob 아이콘 : Bitmap Default Blob icon --> 
+<Icon>{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Icon>
+<!--널 옵션 : 0 --> 
+<Null_Option Derived="Y">0</Null_Option>
+<!-- 물리 이름 : Blob --> 
+<Physical_Name Derived="Y">Blob</Physical_Name>
+<!-- 논리 데이터 타입 : LARGE BINARY --> 
+<Logical_Datatype>LARGE BINARY</Logical_Datatype>
+<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+<!-- 의존 객체 참조 배열 --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- Attribute Name --> 
+<Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
+<!-- 컬럼 이름 --> 
+<Column_Name Derived="Y">%AttName</Column_Name>
+<!-- 컬럼 주석 --> 
+<Column_Comment Derived="Y">%AttDef</Column_Comment>
+<!-- Attribute 아이콘 : Bitmap Groups Default Blob icon id 와 연결 --> 
+<Attribute_Icon Derived="Y">{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Attribute_Icon>
+<!-- 사용자 형식 이름 : Blob -->
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Blob</User_Formatted_Name>
+<!-- 사용자 물리 이름 --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Blob</User_Formatted_Physical_Name>
+<!-- 도메인 속성 끝 --> 
+</DomainProps>
+<!-- 도메인 이름 끝 --> 
+</Domain>
+<!-- 도메인 그룹 끝 --> 
+</Domain_Groups>

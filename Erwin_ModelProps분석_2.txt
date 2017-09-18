@@ -1,0 +1,136 @@
+<!-- 모델 속성 --> 
+<ModelProps>
+<!-- 이름 : 모델명이 들어가야함 : 단 모델이 여러개라면 반복되어야함 --> 
+<Name>Model_2</Name>
+<!-- 모델 ID <EM2:Model_Proxy_Object의 <Proxied_Object_Id Tool="Y" ReadOnly="Y"> 의 필드안에 들어가는 값이랑 동일함 --> 
+<Long_Id>{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000</Long_Id>
+<Owner_Path Derived="Y"/>
+<!-- 타입 : 3 --> 
+<Type>3</Type>
+<!-- 관계 부모 업데이트 룰 --> 
+<Relationship_Parent_Update_Rule>0</Relationship_Parent_Update_Rule>
+<!-- 관계 부모 삭제 룰 --> 
+<Relationship_Parent_Delete_Rule>0</Relationship_Parent_Delete_Rule>
+<!-- 관계 부모 입력 룰 --> 
+<Relationship_Parent_Insert_Rule>0</Relationship_Parent_Insert_Rule>
+<!-- 관계 자식 업데이트 룰 --> 
+<Relationship_Child_Update_Rule>0</Relationship_Child_Update_Rule>
+<!-- 관계 자식 삭제 룰 --> 
+<Relationship_Child_Delete_Rule>0</Relationship_Child_Delete_Rule>
+<!-- 관계 자식 입력 룰 --> 
+<Relationship_Child_Insert_Rule>0</Relationship_Child_Insert_Rule>
+<!-- 이름 표준 파일 이름  --> 
+<Name_Standard_File_Name/>
+<!-- 이름 표준 허용 특별 글자  --> 
+<Name_Standard_Allow_Special_Chars>false</Name_Standard_Allow_Special_Chars>
+<!-- 이름 맵핑 모음 제거   --> 
+<Name_Mapping_Vowel_Removal>false</Name_Mapping_Vowel_Removal>
+<!-- 이름 맵핑 특수 글자 액션 ???  --> 
+<Name_Mapping_Special_Char_Action>0</Name_Mapping_Special_Char_Action>
+<!-- 이름 맵핑 특수 문자 교체 글자  --> 
+<Name_Mapping_Special_Char_Replacement_Char>95</Name_Mapping_Special_Char_Replacement_Char>
+<!-- 트래킹 이력 객체들 : 65528 무슨 의미지 ???  --> 
+<Tracking_History_Objects>65528</Tracking_History_Objects>
+<!-- 추적 이력 이벤트 : 65535 무슨 의미지   --> 
+<Tracking_History_Events>65535</Tracking_History_Events>
+<!-- 유니크 이름   --> 
+<Unique_Names>0</Unique_Names>
+<!-- 타켓서버 읽기 : 174 ??? 무슨 의미   --> 
+<Target_Server ReadOnly="Y" Derived="Y">174</Target_Server>
+<!-- 키가 아님    --> 
+<Non_Key_Null>0</Non_Key_Null>
+<!-- 저장소 : 50 ???  무슨 의미  --> 
+<Repos>50</Repos>
+<!-- DBMS 버젼 의미 10?? 무슨 의미  --> 
+<DBMS_Version ReadOnly="Y" Derived="Y">10</DBMS_Version>
+<!-- 논리적 노테이션  --> 
+<Logical_Notation>0</Logical_Notation>
+<!-- DBMS 마이너 버젼   --> 
+<DBMS_Minor_Version ReadOnly="Y" Derived="Y">0</DBMS_Minor_Version>
+<!-- 과거 저장소   --> 
+<Old_Repos>50</Old_Repos>
+<!-- 최대 뷰 표현 출력 길이    --> 
+<Max_View_Expr_Display_Len>20</Max_View_Expr_Display_Len>
+<!-- 물리적 노테이션 0 무슨 의미    --> 
+<Physical_Notation>0</Physical_Notation>
+<!-- 인덱스 이름 매크로 ???    --> 
+<Index_Name_Macro>%KeyName</Index_Name_Macro>
+<!-- 최대 정의 출력 길이 : 40   --> 
+<Max_Def_Display_Len>40</Max_Def_Display_Len>
+<!-- 테이블 이름 매크로 :    --> 
+<Table_Name_Macro>%EntityName()</Table_Name_Macro>
+<!-- Non Id Rel Null Option 비식별 아이디 관계 널 옵션 : 100 --> 
+<Non_Id_Rel_Null_Option>100</Non_Id_Rel_Null_Option>
+<!-- 관계 부모 갱신 룰 식별 : 10000 --> 
+<Relationship_Parent_Update_Rule_Identify>10000</Relationship_Parent_Update_Rule_Identify>
+<!-- 관계 부모 삭제 룰 식별 : 10004 --> 
+<Relationship_Parent_Delete_Rule_Identify>10004</Relationship_Parent_Delete_Rule_Identify>
+<!-- 관계 부모 입력 룰 식별 : 0 --> 
+<Relationship_Parent_Insert_Rule_Identify>0</Relationship_Parent_Insert_Rule_Identify>
+<!-- 관계 자식 갱신 룰 식별 : 10012 --> 
+<Relationship_Child_Update_Rule_Identify>10012</Relationship_Child_Update_Rule_Identify>
+<!-- 관계 자식 삭제 룰 식별 : 0 --> 
+<Relationship_Child_Delete_Rule_Identify>0</Relationship_Child_Delete_Rule_Identify>
+<!-- 관계 자식 입력 룰 식별 : 10008 --> 
+<Relationship_Child_Insert_Rule_Identify>10008</Relationship_Child_Insert_Rule_Identify>
+<!-- 관계 자식 갱신 룰 비식별 : 10002 --> 
+<Relationship_Parent_Update_Rule_Non_Identify>10002</Relationship_Parent_Update_Rule_Non_Identify>
+<!-- 관계 부모 삭제 룰 비식별 : 10006 --> 
+<Relationship_Parent_Delete_Rule_Non_Identify>10006</Relationship_Parent_Delete_Rule_Non_Identify>
+<!-- 관계 부모 입력 룰 비식별 : 0 --> 
+<Relationship_Parent_Insert_Rule_Non_Identify>0</Relationship_Parent_Insert_Rule_Non_Identify>
+<!-- 관계 부모 갱신 룰 비식별 : 10014 --> 
+<Relationship_Child_Update_Rule_Non_Identify>10014</Relationship_Child_Update_Rule_Non_Identify>
+<!-- 관계 자식 갱신 룰 비식별 : 0 --> 
+<Relationship_Child_Delete_Rule_Non_Identify>0</Relationship_Child_Delete_Rule_Non_Identify>
+<!-- 관계 자식 삭제 룰 비식별 : 10010 --> 
+<Relationship_Child_Insert_Rule_Non_Identify>10010</Relationship_Child_Insert_Rule_Non_Identify>
+<!-- 관계 자식 입력 룰 비식별 : 10000 --> 
+<Relationship_Parent_Update_Rule_Non_Identify_Not_Null>10000</Relationship_Parent_Update_Rule_Non_Identify_Not_Null>
+<!-- 관계 부모 갱신 룰 비식별 낫 널: 10004 --> 
+<Relationship_Parent_Delete_Rule_Non_Identify_Not_Null>10004</Relationship_Parent_Delete_Rule_Non_Identify_Not_Null>
+<!-- 관계 부모 삭제 룰 비식별 낫 널: 0 --> 
+<Relationship_Parent_Insert_Rule_Non_Identify_Not_Null>0</Relationship_Parent_Insert_Rule_Non_Identify_Not_Null>
+<!-- 관계 부모 입력 룰 비식별 낫 널: 10012 --> 
+<Relationship_Child_Update_Rule_Non_Identify_Not_Null>10012</Relationship_Child_Update_Rule_Non_Identify_Not_Null>
+<!-- 관계 자식 갱신 룰 비식별 낫 널: 0 --> 
+<Relationship_Child_Delete_Rule_Non_Identify_Not_Null>0</Relationship_Child_Delete_Rule_Non_Identify_Not_Null>
+<!-- 관계 부모 삭제 룰 비식별 낫 널: 10008 --> 
+<Relationship_Child_Insert_Rule_Non_Identify_Not_Null>10008</Relationship_Child_Insert_Rule_Non_Identify_Not_Null>
+<!-- 관계 부모 입력 룰 비식별 : 10001 --> 
+<Relationship_Parent_Update_Rule_Subtype>10001</Relationship_Parent_Update_Rule_Subtype>
+<!-- 관계 부모 갱신 룰 서브타입 : 10005 --> 
+<Relationship_Parent_Delete_Rule_Subtype>10005</Relationship_Parent_Delete_Rule_Subtype>
+<!-- 관계 부모 삭제 룰 서브타입 : 0 --> 
+<Relationship_Parent_Insert_Rule_Subtype>0</Relationship_Parent_Insert_Rule_Subtype>
+<!-- 관계 부모 입력 룰 서브타입 : 10012 --> 
+<Relationship_Child_Update_Rule_Subtype>10012</Relationship_Child_Update_Rule_Subtype>
+<!-- 관계 자식 갱신 룰 서브타입 : 0 --> 
+<Relationship_Child_Delete_Rule_Subtype>0</Relationship_Child_Delete_Rule_Subtype>
+<!-- 관계 자식 삭제 룰 서브타입 : 10008 --> 
+<Relationship_Child_Insert_Rule_Subtype>10008</Relationship_Child_Insert_Rule_Subtype>
+<!-- 메타버젼 : 700  --> 
+<Metadata_Version>700</Metadata_Version>
+<!-- 의존 객체 참조 어래이 여부 (중요)  --> 
+<Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
+<!-- Non Transaction 객체 아이디 <EM2:Model_Proxy_Object id 부분과 Long ID 부분에 들어감  --> 
+<Non_Tx_Proxy_Object_Id Tool="Y" ReadOnly="Y">{2BD4FFB4-998F-462C-9B17-CD45318FB419}+00000000</Non_Tx_Proxy_Object_Id>
+<!-- 옵션 사용 데이터타입 인 통합 : True  --> 
+<Option_Use_Datatype_In_Unification>true</Option_Use_Datatype_In_Unification>
+<!-- 목표 서버와 버젼 배열 --> 
+<Target_Server_And_Version_Array>
+<!-- 목표서버와 버젼 인덱스 ??? 무슨 의미   --> 
+<Target_Server_And_Version index="0">1075858979</Target_Server_And_Version>
+<!-- 목표 서버 와 버젼 인덱스 10   --> 
+<Target_Server_And_Version index="1">10</Target_Server_And_Version>
+<!-- 목표서버와 버젼 인덱스   --> 
+<Target_Server_And_Version index="2">0</Target_Server_And_Version>
+<!-- 목표서버와 버젼 배열   --> 
+</Target_Server_And_Version_Array>
+<!-- 이력 이벤트 실행  --> 
+<History_Event_Executing>1</History_Event_Executing>
+<!-- 사용자 형식 이름  : 실제 모델이름 써야함 (중요)  --> 
+<User_Formatted_Name ReadOnly="Y" Derived="Y">Model_2</User_Formatted_Name>
+<!-- 사용자 형식 물리 이름 : 실제 물리 이름 써야함  --> 
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Model_2</User_Formatted_Physical_Name>
+</ModelProps>
