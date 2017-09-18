@@ -30,8 +30,11 @@
 <User_Formatted_Name ReadOnly="Y" Derived="Y">EntityNameMappingOption</User_Formatted_Name>
 <!-- 사용자 형식 물리 이름 : EntityNameMappingOption --> 
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">EntityNameMappingOption</User_Formatted_Physical_Name>
+<!-- 이름 맵핑 속성 --> 
 </Name_MappingProps>
+<!-- 이름 맵핑 --> 
 </Name_Mapping>
+
 <Name_Mapping id="{25F5EDC0-FCA7-4159-9E17-613335BCCC79}+00000000" name="AttributeNameMappingOption">
 <Name_MappingProps>
 <Built-in_Id>42</Built-in_Id>

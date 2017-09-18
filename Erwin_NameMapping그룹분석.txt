@@ -6,7 +6,7 @@
 <Name_MappingProps>
 <!-- 빌트인 id : 41 --> 
 <Built-in_Id>41</Built-in_Id>
-<1-- Entity이름 맵핑 속성 옵션 --> 
+<!-- Entity이름 맵핑 속성 옵션 --> 
 <Name>EntityNameMappingOption</Name>
 <!-- Long id : 속성 아이디 --> 
 <Long_Id>{A946C1AE-40EB-4D4C-8EBC-C81A16B6C58D}+00000000</Long_Id>

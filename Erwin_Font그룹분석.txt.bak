@@ -112,31 +112,31 @@
 <Default_Entity_Name_Color>0</Default_Entity_Name_Color>
 <!-- 기본 엔티티 외곽 색상 --> 
 <Default_Entity_Outline_Color>0</Default_Entity_Outline_Color>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 기본 전체 배경 색상 --> 
 <Default_General_Background_Color>16777215</Default_General_Background_Color>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 기본 소유 속성 색상 --> 
 <Default_Owned_Attribute_Color>0</Default_Owned_Attribute_Color>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 기본 관계 이름 색상 --> 
 <Default_Relation_Name_Color>0</Default_Relation_Name_Color>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 기본 서브타입 색상 --> 
 <Default_Subtype_Fill_Color>16777215</Default_Subtype_Fill_Color>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 기본 서브타입 외곽 색상 --> 
 <Default_Subtype_Outline_Color>0</Default_Subtype_Outline_Color>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 기본 외래키 속성 색상 --> 
 <Default_FK_Attribute_Color_Inheritance_Type>-1</Default_FK_Attribute_Color_Inheritance_Type>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 기본 외래키 속성 폰트  상속 --> 
 <Default_FK_Attribute_Font_Inheritance_Type>-1</Default_FK_Attribute_Font_Inheritance_Type>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 기본 관계 색상 상속 --> 
 <Default_Relation_Color_Inherited>true</Default_Relation_Color_Inherited>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 기본 관계 이름 속성 상속 --> 
 <Default_Relation_Name_Font_Inherited>true</Default_Relation_Name_Font_Inherited>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 기본 서브타입 속성 상속 --> 
 <Default_Subtype_Color_Inherited>true</Default_Subtype_Color_Inherited>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 기본 서브타입 이름 폰트 상속 --> 
 <Default_Subtype_Name_Font_Inherited>true</Default_Subtype_Name_Font_Inherited>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 사용자 포맷 이름  --> 
 <User_Formatted_Name ReadOnly="Y" Derived="Y">Default Font and Color</User_Formatted_Name>
-<!-- 기본 엔티티 외곽 색상 --> 
+<!-- 사용자 형식 물리 이름  --> 
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Font and Color</User_Formatted_Physical_Name>
 </Default_Fonts_and_Colors_ObjectProps>
 </Default_Fonts_and_Colors_Object>

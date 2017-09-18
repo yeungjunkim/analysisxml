@@ -40,7 +40,7 @@
 <!-- 의존 객체 참조 배열 <Default_Fonts_and_Colors_Object_Groups> <Default_Fonts_and_Colors_Object 의 id값으로 들어감--> 
 <Dependent_Objects_Ref index="0">{44AB2FF9-1A99-45A3-BCF9-7764C437F1B6}+00000000</Dependent_Objects_Ref>
 </Dependent_Objects_Ref_Array>
-<!-- 사용자 형식 이름 : Microsoft Sans Serif-10-false-false-false-false---> 
+<!-- 사용자 형식 이름 : Microsoft Sans Serif-10-false-false-false-false- --> 
 <User_Formatted_Name ReadOnly="Y" Derived="Y">Microsoft Sans Serif-10-false-false-false-false-</User_Formatted_Name>
 <!-- 사용자 형식 물리 이름 : Microsoft Sans Serif-10-false-false-false-false- --> 
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Microsoft Sans Serif-10-false-false-false-false-</User_Formatted_Physical_Name>

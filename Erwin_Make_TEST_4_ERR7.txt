@@ -1,0 +1,27 @@
+ v7.2.1644.0
+Windows XP Professional Version: 6.1 Service Pack 1 (Build 7601)
+System Default Locale: 한국어(대한민국)
+User Default Locale: 한국어(대한민국)
+18 September 2017 13:05:28
+--------------------------------------------------
+
+Warning XML - 205: Commit succeeded with warnings.
+Error code: API-10009
+Severity: 3
+Model Set: EMX model data
+Object ID: {A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000
+Message: Reference Non Tx Proxy Object Id property of object Stored Display({A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000) refers to an object with id {AAF8097C-FA29-44AC-9C3B-B3750DA5AFC4}+00000000. Object with such id does not exist.
+
+Error code: API-10009
+Severity: 3
+Model Set: EMX model data
+Object ID: {9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000
+Message: Reference Non Tx Proxy Object Id property of object Subject Area({9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000) refers to an object with id {2E04E1EE-DDB4-4F94-B2E5-068B0435577F}+00000000. Object with such id does not exist.
+
+	Error code: DefaultId: 1 <0>
+	Severity: 0
+	Model Set: EMX model data
+	Message: API
+
+
+

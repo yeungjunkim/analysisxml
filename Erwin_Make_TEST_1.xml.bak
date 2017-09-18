@@ -1,240 +1,128 @@
-<!-- Erwin Tag --> 
 <ERwin xmlns="http://www.ca.com/erwin" xmlns:UDP="http://www.ca.com/erwin/metadata" xmlns:EMX="http://www.ca.com/erwin/data" xmlns:EM2="http://www.ca.com/erwin/EM2data" FileVersion="7.2.1644" Format="AllFusion_Repository">
-<!-- EMX Model 태그 --> 
-<EMX:Model xmlns="http://www.ca.com/erwin/data" id="{__MODEL_ID}/*{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000*/" name="{__MODEL_NAME}">
-<!-- 모델 환경 속성 -->
+<EMX:Model xmlns="http://www.ca.com/erwin/data" id="{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000" name="{__MODEL_NAME}">
 <ModelEnvProps>
-<!-- 위치 :  erwin://  파일 절대 경로 붙이면 됨 --> 
 <Locator>
-{__"erwin://" + XML파일절대경로}
+erwin://c:\\Users\kim\Desktop\xml\Erwin_Make_TEST_1.xml
 </Locator>
-<!-- Disposion  읽기 전용 YES 무슨 의미인지 모르겠음 ?? --> 
 <Disposition>Read Only = Yes;</Disposition>
-<!-- 존재 유닛 아이디 이 아이디는 유니크하면서 아무 의미 없음 --> 
 <Persistence_Unit_Id>{2C079BB8-835F-4850-A40F-F2B1582A9F3D}+00000000</Persistence_Unit_Id>
-<!-- 모델 타입 : 3 ??? 의미 모르겠음 --> 
 <Model_Type>3</Model_Type>
-<!-- 타켓 서버 : 숫자의미 모르겠음 --> 
 <Target_Server>1075858979</Target_Server>
-<!-- 타켓 서버 버젼 10 의미 모르겠음 --> 
 <Target_Server_Version>10</Target_Server_Version>
-<!-- 타켓 서버 마이너 버젼 0 의미 모르겠음 --> 
 <Target_Server_Minor_Version>0</Target_Server_Minor_Version>
-<!-- 활성 모델 :  -1 의미 없음 --> 
 <Active_Model>-1</Active_Model>
-<!-- 숨겨진 모델 : 0 의미 모르겠음 --> 
 <Hidden_Model>0</Hidden_Model>
-<!-- 저장 포맷 : 4012 의미 모르겠음 --> 
 <Storage_Format>4012</Storage_Format>
-</ModelEnvProps><!-- 모델 속성 -->
-
-<!-- 모델 속성 --> 
+</ModelEnvProps>
+<!--
 <ModelProps>
-<!-- 이름 : 모델명이 들어가야함 : 단 모델이 여러개라면 반복되어야함 --> 
 <Name>{__MODEL_NAME}</Name>
-<!-- 모델 ID <EM2:Model_Proxy_Object의 <Proxied_Object_Id Tool="Y" ReadOnly="Y"> 의 필드안에 들어가는 값이랑 동일함 --> 
-<Long_Id>{__MODEL_ID}/*{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000*/</Long_Id>
+<Long_Id>{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000</Long_Id>
 <Owner_Path Derived="Y"/>
-<!-- 타입 : 3 --> 
 <Type>3</Type>
-<!-- 관계 부모 업데이트 룰 --> 
 <Relationship_Parent_Update_Rule>0</Relationship_Parent_Update_Rule>
-<!-- 관계 부모 삭제 룰 --> 
 <Relationship_Parent_Delete_Rule>0</Relationship_Parent_Delete_Rule>
-<!-- 관계 부모 입력 룰 --> 
 <Relationship_Parent_Insert_Rule>0</Relationship_Parent_Insert_Rule>
-<!-- 관계 자식 업데이트 룰 --> 
 <Relationship_Child_Update_Rule>0</Relationship_Child_Update_Rule>
-<!-- 관계 자식 삭제 룰 --> 
 <Relationship_Child_Delete_Rule>0</Relationship_Child_Delete_Rule>
-<!-- 관계 자식 입력 룰 --> 
 <Relationship_Child_Insert_Rule>0</Relationship_Child_Insert_Rule>
-<!-- 이름 표준 파일 이름  --> 
 <Name_Standard_File_Name/>
-<!-- 이름 표준 허용 특별 글자  --> 
 <Name_Standard_Allow_Special_Chars>false</Name_Standard_Allow_Special_Chars>
-<!-- 이름 맵핑 모음 제거   --> 
 <Name_Mapping_Vowel_Removal>false</Name_Mapping_Vowel_Removal>
-<!-- 이름 맵핑 특수 글자 액션 ???  --> 
 <Name_Mapping_Special_Char_Action>0</Name_Mapping_Special_Char_Action>
-<!-- 이름 맵핑 특수 문자 교체 글자  --> 
 <Name_Mapping_Special_Char_Replacement_Char>95</Name_Mapping_Special_Char_Replacement_Char>
-<!-- 트래킹 이력 객체들 : 65528 무슨 의미지 ???  --> 
 <Tracking_History_Objects>65528</Tracking_History_Objects>
-<!-- 추적 이력 이벤트 : 65535 무슨 의미지   --> 
 <Tracking_History_Events>65535</Tracking_History_Events>
-<!-- 유니크 이름   --> 
 <Unique_Names>0</Unique_Names>
-<!-- 타켓서버 읽기 : 174 ??? 무슨 의미   --> 
 <Target_Server ReadOnly="Y" Derived="Y">174</Target_Server>
-<!-- 키가 아님    --> 
 <Non_Key_Null>0</Non_Key_Null>
-<!-- 저장소 : 50 ???  무슨 의미  --> 
 <Repos>50</Repos>
-<!-- DBMS 버젼 의미 10?? 무슨 의미  --> 
 <DBMS_Version ReadOnly="Y" Derived="Y">10</DBMS_Version>
-<!-- 논리적 노테이션  --> 
 <Logical_Notation>0</Logical_Notation>
-<!-- DBMS 마이너 버젼   --> 
 <DBMS_Minor_Version ReadOnly="Y" Derived="Y">0</DBMS_Minor_Version>
-<!-- 과거 저장소   --> 
 <Old_Repos>50</Old_Repos>
-<!-- 최대 뷰 표현 출력 길이    --> 
 <Max_View_Expr_Display_Len>20</Max_View_Expr_Display_Len>
-<!-- 물리적 노테이션 0 무슨 의미    --> 
 <Physical_Notation>0</Physical_Notation>
-<!-- 인덱스 이름 매크로 ???    --> 
 <Index_Name_Macro>%KeyName</Index_Name_Macro>
-<!-- 최대 정의 출력 길이 : 40   --> 
 <Max_Def_Display_Len>40</Max_Def_Display_Len>
-<!-- 테이블 이름 매크로 :    --> 
 <Table_Name_Macro>%EntityName()</Table_Name_Macro>
-<!-- Non Id Rel Null Option 비식별 아이디 관계 널 옵션 : 100 --> 
 <Non_Id_Rel_Null_Option>100</Non_Id_Rel_Null_Option>
-<!-- 관계 부모 갱신 룰 식별 : 10000 --> 
 <Relationship_Parent_Update_Rule_Identify>10000</Relationship_Parent_Update_Rule_Identify>
-<!-- 관계 부모 삭제 룰 식별 : 10004 --> 
 <Relationship_Parent_Delete_Rule_Identify>10004</Relationship_Parent_Delete_Rule_Identify>
-<!-- 관계 부모 입력 룰 식별 : 0 --> 
 <Relationship_Parent_Insert_Rule_Identify>0</Relationship_Parent_Insert_Rule_Identify>
-<!-- 관계 자식 갱신 룰 식별 : 10012 --> 
 <Relationship_Child_Update_Rule_Identify>10012</Relationship_Child_Update_Rule_Identify>
-<!-- 관계 자식 삭제 룰 식별 : 0 --> 
 <Relationship_Child_Delete_Rule_Identify>0</Relationship_Child_Delete_Rule_Identify>
-<!-- 관계 자식 입력 룰 식별 : 10008 --> 
 <Relationship_Child_Insert_Rule_Identify>10008</Relationship_Child_Insert_Rule_Identify>
-<!-- 관계 자식 갱신 룰 비식별 : 10002 --> 
 <Relationship_Parent_Update_Rule_Non_Identify>10002</Relationship_Parent_Update_Rule_Non_Identify>
-<!-- 관계 부모 삭제 룰 비식별 : 10006 --> 
 <Relationship_Parent_Delete_Rule_Non_Identify>10006</Relationship_Parent_Delete_Rule_Non_Identify>
-<!-- 관계 부모 입력 룰 비식별 : 0 --> 
 <Relationship_Parent_Insert_Rule_Non_Identify>0</Relationship_Parent_Insert_Rule_Non_Identify>
-<!-- 관계 부모 갱신 룰 비식별 : 10014 --> 
 <Relationship_Child_Update_Rule_Non_Identify>10014</Relationship_Child_Update_Rule_Non_Identify>
-<!-- 관계 자식 갱신 룰 비식별 : 0 --> 
 <Relationship_Child_Delete_Rule_Non_Identify>0</Relationship_Child_Delete_Rule_Non_Identify>
-<!-- 관계 자식 삭제 룰 비식별 : 10010 --> 
 <Relationship_Child_Insert_Rule_Non_Identify>10010</Relationship_Child_Insert_Rule_Non_Identify>
-<!-- 관계 자식 입력 룰 비식별 : 10000 --> 
 <Relationship_Parent_Update_Rule_Non_Identify_Not_Null>10000</Relationship_Parent_Update_Rule_Non_Identify_Not_Null>
-<!-- 관계 부모 갱신 룰 비식별 낫 널: 10004 --> 
 <Relationship_Parent_Delete_Rule_Non_Identify_Not_Null>10004</Relationship_Parent_Delete_Rule_Non_Identify_Not_Null>
-<!-- 관계 부모 삭제 룰 비식별 낫 널: 0 --> 
 <Relationship_Parent_Insert_Rule_Non_Identify_Not_Null>0</Relationship_Parent_Insert_Rule_Non_Identify_Not_Null>
-<!-- 관계 부모 입력 룰 비식별 낫 널: 10012 --> 
 <Relationship_Child_Update_Rule_Non_Identify_Not_Null>10012</Relationship_Child_Update_Rule_Non_Identify_Not_Null>
-<!-- 관계 자식 갱신 룰 비식별 낫 널: 0 --> 
 <Relationship_Child_Delete_Rule_Non_Identify_Not_Null>0</Relationship_Child_Delete_Rule_Non_Identify_Not_Null>
-<!-- 관계 부모 삭제 룰 비식별 낫 널: 10008 --> 
 <Relationship_Child_Insert_Rule_Non_Identify_Not_Null>10008</Relationship_Child_Insert_Rule_Non_Identify_Not_Null>
-<!-- 관계 부모 입력 룰 비식별 : 10001 --> 
 <Relationship_Parent_Update_Rule_Subtype>10001</Relationship_Parent_Update_Rule_Subtype>
-<!-- 관계 부모 갱신 룰 서브타입 : 10005 --> 
 <Relationship_Parent_Delete_Rule_Subtype>10005</Relationship_Parent_Delete_Rule_Subtype>
-<!-- 관계 부모 삭제 룰 서브타입 : 0 --> 
 <Relationship_Parent_Insert_Rule_Subtype>0</Relationship_Parent_Insert_Rule_Subtype>
-<!-- 관계 부모 입력 룰 서브타입 : 10012 --> 
 <Relationship_Child_Update_Rule_Subtype>10012</Relationship_Child_Update_Rule_Subtype>
-<!-- 관계 자식 갱신 룰 서브타입 : 0 --> 
 <Relationship_Child_Delete_Rule_Subtype>0</Relationship_Child_Delete_Rule_Subtype>
-<!-- 관계 자식 삭제 룰 서브타입 : 10008 --> 
 <Relationship_Child_Insert_Rule_Subtype>10008</Relationship_Child_Insert_Rule_Subtype>
-<!-- 메타버젼 : 700  --> 
 <Metadata_Version>700</Metadata_Version>
-<!-- 의존 객체 참조 어래이 여부 (중요)  --> 
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
-<!-- Non Transaction 객체 아이디 <EM2:Model_Proxy_Object id 부분과 Long ID 부분에 들어감  --> 
 <Non_Tx_Proxy_Object_Id Tool="Y" ReadOnly="Y">{2BD4FFB4-998F-462C-9B17-CD45318FB419}+00000000</Non_Tx_Proxy_Object_Id>
-<!-- 옵션 사용 데이터타입 인 통합 : True  --> 
 <Option_Use_Datatype_In_Unification>true</Option_Use_Datatype_In_Unification>
-<!-- 목표 서버와 버젼 배열 --> 
 <Target_Server_And_Version_Array>
-<!-- 목표서버와 버젼 인덱스 ??? 무슨 의미   --> 
 <Target_Server_And_Version index="0">1075858979</Target_Server_And_Version>
-<!-- 목표 서버 와 버젼 인덱스 10   --> 
 <Target_Server_And_Version index="1">10</Target_Server_And_Version>
-<!-- 목표서버와 버젼 인덱스   --> 
 <Target_Server_And_Version index="2">0</Target_Server_And_Version>
-<!-- 목표서버와 버젼 배열   --> 
 </Target_Server_And_Version_Array>
-<!-- 이력 이벤트 실행  --> 
 <History_Event_Executing>1</History_Event_Executing>
-<!-- 사용자 형식 이름  : 실제 모델이름 써야함 (중요)  --> 
 <User_Formatted_Name ReadOnly="Y" Derived="Y">{__MODEL_NAME}</User_Formatted_Name>
-<!-- 사용자 형식 물리 이름 : 실제 물리 이름 써야함  --> 
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">{__MODEL_PHYSICAL_NAME}</User_Formatted_Physical_Name>
-</ModelProps><!-- 도메인 그룹 --> 
+</ModelProps>
+-->
 
-<!-- 도메인 그룹들 --> 
 <Domain_Groups>
-<!-- 도메인 그룹 ID --> 
 <Domain id="{__DOMAIN_GROUP_ID}/*{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000*/" name="<root>">
-<!-- 도메인 그룹 속성 --> 
 <DomainProps>
-<!-- 빌트인 ID (????)-->
 <Built-in_Id>6</Built-in_Id>
-<!-- 이름 <root> (????)-->
 <Name><root></Name>
-<!--도메인 ID : line 4-->  
 <Long_Id>{__DOMAIN_GROUP_ID}/*{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000*/</Long_Id>
-<!-- 모델 이름 : Model_2 --> 
 <Owner_Path Derived="Y">Model_2</Owner_Path>
-<!-- 타입 : 4 (???) --> 
 <Type>4</Type>
-<!-- 널 옵션 --> 
 <Null_Option>0</Null_Option>
-<!-- 물리이름 : ROOT--> 
 <Physical_Name><root></Physical_Name>
-<!-- 논리 데이터 타입 --> 
 <Logical_Datatype>CHAR(18)</Logical_Datatype>
-<!-- 의존 객체 참조 배열 -->
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
-<!-- 의존 객체 참조 인덱스 0 --> 
 <Dependent_Objects_Ref index="0">{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/</Dependent_Objects_Ref>
 </Dependent_Objects_Ref_Array>
-<!-- Attribute 이름 --> 
 <Attribute_Name>%AttDomain</Attribute_Name>
-<!-- 컬럼 이름 --> 
 <Column_Name>%AttName</Column_Name>
-<!-- 컬럼 주석 --> 
 <Column_Comment>%AttDef</Column_Comment>
-<!-- 사용자 형식 이름 --> 
 <User_Formatted_Name ReadOnly="Y" Derived="Y"><root></User_Formatted_Name>
-<!-- 사용자 형식 물리 이름 --> 
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y"><root></User_Formatted_Physical_Name>
-<!-- 도메인 속성 끝 --> 
 </DomainProps>
-<!-- 도메인 끝 --> 
 </Domain>
-<!-- 도메인 ID : 위쪽 상단 의존 객체 참조 인덱스 0을 참조 : 26 line--> 
+
+
 <Domain id="{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/" name="<default>">
-<!-- 도메인 속성들 -->
 <DomainProps>
-<!-- 빌트인 ID : 1 (???)-->
 <Built-in_Id>1</Built-in_Id>
-<!-- 이름 <default> --> 
 <Name><default></Name>
-<!-- 아이디 : 도메인 ID 26 line -->
 <Long_Id>{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/</Long_Id>
-<!-- 소유자 경로 --> 
 <Owner_Path Derived="Y">{__MODEL_NAME}</Owner_Path>
-<!-- 타입 : 3 (???)-->
 <Type>3</Type>
-<!-- 데이터 타입 : CHAR(18) (???) --> 
 <Datatype Derived="Y">CHAR(18)</Datatype>
-<!-- 아이콘 ID --> 
 <Icon>{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Icon>
-<!-- 널 옵션 : 0 (???) --> 
 <Null_Option Derived="Y">0</Null_Option>
-<!-- 물리 이름 : <default> --> 
 <Physical_Name Derived="Y"><default></Physical_Name>
-<!-- 논리 이름 : CHAR(18) --> 
 <Logical_Datatype>CHAR(18)</Logical_Datatype>
-<!-- 부모 도메인 : line 4 --> 
 <Parent_Domain>{__DOMAIN_GROUP_ID|/*{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000*/</Parent_Domain>
-<!-- 의존 객체 참조 배열 -->
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y">
-<!-- 의존 객체 참조 --> 
 <!-- 중요 
 	아래 네개는 엔티티나 attribute 여부와 상관없이 무조건 존재 
     index = 0 : String 
@@ -244,257 +132,140 @@
 
     이 뒤로 오는 내용은 각 엔티티 별로 Attribute를 순서대로 나열함. 
 --> 
-<!-- 의존 객체 참조 : 100 line String Domain ID 참조 -->  
 <Dependent_Objects_Ref index="0">{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Dependent_Objects_Ref>
-<!-- 의존 객체 참조 : 133 line Number Domain ID 참조 -->  
 <Dependent_Objects_Ref index="1">{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Dependent_Objects_Ref>
-<!-- 의존 객체 참조 : 155 line DateTime Domain ID 참조 -->  
 <Dependent_Objects_Ref index="2">{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Dependent_Objects_Ref>
-<!-- 의존 객체 참조 : 177 line Blob Domain ID 참조 -->  
 <Dependent_Objects_Ref index="3">{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Dependent_Objects_Ref>
-<!-- 의존 객체 참조 : 고객 고객번호ID Domain ID 참조 -->  
 <Dependent_Objects_Ref index="4">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Dependent_Objects_Ref>
-<!-- 의존 객체 참조 : 고객 고객명 Domain ID 참조 -->  
 <Dependent_Objects_Ref index="5">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Dependent_Objects_Ref>
-<!-- 의존 객체 참조 : 고객 고객주소 String Domain ID 참조 -->  
 <Dependent_Objects_Ref index="6">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Dependent_Objects_Ref>
-<!-- 의존 객체 참조 : 고객 기타 String Domain ID 참조 -->  
 <Dependent_Objects_Ref index="7">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Dependent_Objects_Ref>
-<!-- 의존 객체 참조 : Erwin_AttributeGroups 분석 80 line 거래처번호 Domain ID 참조 -->  
 <Dependent_Objects_Ref index="8">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Dependent_Objects_Ref>
-<!-- 의존 객체 참조 : Erwin_AttributeGroups 분석 123 line 거래처명 Domain ID 참조 -->  
 <Dependent_Objects_Ref index="9">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Dependent_Objects_Ref>
-<!-- 의존 객체 참조 : Erwin_AttributeGroups 분석 172 line 거래처주소 Domain ID 참조 -->  
 <Dependent_Objects_Ref index="10">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Dependent_Objects_Ref>
-<!-- 의존 객체 참조 : Erwin_AttributeGroups 분석 194 line 기타 Domain ID 참조 -->  
 <Dependent_Objects_Ref index="11">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Dependent_Objects_Ref>
 </Dependent_Objects_Ref_Array>
-<!-- 속성 이름 -->
+
 <Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
-<!-- 컬럼 이름 --> 
 <Column_Name Derived="Y">%AttName</Column_Name>
-<!-- 컬럼 주석 --> 
 <Column_Comment Derived="Y">%AttDef</Column_Comment>
-<!-- Attribute 아이콘 --> 
 <Attribute_Icon Derived="Y">{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Attribute_Icon>
-<!-- 사용자 형식 이름 --> 
 <User_Formatted_Name ReadOnly="Y" Derived="Y"><default></User_Formatted_Name>
-<!-- 사용자 형식 물리 이름 -->
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y"><default></User_Formatted_Physical_Name>
-<!-- 도메인 속성 종료 -->
+
 </DomainProps>
-<!-- 도메인 종료-->
+
 </Domain>
-<!-- 도메인 시작 --> 
+
 <Domain id="{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000" name="String">
-<!-- 도메인 속성 --> 
 <DomainProps>
-<!-- 빌트인 ID (???) --> 
 <Built-in_Id>2</Built-in_Id>
-<!-- 이름 : 스트링 --> 
 <Name>String</Name>
-<!-- 스트링 id --> 
 <Long_Id>{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Long_Id>
-<!-- 소유자 경로 --> 
 <Owner_Path Derived="Y">Model_2</Owner_Path>
-<!-- 타입 : 5 (???) --> 
 <Type>5</Type>
-<!-- 데이터 타입 : VARCHAR2(20) --> 
 <Datatype Derived="Y">VARCHAR2(20)</Datatype>
-<!-- 아이콘 ID : Bitmap id와 연결됨 --> 
 <Icon>{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Icon>
-<!-- 널 옵션 : 0(???)-->
 <Null_Option Derived="Y">0</Null_Option>
-<!-- 물리 이름 : String --> 
 <Physical_Name Derived="Y">String</Physical_Name>
-<!-- 논리 데이터 타입 : VARCHAR(20) --> 
 <Logical_Datatype>VARCHAR(20)</Logical_Datatype>
-<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
 <Parent_Domain>{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/</Parent_Domain>
-<!-- 의존 객체 참조 배열 --> 
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
-<!-- Attribute 이름 --> 
 <Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
-<!-- 컬럼 이름 --> 
 <Column_Name Derived="Y">%AttName</Column_Name>
-<!-- 컬럼 주석 --> 
 <Column_Comment Derived="Y">%AttDef</Column_Comment>
-<!-- 속성 아이콘 : Bitmap Groups 부분 도메인 ID 참조--> 
 <Attribute_Icon Derived="Y">{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Attribute_Icon>
-<!-- 사용자 포맷 이름 : String --> 
 <User_Formatted_Name ReadOnly="Y" Derived="Y">String</User_Formatted_Name>
-<!-- 사용자 물리 이름 : String --> 
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">String</User_Formatted_Physical_Name>
-<!-- 도메인 속성 종료 --> 
 </DomainProps>
-<!-- 도메인 종료 --> 
 </Domain>
-<!-- 도메인 이름 : Number-->
 <Domain id="{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000" name="Number">
-<!-- 도메인 속성 시작 --> 
 <DomainProps>
-<!-- 빌트인 ID : 3 (???) -->
 <Built-in_Id>3</Built-in_Id>
-<!-- 이름 : Number --> 
 <Name>Number</Name>
-<!-- 아이디 --> 
 <Long_Id>{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Long_Id>
-<!-- 소유자 경로 --> 
 <Owner_Path Derived="Y">Model_2</Owner_Path>
-<!-- 타입 : 6 (???)-->
 <Type>6</Type>
-<!-- 데이터 타입 : Integer --> 
 <Datatype Derived="Y">INTEGER</Datatype>
-<!-- 아이콘 : Bitmap Default Number Icon과 연결됨 --> 
 <Icon>{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Icon>
-<!-- 널 옵션 : 0 (???) --> 
 <Null_Option Derived="Y">0</Null_Option>
-<!-- 물리 이름 : Number --> 
 <Physical_Name Derived="Y">Number</Physical_Name>
-<!-- 논리 데이터 타입 : Integer --> 
 <Logical_Datatype>INTEGER</Logical_Datatype>
-<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
 <Parent_Domain>{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/</Parent_Domain>
-<!-- 의존 객체 참조 배열 -->
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
-<!-- 속성 이름 --> 
 <Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
-<!-- 컬럼 이름 --> 
 <Column_Name Derived="Y">%AttName</Column_Name>
-<!-- 컬럼  주석 --> 
 <Column_Comment Derived="Y">%AttDef</Column_Comment>
-<!-- 컬럼 속성 아이콘 : Default Number Icon -->
 <Attribute_Icon Derived="Y">{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Attribute_Icon>
-<!-- 사용자 형식 이름 : Number --> 
 <User_Formatted_Name ReadOnly="Y" Derived="Y">Number</User_Formatted_Name>
-<!-- 사용자 형식 물리 이름 : Number --> 
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Number</User_Formatted_Physical_Name>
-<!-- 도메인 속성 종료-->
 </DomainProps>
-<!-- 도메인 종료-->
 </Domain>
-<!-- 도메인 아이디 -->
+
 <Domain id="{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000" name="Datetime">
-<!-- 도메인 속성 -->
 <DomainProps>
-<!-- 빌트인 아이디 : 4 (???) --> 
 <Built-in_Id>4</Built-in_Id>
-<!-- 이름 : Datetime -->
 <Name>Datetime</Name>
-<!-- 아이디 -->
 <Long_Id>{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Long_Id>
-<!-- 소유자 경로 : Model_2 --> 
 <Owner_Path Derived="Y">Model_2</Owner_Path>
-<!-- 타입 : 7 --> 
 <Type>7</Type>
-<!-- 데이타타입 : DATE -->
 <Datatype Derived="Y">DATE</Datatype>
-<!-- 아이콘 id : Bitmap Default Datetime icon id --> 
 <Icon>{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Icon>
-<!-- 널 옵션 -->
 <Null_Option Derived="Y">0</Null_Option>
-<!-- 물리 이름 : Datetime --> 
 <Physical_Name Derived="Y">Datetime</Physical_Name>
-<!-- 논리 데이터 타입 : Date --> 
 <Logical_Datatype>DATE</Logical_Datatype>
-<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
 <Parent_Domain>{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/</Parent_Domain>
-<!-- 의존 객체 참조 배열 --> 
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
-<!-- 속성 이름 --> 
 <Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
-<!-- 컬럼 이름 --> 
 <Column_Name Derived="Y">%AttName</Column_Name>
-<!-- 컬럼 주석 --> 
 <Column_Comment Derived="Y">%AttDef</Column_Comment>
-<!-- 속성 아이콘 : Bitmap Default Datetime icon id--> 
 <Attribute_Icon Derived="Y">{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Attribute_Icon>
-<!-- 사용자 형식 이름 --> 
 <User_Formatted_Name ReadOnly="Y" Derived="Y">Datetime</User_Formatted_Name>
-<!-- 사용자 형식 물리 이름 --> 
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Datetime</User_Formatted_Physical_Name>
-<!-- 도메인 속성 종료 --> 
 </DomainProps>
-<!-- 도메인 종료 --> 
 </Domain>
-<!-- 도메인 이름 : Blob--> 
+
 <Domain id="{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000" name="Blob">
-<!-- 도메인 속성 --> 
 <DomainProps>
-<!-- 빌트 인 id : 5 --> 
 <Built-in_Id>5</Built-in_Id>
-<!-- 이름 : Blob --> 
 <Name>Blob</Name>
-<!-- 아이디 : Bitmap Default Blob icon --> 
 <Long_Id>{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Long_Id>
-<!-- 사용자 경로 : Model_2 --> 
 <Owner_Path Derived="Y">Model_2</Owner_Path>
-<!-- Type : 8 --> 
 <Type>8</Type>
-<!-- 데이터 타입 : Blob --> 
 <Datatype Derived="Y">BLOB</Datatype>
-<!-- Blob 아이콘 : Bitmap Default Blob icon --> 
 <Icon>{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Icon>
-<!--널 옵션 : 0 --> 
 <Null_Option Derived="Y">0</Null_Option>
-<!-- 물리 이름 : Blob --> 
 <Physical_Name Derived="Y">Blob</Physical_Name>
-<!-- 논리 데이터 타입 : LARGE BINARY --> 
 <Logical_Datatype>LARGE BINARY</Logical_Datatype>
-<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
 <Parent_Domain>{__ATTRIBUTE_ID}/*{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000*/</Parent_Domain>
-<!-- 의존 객체 참조 배열 --> 
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
-<!-- Attribute Name --> 
 <Attribute_Name Derived="Y">%AttDomain</Attribute_Name>
-<!-- 컬럼 이름 --> 
 <Column_Name Derived="Y">%AttName</Column_Name>
-<!-- 컬럼 주석 --> 
 <Column_Comment Derived="Y">%AttDef</Column_Comment>
-<!-- Attribute 아이콘 : Bitmap Groups Default Blob icon id 와 연결 --> 
 <Attribute_Icon Derived="Y">{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Attribute_Icon>
-<!-- 사용자 형식 이름 : Blob -->
 <User_Formatted_Name ReadOnly="Y" Derived="Y">Blob</User_Formatted_Name>
-<!-- 사용자 물리 이름 --> 
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Blob</User_Formatted_Physical_Name>
-<!-- 도메인 속성 끝 --> 
 </DomainProps>
-<!-- 도메인 이름 끝 --> 
 </Domain>
-<!-- 도메인 그룹 끝 --> 
+
 </Domain_Groups>
 
 
 <!-- 비트맵 그룹 --> 
-<!-- 비트맵 그룹 생성 --> 
 <Bitmap_Groups>
-<!-- 비트맵 아이디 하단의 LongID와 동일하게 사용 다른데서는 사용안함. --> 
 <Bitmap id="{6E62DD7E-786C-47B4-A1C7-16BEA72E02C2}+00000000" name="Default Entity Icon">
-<!-- 비트맵 속성 --> 
 <BitmapProps>
-<!-- 빌트인 id : 21 무슨 의미인지 모름 --> 
 <Built-in_Id>21</Built-in_Id>
-<!-- 이름 : 기본 엔티티 아이콘 --> 
 <Name>Default Entity Icon</Name>
-<!-- 롱id : 아이디가 위쪽 비트맵 아이디랑 동일함 --> 
 <Long_Id>{6E62DD7E-786C-47B4-A1C7-16BEA72E02C2}+00000000</Long_Id>
-<!-- 소유자 경로 : Model_2 모델명이 들어가야함(중요) --> 
 <Owner_Path Derived="Y">Model_2</Owner_Path>
-<!-- 비트맵 파일이름 Default Entity Icon --> 
 <Bitmap_Filename Derived="Y">Default Entity Icon</Bitmap_Filename>
-<!-- 플래그 번호 : 65 --> 
 <Flags>65</Flags>
-<!-- 이미지 인덱스 --> 
 <Image_Index>1</Image_Index>
-<!-- 의존 겍체 참조 배열 --> 
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
-<!-- 사용자 형식 이름 : Default Entity Icon --> 
 <User_Formatted_Name ReadOnly="Y" Derived="Y">Default Entity Icon</User_Formatted_Name>
-<!-- 사용자 형식 물리 이름 --> 
 <User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">Default Entity Icon</User_Formatted_Physical_Name>
-<!-- 비트맵 속성 종료 --> 
 </BitmapProps>
-<!-- 비트맵 종료 --> 
 </Bitmap>
 
 <Bitmap id="{7A37FE88-5CB6-4012-89F0-C5C334B10506}+00000000" name="Default Entity Small Icon">
@@ -710,7 +481,7 @@
 <Physical_Name Derived="Y">{__ENTITY_PHYSICAL_NAME}/*고객*/</Physical_Name>
 <!-- 위치 : ???? --> 
 <Location Tool="Y" ReadOnly="Y" Derived="Y">12 -1 88 101</Location>
-<!-- 모델 객체 참조 : <ERwin> <EMX:Model> <Subject_Area_Groups> <Referenced_Entities_Array> <Referenced_Entities index="0">의 text값 --> 
+<!-- 모델 객체 참조 : <erwin> <EMX:Model> <Subject_Area_Groups> <Referenced_Entities_Array> <Referenced_Entities index="0">의 text값 --> 
 <Model_Object_Ref>{__REF_ENTITY_ID_1}/*{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000*/</Model_Object_Ref>
 <!-- DO 폰트 컬러 --> 
 <DO_Font_Color Derived="Y">0</DO_Font_Color>
