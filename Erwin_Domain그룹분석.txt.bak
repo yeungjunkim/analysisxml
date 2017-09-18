@@ -40,13 +40,13 @@
 <!-- 도메인 끝 --> 
 </Domain>
 <!-- 도메인 ID : 위쪽 상단 의존 객체 참조 인덱스 0을 참조 : 26 line--> 
-<Domain id="{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000" name="&lt;default&gt;">
+<Domain id="{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000" name="<default>">
 <!-- 도메인 속성들 -->
 <DomainProps>
 <!-- 빌트인 ID : 1 (???)-->
 <Built-in_Id>1</Built-in_Id>
-<!-- 이름 &lt;default&gt; --> 
-<Name>&lt;default&gt;</Name>
+<!-- 이름 <default> --> 
+<Name><default></Name>
 <!-- 아이디 : 도메인 ID 26 line -->
 <Long_Id>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Long_Id>
 <!-- 소유자 경로 --> 
@@ -59,8 +59,8 @@
 <Icon>{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Icon>
 <!-- 널 옵션 : 0 (???) --> 
 <Null_Option Derived="Y">0</Null_Option>
-<!-- 물리 이름 : &lt;default&gt; --> 
-<Physical_Name Derived="Y">&lt;default&gt;</Physical_Name>
+<!-- 물리 이름 : <default> --> 
+<Physical_Name Derived="Y"><default></Physical_Name>
 <!-- 논리 이름 : CHAR(18) --> 
 <Logical_Datatype>CHAR(18)</Logical_Datatype>
 <!-- 부모 도메인 : line 4 --> 
@@ -111,9 +111,9 @@
 <!-- Attribute 아이콘 --> 
 <Attribute_Icon Derived="Y">{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Attribute_Icon>
 <!-- 사용자 형식 이름 --> 
-<User_Formatted_Name ReadOnly="Y" Derived="Y">&lt;default&gt;</User_Formatted_Name>
+<User_Formatted_Name ReadOnly="Y" Derived="Y"><default></User_Formatted_Name>
 <!-- 사용자 형식 물리 이름 -->
-<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y">&lt;default&gt;</User_Formatted_Physical_Name>
+<User_Formatted_Physical_Name ReadOnly="Y" Derived="Y"><default></User_Formatted_Physical_Name>
 <!-- 도메인 속성 종료 -->
 </DomainProps>
 <!-- 도메인 종료-->
@@ -142,7 +142,7 @@
 <Physical_Name Derived="Y">String</Physical_Name>
 <!-- 논리 데이터 타입 : VARCHAR(20) --> 
 <Logical_Datatype>VARCHAR(20)</Logical_Datatype>
-<!-- 부모 도메인 : 43 line &lt;default&gt; 도메인 참조 --> 
+<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
 <Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
 <!-- 의존 객체 참조 배열 --> 
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
@@ -186,7 +186,7 @@
 <Physical_Name Derived="Y">Number</Physical_Name>
 <!-- 논리 데이터 타입 : Integer --> 
 <Logical_Datatype>INTEGER</Logical_Datatype>
-<!-- 부모 도메인 : 43 line &lt;default&gt; 도메인 참조 --> 
+<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
 <Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
 <!-- 의존 객체 참조 배열 -->
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
@@ -230,7 +230,7 @@
 <Physical_Name Derived="Y">Datetime</Physical_Name>
 <!-- 논리 데이터 타입 : Date --> 
 <Logical_Datatype>DATE</Logical_Datatype>
-<!-- 부모 도메인 : 43 line &lt;default&gt; 도메인 참조 --> 
+<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
 <Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
 <!-- 의존 객체 참조 배열 --> 
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
@@ -274,7 +274,7 @@
 <Physical_Name Derived="Y">Blob</Physical_Name>
 <!-- 논리 데이터 타입 : LARGE BINARY --> 
 <Logical_Datatype>LARGE BINARY</Logical_Datatype>
-<!-- 부모 도메인 : 43 line &lt;default&gt; 도메인 참조 --> 
+<!-- 부모 도메인 : 43 line <default> 도메인 참조 --> 
 <Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
 <!-- 의존 객체 참조 배열 --> 
 <Dependent_Objects_Ref_Array ReadOnly="Y" Derived="Y"/>
