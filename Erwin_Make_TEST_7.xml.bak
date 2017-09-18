@@ -126,7 +126,19 @@ ASC</Key_Group_Sort_Order>
 
 <Subject_AreaProps>
 
-<Built-in_Id>31</Built-in_Id><Name>&lt;Main Subject Area&gt;</Name><Long_Id>{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000</Long_Id><Referenced_Entities_Array><Referenced_Entities index="0">{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000</Referenced_Entities><Referenced_Entities index="1">{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Referenced_Entities></Referenced_Entities_Array><Created_Time>1503928519</Created_Time><Modified_Time>1503928519</Modified_Time><Object_Order>0</Object_Order><Is_Main_Subject_Area>true</Is_Main_Subject_Area><Non_Tx_Proxy_Object_Id>{2E04E1EE-DDB4-4F94-B2E5-068B0435577F}+00000000</Non_Tx_Proxy_Object_Id></Subject_AreaProps><Stored_Display_Groups><Stored_Display id="{A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000" name="Display1"><Stored_DisplayProps><Name>Display1</Name><Long_Id>{A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000</Long_Id><Created_Time>1503928519</Created_Time><Modified_Time>1503928519</Modified_Time><Object_Order>0</Object_Order><Non_Tx_Proxy_Object_Id>{AAF8097C-FA29-44AC-9C3B-B3750DA5AFC4}+00000000</Non_Tx_Proxy_Object_Id><Print_Border>true</Print_Border><Print_Bottom_Margin>0</Print_Bottom_Margin><Print_Color>true</Print_Color><Print_Footer>%CurrentPage% / %TotalPages% -- %Time% , %Date%</Print_Footer><Print_Header>%File% -- %Display% / %SubjectArea%</Print_Header><Print_Left_Margin>0</Print_Left_Margin><Print_Range>1</Print_Range><Print_Right_Margin>0</Print_Right_Margin><Print_Scaling>100</Print_Scaling><Print_Top_Margin>0</Print_Top_Margin></Stored_DisplayProps>
+<Built-in_Id>31</Built-in_Id>
+<Name>&lt;Main Subject Area&gt;</Name>
+<Long_Id>{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000</Long_Id>
+<Referenced_Entities_Array><Referenced_Entities index="0">{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000</Referenced_Entities>
+<Referenced_Entities index="1">{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Referenced_Entities></Referenced_Entities_Array>
+<Created_Time>1503928519</Created_Time>
+<Modified_Time>1503928519</Modified_Time>
+<Object_Order>0</Object_Order>
+<Is_Main_Subject_Area>true</Is_Main_Subject_Area><Non_Tx_Proxy_Object_Id>{2E04E1EE-DDB4-4F94-B2E5-068B0435577F}+00000000</Non_Tx_Proxy_Object_Id></Subject_AreaProps>
+
+<Stored_Display_Groups>
+<Stored_Display id="{A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000" name="Display1">
+<Stored_DisplayProps><Name>Display1</Name><Long_Id>{A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000</Long_Id><Created_Time>1503928519</Created_Time><Modified_Time>1503928519</Modified_Time><Object_Order>0</Object_Order><Non_Tx_Proxy_Object_Id>{AAF8097C-FA29-44AC-9C3B-B3750DA5AFC4}+00000000</Non_Tx_Proxy_Object_Id><Print_Border>true</Print_Border><Print_Bottom_Margin>0</Print_Bottom_Margin><Print_Color>true</Print_Color><Print_Footer>%CurrentPage% / %TotalPages% -- %Time% , %Date%</Print_Footer><Print_Header>%File% -- %Display% / %SubjectArea%</Print_Header><Print_Left_Margin>0</Print_Left_Margin><Print_Range>1</Print_Range><Print_Right_Margin>0</Print_Right_Margin><Print_Scaling>100</Print_Scaling><Print_Top_Margin>0</Print_Top_Margin></Stored_DisplayProps>
 
 <Drawing_Object_Entity_Groups><Drawing_Object_Entity id="{A74A79CF-B821-4F80-8E84-3DE5B3A9A9AD}+00000000" name="고객"><Drawing_Object_EntityProps><Long_Id>{A74A79CF-B821-4F80-8E84-3DE5B3A9A9AD}+00000000</Long_Id><Model_Object_Ref>{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000</Model_Object_Ref><Anchor_Point>50 50</Anchor_Point><Anchor_Point_Is_Default>true</Anchor_Point_Is_Default></Drawing_Object_EntityProps></Drawing_Object_Entity><Drawing_Object_Entity id="{7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7F8}+00000000" name="거래처"><Drawing_Object_EntityProps><Long_Id>{7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7F8}+00000000</Long_Id><Model_Object_Ref>{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Model_Object_Ref><Anchor_Point>147 69</Anchor_Point></Drawing_Object_EntityProps></Drawing_Object_Entity></Drawing_Object_Entity_Groups>
 
