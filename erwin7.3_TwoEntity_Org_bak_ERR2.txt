@@ -1,0 +1,374 @@
+ v7.2.1644.0
+Windows XP Professional Version: 6.1 Service Pack 1 (Build 7601)
+System Default Locale: 한국어(대한민국)
+User Default Locale: 한국어(대한민국)
+18 September 2017 17:18:23
+--------------------------------------------------
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Model' ({A1E284F7-85D5-4E2D-A20C-1E6057A36D0E}+00000000). Model Property Component ! Failed to set Long Id property of SCVT_OBJID type for {A1E284F7-85D5-4E2D-A20C-1E6057A36D0E}+00000000[Model] model object from string '{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Attribute Order List' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! Failed to set Attribute Order List property of SCVT_OBJID type for {40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000[Entity] model object from string '{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Attribute Order List' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! The value 1 for index of an element in Attribute Order List vector property of Entity object with {40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Attribute Order List' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! The value 2 for index of an element in Attribute Order List vector property of Entity object with {40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Attribute Order List' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! The value 3 for index of an element in Attribute Order List vector property of Entity object with {40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! Failed to set Physical Order List property of SCVT_OBJID type for {40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000[Entity] model object from string '{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! The value 1 for index of an element in Physical Order List vector property of Entity object with {40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! The value 2 for index of an element in Physical Order List vector property of Entity object with {40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! The value 3 for index of an element in Physical Order List vector property of Entity object with {40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Column Order List' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! Failed to set Column Order List property of SCVT_OBJID type for {40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000[Entity] model object from string '{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Column Order List' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! The value 1 for index of an element in Column Order List vector property of Entity object with {40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Column Order List' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! The value 2 for index of an element in Column Order List vector property of Entity object with {40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Column Order List' for 'Entity' ({40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000). Model Property Component ! The value 3 for index of an element in Column Order List vector property of Entity object with {40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Attribute' ({9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Attribute' ({9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000[Attribute] model object from string '{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'History Information' ({C995D1FA-11E9-4C11-A598-B56EF2958573}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Attribute' ({F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Attribute' ({F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000[Attribute] model object from string '{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'History Information' ({A66DAE52-B450-46AA-AE3B-4B4C9F4CD3FB}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Attribute' ({7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Attribute' ({7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000[Attribute] model object from string '{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'History Information' ({CB03E2E5-171E-4616-9F5A-20C9152B125C}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Attribute' ({DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Attribute' ({DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000[Attribute] model object from string '{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'History Information' ({F482513D-0118-438A-8098-F29A8210EB7F}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Key Group' ({6BCE69AD-C619-4E34-A7CA-4D35EF485A71}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Generate As Constraint' for 'Key Group' ({6BCE69AD-C619-4E34-A7CA-4D35EF485A71}+00000000). Model Property Component ! Failed to set Generate As Constraint property of SCVT_BOOLEAN type for {6BCE69AD-C619-4E34-A7CA-4D35EF485A71}+00000000[Key Group] model object from string 'true
+'.
+
+
+Warning XML - 157: Cannot set the property 'Key Group Member Order List' for 'Key Group' ({6BCE69AD-C619-4E34-A7CA-4D35EF485A71}+00000000). Model Property Component ! Failed to set Key Group Member Order List property of SCVT_OBJID type for {6BCE69AD-C619-4E34-A7CA-4D35EF485A71}+00000000[Key Group] model object from string '{74D84D13-F092-4D77-A341-C2FF2E8568A9}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Index Member Order List' for 'Key Group' ({6BCE69AD-C619-4E34-A7CA-4D35EF485A71}+00000000). Model Property Component ! Failed to set Index Member Order List property of SCVT_OBJID type for {6BCE69AD-C619-4E34-A7CA-4D35EF485A71}+00000000[Key Group] model object from string '{74D84D13-F092-4D77-A341-C2FF2E8568A9}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Key Group Member' ({74D84D13-F092-4D77-A341-C2FF2E8568A9}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Attribute Ref' for 'Key Group Member' ({74D84D13-F092-4D77-A341-C2FF2E8568A9}+00000000). Model Property Component ! Failed to set Attribute Ref property of SCVT_OBJID type for {74D84D13-F092-4D77-A341-C2FF2E8568A9}+00000000[Key Group Member] model object from string '{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'History Information' ({1F435DB8-30BF-408E-965D-022334F9EB8B}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Attribute Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! Failed to set Attribute Order List property of SCVT_OBJID type for {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000[Entity] model object from string '{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Attribute Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! The value 1 for index of an element in Attribute Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Attribute Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! The value 2 for index of an element in Attribute Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Attribute Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! The value 3 for index of an element in Attribute Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! Failed to set Physical Order List property of SCVT_OBJID type for {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000[Entity] model object from string '{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! The value 1 for index of an element in Physical Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! The value 2 for index of an element in Physical Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! The value 3 for index of an element in Physical Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Column Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! Failed to set Column Order List property of SCVT_OBJID type for {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000[Entity] model object from string '{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Column Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! The value 1 for index of an element in Column Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Column Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! The value 2 for index of an element in Column Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Column Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! The value 3 for index of an element in Column Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Attribute' ({778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Attribute' ({778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000[Attribute] model object from string '{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Attribute' ({87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Attribute' ({87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000[Attribute] model object from string '{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Attribute' ({A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Attribute' ({A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000[Attribute] model object from string '{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Attribute' ({C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Attribute' ({C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000[Attribute] model object from string '{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Key Group' ({044970A3-8AE0-470C-A093-3BBD56CAE1E9}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Generate As Constraint' for 'Key Group' ({044970A3-8AE0-470C-A093-3BBD56CAE1E9}+00000000). Model Property Component ! Failed to set Generate As Constraint property of SCVT_BOOLEAN type for {044970A3-8AE0-470C-A093-3BBD56CAE1E9}+00000000[Key Group] model object from string 'true
+'.
+
+
+Warning XML - 157: Cannot set the property 'Key Group Member Order List' for 'Key Group' ({044970A3-8AE0-470C-A093-3BBD56CAE1E9}+00000000). Model Property Component ! Failed to set Key Group Member Order List property of SCVT_OBJID type for {044970A3-8AE0-470C-A093-3BBD56CAE1E9}+00000000[Key Group] model object from string '{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Index Member Order List' for 'Key Group' ({044970A3-8AE0-470C-A093-3BBD56CAE1E9}+00000000). Model Property Component ! Failed to set Index Member Order List property of SCVT_OBJID type for {044970A3-8AE0-470C-A093-3BBD56CAE1E9}+00000000[Key Group] model object from string '{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Key Group Member' ({3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Attribute Ref' for 'Key Group Member' ({3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000). Model Property Component ! Failed to set Attribute Ref property of SCVT_OBJID type for {3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000[Key Group Member] model object from string '{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Domain' ({8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Domain' ({BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Icon' for 'Domain' ({BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000). Model Property Component ! Failed to set Icon property of SCVT_OBJID type for {BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000[Domain] model object from string '{4B233DDF-4943-45E1-B07F-989536920B10}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Domain' ({BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000[Domain] model object from string '{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Domain' ({DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Icon' for 'Domain' ({DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000). Model Property Component ! Failed to set Icon property of SCVT_OBJID type for {DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000[Domain] model object from string '{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Domain' ({DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000[Domain] model object from string '{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Domain' ({3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Icon' for 'Domain' ({3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000). Model Property Component ! Failed to set Icon property of SCVT_OBJID type for {3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000[Domain] model object from string '{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Domain' ({3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000[Domain] model object from string '{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Domain' ({4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Icon' for 'Domain' ({4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000). Model Property Component ! Failed to set Icon property of SCVT_OBJID type for {4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000[Domain] model object from string '{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Domain' ({4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000[Domain] model object from string '{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Domain' ({47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Icon' for 'Domain' ({47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000). Model Property Component ! Failed to set Icon property of SCVT_OBJID type for {47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000[Domain] model object from string '{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Domain' ({47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000[Domain] model object from string '{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Bitmap' ({6E62DD7E-786C-47B4-A1C7-16BEA72E02C2}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Bitmap' ({7A37FE88-5CB6-4012-89F0-C5C334B10506}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Bitmap' ({4B233DDF-4943-45E1-B07F-989536920B10}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Bitmap' ({2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Bitmap' ({7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Bitmap' ({C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Bitmap' ({6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Bitmap' ({5F6D7CE3-2B31-4138-A613-4698DA274998}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Subject Area' ({9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Referenced Entities' for 'Subject Area' ({9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000). Model Property Component ! Failed to set Referenced Entities property of SCVT_OBJID type for {9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000[Subject Area] model object from string '{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000
+'.
+
+
+Warning XML - 157: Cannot set the property 'Referenced Entities' for 'Subject Area' ({9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000). Model Property Component ! The value 1 for index of an element in Referenced Entities vector property of Subject Area object with {9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 205: Commit succeeded with warnings.
+		Error code: EBS-1020  <1>
+		Severity: 2
+		Model Set: EMX model data
+		Object Type: Key Group Member
+		Object ID: {74D84D13-F092-4D77-A341-C2FF2E8568A9}+00000000
+		Property Type: Attribute Ref
+		Message: The Key Group Member "" in Key Group "XPK고객" must specify an Attribute Ref property.
+
+		Error code: EBS-1020  <1>
+		Severity: 2
+		Model Set: EMX model data
+		Object Type: Key Group Member
+		Object ID: {3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000
+		Property Type: Attribute Ref
+		Message: The Key Group Member "" in Key Group "XPK거래처" must specify an Attribute Ref property.
+
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Model' ({A1E284F7-85D5-4E2D-A20C-1E6057A36D0E}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Name Standard Allow Special Chars' for 'Model' ({A1E284F7-85D5-4E2D-A20C-1E6057A36D0E}+00000000). Model Property Component ! Failed to set Name Standard Allow Special Chars property of SCVT_BOOLEAN type for {A1E284F7-85D5-4E2D-A20C-1E6057A36D0E}+00000000[Model] model object from string 'false
+'.
+
+
+Warning XML - 157: Cannot set the property 'Name Mapping Vowel Removal' for 'Model' ({A1E284F7-85D5-4E2D-A20C-1E6057A36D0E}+00000000). Model Property Component ! Failed to set Name Mapping Vowel Removal property of SCVT_BOOLEAN type for {A1E284F7-85D5-4E2D-A20C-1E6057A36D0E}+00000000[Model] model object from string 'false
+'.
+
+
+Warning XML - 157: Cannot set the property 'Option Use Datatype In Unification' for 'Model' ({A1E284F7-85D5-4E2D-A20C-1E6057A36D0E}+00000000). Model Property Component ! Failed to set Option Use Datatype In Unification property of SCVT_BOOLEAN type for {A1E284F7-85D5-4E2D-A20C-1E6057A36D0E}+00000000[Model] model object from string 'true
+'.
+
+
