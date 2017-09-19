@@ -1,0 +1,19 @@
+ v7.2.1644.0
+Windows XP Professional Version: 6.1 Service Pack 1 (Build 7601)
+System Default Locale: 한국어(대한민국)
+User Default Locale: 한국어(대한민국)
+19 September 2017 14:51:53
+--------------------------------------------------
+
+Warning XML - 159: Cannot create 'Drawing_Object_Entity' for 'Stored Display' ({A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000). Model Objects Component ! Drawing_Object_Entity is not valid class id or class name for object or property
+
+
+Error XML - 160: Cannot find the object  'Drawing_Object_Entity' ({7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7848}+00000000).
+
+
+Error XML - 160: Cannot find the object  'Drawing_Object_Entity' ({7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7848}+00000000).
+
+
+Error XML - 160: Cannot find the object  'Drawing_Object_Entity' ({7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7848}+00000000).
+
+
