@@ -245,16 +245,16 @@ ASC</Key_Group_Sort_Order>
 <Key_Group_Type>PK</Key_Group_Type>
 <Generate_As_Constraint>true</Generate_As_Constraint>
 <Key_Group_Member_Order_List_Array>
-<Key_Group_Member_Order_List index="0">{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000</Key_Group_Member_Order_List>
+<Key_Group_Member_Order_List index="0">{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC2}+00000000</Key_Group_Member_Order_List>
 </Key_Group_Member_Order_List_Array>
 <Index_Member_Order_List_Array>
-<Index_Member_Order_List index="0">{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000</Index_Member_Order_List>
+<Index_Member_Order_List index="0">{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC2}+00000000</Index_Member_Order_List>
 </Index_Member_Order_List_Array>
 </Key_GroupProps>
 <Key_Group_Member_Groups>
 <Key_Group_Member id="{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC2}+00000000" name="명합집번호">
 <Key_Group_MemberProps>
-<Long_Id>{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000</Long_Id>
+<Long_Id>{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC2}+00000000</Long_Id>
 <Attribute_Ref>{778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000</Attribute_Ref>
 <Key_Group_Sort_Order>ASC</Key_Group_Sort_Order>
 <Key_Group_Position>1</Key_Group_Position>
