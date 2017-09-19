@@ -12,11 +12,70 @@
 <Active_Model>-1</Active_Model>
 <Hidden_Model>0</Hidden_Model>
 <Storage_Format>4012</Storage_Format>
-</ModelEnvProps><ModelProps><Name>Model_2</Name><Long_Id>{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000</Long_Id><Type>3</Type><Relationship_Parent_Update_Rule>0</Relationship_Parent_Update_Rule><Relationship_Parent_Delete_Rule>0</Relationship_Parent_Delete_Rule><Relationship_Parent_Insert_Rule>0</Relationship_Parent_Insert_Rule><Relationship_Child_Update_Rule>0</Relationship_Child_Update_Rule><Relationship_Child_Delete_Rule>0</Relationship_Child_Delete_Rule><Relationship_Child_Insert_Rule>0</Relationship_Child_Insert_Rule><Name_Standard_File_Name></Name_Standard_File_Name><Name_Standard_Allow_Special_Chars>false</Name_Standard_Allow_Special_Chars><Name_Mapping_Vowel_Removal>false</Name_Mapping_Vowel_Removal><Name_Mapping_Special_Char_Action>0</Name_Mapping_Special_Char_Action><Name_Mapping_Special_Char_Replacement_Char>95</Name_Mapping_Special_Char_Replacement_Char><Tracking_History_Objects>65528</Tracking_History_Objects><Tracking_History_Events>65535</Tracking_History_Events><Unique_Names>0</Unique_Names><Non_Key_Null>0</Non_Key_Null><Repos>50</Repos><Logical_Notation>0</Logical_Notation><Old_Repos>50</Old_Repos><Max_View_Expr_Display_Len>20</Max_View_Expr_Display_Len><Physical_Notation>0</Physical_Notation><Index_Name_Macro>%KeyName</Index_Name_Macro><Max_Def_Display_Len>40</Max_Def_Display_Len><Table_Name_Macro>%EntityName()</Table_Name_Macro><Non_Id_Rel_Null_Option>100</Non_Id_Rel_Null_Option><Relationship_Parent_Update_Rule_Identify>10000</Relationship_Parent_Update_Rule_Identify><Relationship_Parent_Delete_Rule_Identify>10004</Relationship_Parent_Delete_Rule_Identify><Relationship_Parent_Insert_Rule_Identify>0</Relationship_Parent_Insert_Rule_Identify><Relationship_Child_Update_Rule_Identify>10012</Relationship_Child_Update_Rule_Identify><Relationship_Child_Delete_Rule_Identify>0</Relationship_Child_Delete_Rule_Identify><Relationship_Child_Insert_Rule_Identify>10008</Relationship_Child_Insert_Rule_Identify><Relationship_Parent_Update_Rule_Non_Identify>10002</Relationship_Parent_Update_Rule_Non_Identify><Relationship_Parent_Delete_Rule_Non_Identify>10006</Relationship_Parent_Delete_Rule_Non_Identify><Relationship_Parent_Insert_Rule_Non_Identify>0</Relationship_Parent_Insert_Rule_Non_Identify><Relationship_Child_Update_Rule_Non_Identify>10014</Relationship_Child_Update_Rule_Non_Identify><Relationship_Child_Delete_Rule_Non_Identify>0</Relationship_Child_Delete_Rule_Non_Identify><Relationship_Child_Insert_Rule_Non_Identify>10010</Relationship_Child_Insert_Rule_Non_Identify><Relationship_Parent_Update_Rule_Non_Identify_Not_Null>10000</Relationship_Parent_Update_Rule_Non_Identify_Not_Null><Relationship_Parent_Delete_Rule_Non_Identify_Not_Null>10004</Relationship_Parent_Delete_Rule_Non_Identify_Not_Null><Relationship_Parent_Insert_Rule_Non_Identify_Not_Null>0</Relationship_Parent_Insert_Rule_Non_Identify_Not_Null><Relationship_Child_Update_Rule_Non_Identify_Not_Null>10012</Relationship_Child_Update_Rule_Non_Identify_Not_Null><Relationship_Child_Delete_Rule_Non_Identify_Not_Null>0</Relationship_Child_Delete_Rule_Non_Identify_Not_Null><Relationship_Child_Insert_Rule_Non_Identify_Not_Null>10008</Relationship_Child_Insert_Rule_Non_Identify_Not_Null><Relationship_Parent_Update_Rule_Subtype>10001</Relationship_Parent_Update_Rule_Subtype><Relationship_Parent_Delete_Rule_Subtype>10005</Relationship_Parent_Delete_Rule_Subtype><Relationship_Parent_Insert_Rule_Subtype>0</Relationship_Parent_Insert_Rule_Subtype><Relationship_Child_Update_Rule_Subtype>10012</Relationship_Child_Update_Rule_Subtype><Relationship_Child_Delete_Rule_Subtype>0</Relationship_Child_Delete_Rule_Subtype><Relationship_Child_Insert_Rule_Subtype>10008</Relationship_Child_Insert_Rule_Subtype><Metadata_Version>700</Metadata_Version><Option_Use_Datatype_In_Unification>true</Option_Use_Datatype_In_Unification><Target_Server_And_Version_Array><Target_Server_And_Version index="0">1075858979</Target_Server_And_Version><Target_Server_And_Version index="1">10</Target_Server_And_Version><Target_Server_And_Version index="2">0</Target_Server_And_Version></Target_Server_And_Version_Array><History_Event_Executing>1</History_Event_Executing></ModelProps>
+</ModelEnvProps>
+<ModelProps>
+<Name>Model_2</Name>
+<Long_Id>{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000</Long_Id>
+<Type>3</Type>
+<Relationship_Parent_Update_Rule>0</Relationship_Parent_Update_Rule>
+<Relationship_Parent_Delete_Rule>0</Relationship_Parent_Delete_Rule>
+<Relationship_Parent_Insert_Rule>0</Relationship_Parent_Insert_Rule>
+<Relationship_Child_Update_Rule>0</Relationship_Child_Update_Rule>
+<Relationship_Child_Delete_Rule>0</Relationship_Child_Delete_Rule>
+<Relationship_Child_Insert_Rule>0</Relationship_Child_Insert_Rule>
+<Name_Standard_File_Name></Name_Standard_File_Name>
+<Name_Standard_Allow_Special_Chars>false</Name_Standard_Allow_Special_Chars>
+<Name_Mapping_Vowel_Removal>false</Name_Mapping_Vowel_Removal>
+<Name_Mapping_Special_Char_Action>0</Name_Mapping_Special_Char_Action>
+<Name_Mapping_Special_Char_Replacement_Char>95</Name_Mapping_Special_Char_Replacement_Char>
+<Tracking_History_Objects>65528</Tracking_History_Objects>
+<Tracking_History_Events>65535</Tracking_History_Events>
+<Unique_Names>0</Unique_Names>
+<Non_Key_Null>0</Non_Key_Null>
+<Repos>50</Repos>
+<Logical_Notation>0</Logical_Notation>
+<Old_Repos>50</Old_Repos>
+<Max_View_Expr_Display_Len>20</Max_View_Expr_Display_Len>
+<Physical_Notation>0</Physical_Notation>
+<Index_Name_Macro>%KeyName</Index_Name_Macro>
+<Max_Def_Display_Len>40</Max_Def_Display_Len>
+<Table_Name_Macro>%EntityName()</Table_Name_Macro>
+<Non_Id_Rel_Null_Option>100</Non_Id_Rel_Null_Option>
+<Relationship_Parent_Update_Rule_Identify>10000</Relationship_Parent_Update_Rule_Identify>
+<Relationship_Parent_Delete_Rule_Identify>10004</Relationship_Parent_Delete_Rule_Identify>
+<Relationship_Parent_Insert_Rule_Identify>0</Relationship_Parent_Insert_Rule_Identify>
+<Relationship_Child_Update_Rule_Identify>10012</Relationship_Child_Update_Rule_Identify>
+<Relationship_Child_Delete_Rule_Identify>0</Relationship_Child_Delete_Rule_Identify>
+<Relationship_Child_Insert_Rule_Identify>10008</Relationship_Child_Insert_Rule_Identify>
+<Relationship_Parent_Update_Rule_Non_Identify>10002</Relationship_Parent_Update_Rule_Non_Identify>
+<Relationship_Parent_Delete_Rule_Non_Identify>10006</Relationship_Parent_Delete_Rule_Non_Identify>
+<Relationship_Parent_Insert_Rule_Non_Identify>0</Relationship_Parent_Insert_Rule_Non_Identify>
+<Relationship_Child_Update_Rule_Non_Identify>10014</Relationship_Child_Update_Rule_Non_Identify>
+<Relationship_Child_Delete_Rule_Non_Identify>0</Relationship_Child_Delete_Rule_Non_Identify>
+<Relationship_Child_Insert_Rule_Non_Identify>10010</Relationship_Child_Insert_Rule_Non_Identify>
+<Relationship_Parent_Update_Rule_Non_Identify_Not_Null>10000</Relationship_Parent_Update_Rule_Non_Identify_Not_Null>
+<Relationship_Parent_Delete_Rule_Non_Identify_Not_Null>10004</Relationship_Parent_Delete_Rule_Non_Identify_Not_Null>
+<Relationship_Parent_Insert_Rule_Non_Identify_Not_Null>0</Relationship_Parent_Insert_Rule_Non_Identify_Not_Null>
+<Relationship_Child_Update_Rule_Non_Identify_Not_Null>10012</Relationship_Child_Update_Rule_Non_Identify_Not_Null>
+<Relationship_Child_Delete_Rule_Non_Identify_Not_Null>0</Relationship_Child_Delete_Rule_Non_Identify_Not_Null>
+<Relationship_Child_Insert_Rule_Non_Identify_Not_Null>10008</Relationship_Child_Insert_Rule_Non_Identify_Not_Null>
+<Relationship_Parent_Update_Rule_Subtype>10001</Relationship_Parent_Update_Rule_Subtype>
+<Relationship_Parent_Delete_Rule_Subtype>10005</Relationship_Parent_Delete_Rule_Subtype>
+<Relationship_Parent_Insert_Rule_Subtype>0</Relationship_Parent_Insert_Rule_Subtype>
+<Relationship_Child_Update_Rule_Subtype>10012</Relationship_Child_Update_Rule_Subtype>
+<Relationship_Child_Delete_Rule_Subtype>0</Relationship_Child_Delete_Rule_Subtype>
+<Relationship_Child_Insert_Rule_Subtype>10008</Relationship_Child_Insert_Rule_Subtype>
+<Metadata_Version>700</Metadata_Version><Option_Use_Datatype_In_Unification>true</Option_Use_Datatype_In_Unification>
+<Target_Server_And_Version_Array>
+<Target_Server_And_Version index="0">1075858979</Target_Server_And_Version>
+<Target_Server_And_Version index="1">10</Target_Server_And_Version>
+<Target_Server_And_Version index="2">0</Target_Server_And_Version>
+</Target_Server_And_Version_Array>
+<History_Event_Executing>1</History_Event_Executing>
+</ModelProps>
 
 
 <Entity_Groups>
-
 <Entity id="{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000" name="고객">
 <EntityProps><Name>고객</Name><Long_Id>{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000</Long_Id><Attribute_Order_List_Array><Attribute_Order_List index="0">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Attribute_Order_List><Attribute_Order_List index="1">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Attribute_Order_List><Attribute_Order_List index="2">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Attribute_Order_List><Attribute_Order_List index="3">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Attribute_Order_List></Attribute_Order_List_Array><Physical_Order_List_Array><Physical_Order_List index="0">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Physical_Order_List><Physical_Order_List index="1">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Physical_Order_List><Physical_Order_List index="2">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Physical_Order_List><Physical_Order_List index="3">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Physical_Order_List></Physical_Order_List_Array><Column_Order_List_Array><Column_Order_List index="0">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Column_Order_List><Column_Order_List index="1">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Column_Order_List><Column_Order_List index="2">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Column_Order_List><Column_Order_List index="3">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Column_Order_List></Column_Order_List_Array></EntityProps>
 
