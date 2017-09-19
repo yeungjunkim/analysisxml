@@ -1,0 +1,13 @@
+ v7.2.1644.0
+Windows XP Professional Version: 6.1 Service Pack 1 (Build 7601)
+System Default Locale: 한국어(대한민국)
+User Default Locale: 한국어(대한민국)
+19 September 2017 10:54:33
+--------------------------------------------------
+
+Warning XML - 159: Cannot create 'Key_Group' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E401}+00000000). Model Objects Component ! Key_Group is not valid class id or class name for object or property
+
+
+Warning XML - 159: Cannot create 'Key_Group_Member' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E401}+00000000). Model Objects Component ! Key_Group_Member is not valid class id or class name for object or property
+
+

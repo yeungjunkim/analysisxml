@@ -1,0 +1,108 @@
+ v7.2.1644.0
+Windows XP Professional Version: 6.1 Service Pack 1 (Build 7601)
+System Default Locale: 한국어(대한민국)
+User Default Locale: 한국어(대한민국)
+19 September 2017 09:30:29
+--------------------------------------------------
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! Failed to set Physical Order List property of SCVT_OBJID type for {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000[Entity] model object from string '
+{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000'.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! The value 1 for index of an element in Physical Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! The value 2 for index of an element in Physical Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000). Model Property Component ! The value 3 for index of an element in Physical Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Attribute Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000). Model Property Component ! Failed to set Attribute Order List property of SCVT_OBJID type for {2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000[Entity] model object from string '
+{778AA9DA-FCB5-4C58-9089-496CB894139D}+00000000'.
+
+
+Warning XML - 157: Cannot set the property 'Attribute Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000). Model Property Component ! The value 1 for index of an element in Attribute Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000). Model Property Component ! Failed to set Physical Order List property of SCVT_OBJID type for {2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000[Entity] model object from string '
+{778AA9DA-FCB5-4C58-9089-496CB894139D}+00000000'.
+
+
+Warning XML - 157: Cannot set the property 'Physical Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000). Model Property Component ! The value 1 for index of an element in Physical Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Column Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000). Model Property Component ! Failed to set Column Order List property of SCVT_OBJID type for {2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000[Entity] model object from string '
+{778AA9DA-FCB5-4C58-9089-496CB894139D}+00000000'.
+
+
+Warning XML - 157: Cannot set the property 'Column Order List' for 'Entity' ({2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000). Model Property Component ! The value 1 for index of an element in Column Order List vector property of Entity object with {2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000 id is out of range. Available values for the index of a vector of size 0 are:
+1) -1 or index of the last element plus one to add a new value
+2) from 0 to the size of the vector minus one to replace an exist value in the vector.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Attribute' ({778AA9DA-FCB5-4C58-9089-496CB894139D}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Attribute' ({778AA9DA-FCB5-4C58-9089-496CB894139D}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {778AA9DA-FCB5-4C58-9089-496CB894139D}+00000000[Attribute] model object from string '
+{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Attribute' ({778AA9DA-FCB5-4C58-9089-496CB89414E9}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Attribute' ({778AA9DA-FCB5-4C58-9089-496CB89414E9}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {778AA9DA-FCB5-4C58-9089-496CB89414E9}+00000000[Attribute] model object from string '
+{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Key Group' ({044970A3-8AE0-470C-A093-3BBD56CAE1E0}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Generate As Constraint' for 'Key Group' ({044970A3-8AE0-470C-A093-3BBD56CAE1E0}+00000000). Model Property Component ! Failed to set Generate As Constraint property of SCVT_BOOLEAN type for {044970A3-8AE0-470C-A093-3BBD56CAE1E0}+00000000[Key Group] model object from string '
+true'.
+
+
+Warning XML - 157: Cannot set the property 'Key Group Member Order List' for 'Key Group' ({044970A3-8AE0-470C-A093-3BBD56CAE1E0}+00000000). Model Property Component ! Failed to set Key Group Member Order List property of SCVT_OBJID type for {044970A3-8AE0-470C-A093-3BBD56CAE1E0}+00000000[Key Group] model object from string '
+{3AF81CE0-9CDC-4726-BE11-D50AE25D5DC3}+00000000'.
+
+
+Warning XML - 157: Cannot set the property 'Index Member Order List' for 'Key Group' ({044970A3-8AE0-470C-A093-3BBD56CAE1E0}+00000000). Model Property Component ! Failed to set Index Member Order List property of SCVT_OBJID type for {044970A3-8AE0-470C-A093-3BBD56CAE1E0}+00000000[Key Group] model object from string '
+{3AF81CE0-9CDC-4726-BE11-D50AE25D5DC3}+00000000'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Key Group Member' ({3AF81CE0-9CDC-4726-BE11-D50AE25D5DC3}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Attribute Ref' for 'Key Group Member' ({3AF81CE0-9CDC-4726-BE11-D50AE25D5DC3}+00000000). Model Property Component ! Failed to set Attribute Ref property of SCVT_OBJID type for {3AF81CE0-9CDC-4726-BE11-D50AE25D5DC3}+00000000[Key Group Member] model object from string '
+{778AA9DA-FCB5-4C58-9089-496CB894139D}+00000000'.
+
+
+Warning XML - 205: Commit succeeded with warnings.
+		Error code: EBS-1033  <1>
+		Severity: 2
+		Model Set: EMX model data
+		Object Type: Key Group
+		Object ID: {044970A3-8AE0-470C-A093-3BBD56CAE1E0}+00000000
+		Property Type: Key Group Type
+		Message: Value "
+PK" for the Key Group Type property of the Key Group object is not a valid value. 
+
+		Error code: EBS-1052  <1>
+		Severity: 1
+		Model Set: EMX model data
+		Object Type: Key Group Member
+		Object ID: {3AF81CE0-9CDC-4726-BE11-D50AE25D5DC3}+00000000
+		Message: The Key Group Member object cannot be completed because its owning object (item id=24, object id=0) cannot be found in the model.
+
+
+

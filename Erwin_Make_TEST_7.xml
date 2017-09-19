@@ -7,7 +7,11 @@
 <Entity id="{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000" name="고객">
 <EntityProps><Name>고객</Name><Long_Id>{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000</Long_Id><Attribute_Order_List_Array><Attribute_Order_List index="0">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Attribute_Order_List><Attribute_Order_List index="1">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Attribute_Order_List><Attribute_Order_List index="2">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Attribute_Order_List><Attribute_Order_List index="3">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Attribute_Order_List></Attribute_Order_List_Array><Physical_Order_List_Array><Physical_Order_List index="0">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Physical_Order_List><Physical_Order_List index="1">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Physical_Order_List><Physical_Order_List index="2">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Physical_Order_List><Physical_Order_List index="3">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Physical_Order_List></Physical_Order_List_Array><Column_Order_List_Array><Column_Order_List index="0">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Column_Order_List><Column_Order_List index="1">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Column_Order_List><Column_Order_List index="2">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Column_Order_List><Column_Order_List index="3">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Column_Order_List></Column_Order_List_Array></EntityProps>
 
-<Attribute_Groups><Attribute id="{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000" name="고객번호"><AttributeProps><Name>고객번호</Name><Long_Id>{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Long_Id><Type>0</Type><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></AttributeProps><History_Information_Groups><History_Information id="{C995D1FA-11E9-4C11-A598-B56EF2958573}+00000000" name="History_Event_122"><History_InformationProps><Name>History_Event_122</Name><Long_Id>{C995D1FA-11E9-4C11-A598-B56EF2958573}+00000000</Long_Id><Created_Time>1503934052</Created_Time><Description>Created in current model</Description><History_Event_Type>1</History_Event_Type></History_InformationProps></History_Information></History_Information_Groups></Attribute><Attribute id="{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000" name="고객명"><AttributeProps><Name>고객명</Name><Long_Id>{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Long_Id><Type>100</Type><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></AttributeProps><History_Information_Groups><History_Information id="{A66DAE52-B450-46AA-AE3B-4B4C9F4CD3FB}+00000000" name="History_Event_125"><History_InformationProps><Name>History_Event_125</Name><Long_Id>{A66DAE52-B450-46AA-AE3B-4B4C9F4CD3FB}+00000000</Long_Id><Created_Time>1503934057</Created_Time><Description>Created in current model</Description><History_Event_Type>1</History_Event_Type></History_InformationProps></History_Information></History_Information_Groups></Attribute><Attribute id="{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000" name="고객주소"><AttributeProps><Name>고객주소</Name><Long_Id>{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Long_Id><Type>100</Type><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></AttributeProps><History_Information_Groups><History_Information id="{CB03E2E5-171E-4616-9F5A-20C9152B125C}+00000000" name="History_Event_127"><History_InformationProps><Name>History_Event_127</Name><Long_Id>{CB03E2E5-171E-4616-9F5A-20C9152B125C}+00000000</Long_Id><Created_Time>1503934058</Created_Time><Description>Created in current model</Description><History_Event_Type>1</History_Event_Type></History_InformationProps></History_Information></History_Information_Groups></Attribute><Attribute id="{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000" name="기타"><AttributeProps><Name>기타</Name><Long_Id>{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Long_Id><Type>100</Type><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></AttributeProps><History_Information_Groups><History_Information id="{F482513D-0118-438A-8098-F29A8210EB7F}+00000000" name="History_Event_129"><History_InformationProps><Name>History_Event_129</Name><Long_Id>{F482513D-0118-438A-8098-F29A8210EB7F}+00000000</Long_Id><Created_Time>1503934063</Created_Time><Description>Created in current model</Description><History_Event_Type>1</History_Event_Type></History_InformationProps></History_Information></History_Information_Groups></Attribute></Attribute_Groups>
+<Attribute_Groups><Attribute id="{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000" name="고객번호"><AttributeProps><Name>고객번호</Name><Long_Id>{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Long_Id><Type>0</Type><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></AttributeProps><History_Information_Groups><History_Information id="{C995D1FA-11E9-4C11-A598-B56EF2958573}+00000000" name="History_Event_122"><History_InformationProps><Name>History_Event_122</Name><Long_Id>{C995D1FA-11E9-4C11-A598-B56EF2958573}+00000000</Long_Id><Created_Time>1503934052</Created_Time><Description>Created in current model</Description><History_Event_Type>1</History_Event_Type></History_InformationProps></History_Information></History_Information_Groups></Attribute>
+<Attribute id="{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000" name="고객명">
+<AttributeProps>
+<Name>고객명</Name>
+<Long_Id>{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Long_Id><Type>100</Type><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></AttributeProps><History_Information_Groups><History_Information id="{A66DAE52-B450-46AA-AE3B-4B4C9F4CD3FB}+00000000" name="History_Event_125"><History_InformationProps><Name>History_Event_125</Name><Long_Id>{A66DAE52-B450-46AA-AE3B-4B4C9F4CD3FB}+00000000</Long_Id><Created_Time>1503934057</Created_Time><Description>Created in current model</Description><History_Event_Type>1</History_Event_Type></History_InformationProps></History_Information></History_Information_Groups></Attribute><Attribute id="{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000" name="고객주소"><AttributeProps><Name>고객주소</Name><Long_Id>{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Long_Id><Type>100</Type><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></AttributeProps><History_Information_Groups><History_Information id="{CB03E2E5-171E-4616-9F5A-20C9152B125C}+00000000" name="History_Event_127"><History_InformationProps><Name>History_Event_127</Name><Long_Id>{CB03E2E5-171E-4616-9F5A-20C9152B125C}+00000000</Long_Id><Created_Time>1503934058</Created_Time><Description>Created in current model</Description><History_Event_Type>1</History_Event_Type></History_InformationProps></History_Information></History_Information_Groups></Attribute><Attribute id="{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000" name="기타"><AttributeProps><Name>기타</Name><Long_Id>{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Long_Id><Type>100</Type><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></AttributeProps><History_Information_Groups><History_Information id="{F482513D-0118-438A-8098-F29A8210EB7F}+00000000" name="History_Event_129"><History_InformationProps><Name>History_Event_129</Name><Long_Id>{F482513D-0118-438A-8098-F29A8210EB7F}+00000000</Long_Id><Created_Time>1503934063</Created_Time><Description>Created in current model</Description><History_Event_Type>1</History_Event_Type></History_InformationProps></History_Information></History_Information_Groups></Attribute></Attribute_Groups>
 
 <Key_Group_Groups><Key_Group id="{6BCE69AD-C619-4E34-A7CA-4D35EF485A71}+00000000" name="XPK고객"><Key_GroupProps><Long_Id>{6BCE69AD-C619-4E34-A7CA-4D35EF485A71}+00000000</Long_Id><Key_Group_Type>PK</Key_Group_Type><Generate_As_Constraint>true</Generate_As_Constraint><Key_Group_Member_Order_List_Array><Key_Group_Member_Order_List index="0">{74D84D13-F092-4D77-A341-C2FF2E8568A9}+00000000</Key_Group_Member_Order_List></Key_Group_Member_Order_List_Array><Index_Member_Order_List_Array><Index_Member_Order_List index="0">{74D84D13-F092-4D77-A341-C2FF2E8568A9}+00000000</Index_Member_Order_List></Index_Member_Order_List_Array></Key_GroupProps><Key_Group_Member_Groups><Key_Group_Member id="{74D84D13-F092-4D77-A341-C2FF2E8568A9}+00000000" name="고객번호"><Key_Group_MemberProps><Long_Id>{74D84D13-F092-4D77-A341-C2FF2E8568A9}+00000000</Long_Id><Attribute_Ref>{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Attribute_Ref><Key_Group_Sort_Order>ASC</Key_Group_Sort_Order><Key_Group_Position>1</Key_Group_Position></Key_Group_MemberProps></Key_Group_Member></Key_Group_Member_Groups></Key_Group></Key_Group_Groups>
 
@@ -16,25 +20,94 @@
 </Entity>
 
 <Entity id="{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000" name="거래처">
-<EntityProps><Name>거래처</Name><Long_Id>{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Long_Id><Attribute_Order_List_Array><Attribute_Order_List index="0">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Attribute_Order_List><Attribute_Order_List index="1">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Attribute_Order_List><Attribute_Order_List index="2">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Attribute_Order_List><Attribute_Order_List index="3">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Attribute_Order_List></Attribute_Order_List_Array><Physical_Order_List_Array><Physical_Order_List index="0">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Physical_Order_List><Physical_Order_List index="1">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Physical_Order_List><Physical_Order_List index="2">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Physical_Order_List><Physical_Order_List index="3">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Physical_Order_List></Physical_Order_List_Array><Column_Order_List_Array><Column_Order_List index="0">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Column_Order_List><Column_Order_List index="1">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Column_Order_List><Column_Order_List index="2">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Column_Order_List><Column_Order_List index="3">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Column_Order_List></Column_Order_List_Array></EntityProps>
-<Attribute_Groups><Attribute id="{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000" name="거래처번호"><AttributeProps><Name>거래처번호</Name><Long_Id>{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Long_Id><Type>0</Type><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></AttributeProps></Attribute><Attribute id="{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000" name="거래처명"><AttributeProps><Name>거래처명</Name><Long_Id>{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Long_Id><Type>100</Type><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></AttributeProps></Attribute><Attribute id="{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000" name="거래처주소"><AttributeProps><Name>거래처주소</Name><Long_Id>{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Long_Id><Type>100</Type><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></AttributeProps></Attribute><Attribute id="{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000" name="기타"><AttributeProps><Name>기타</Name><Long_Id>{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Long_Id><Type>100</Type><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></AttributeProps></Attribute></Attribute_Groups>
+<EntityProps>
+<Name>거래처</Name>
+<Long_Id>{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Long_Id>
+<Attribute_Order_List_Array><Attribute_Order_List index="0">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Attribute_Order_List>
+<Attribute_Order_List index="1">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Attribute_Order_List>
+<Attribute_Order_List index="2">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Attribute_Order_List>
+<Attribute_Order_List index="3">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Attribute_Order_List>
+</Attribute_Order_List_Array>
+<Physical_Order_List_Array>
+<Physical_Order_List index="0">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Physical_Order_List>
+<Physical_Order_List index="1">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Physical_Order_List>
+<Physical_Order_List index="2">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Physical_Order_List>
+<Physical_Order_List index="3">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Physical_Order_List>
+</Physical_Order_List_Array>
+<Column_Order_List_Array>
+<Column_Order_List index="0">{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Column_Order_List>
+<Column_Order_List index="1">{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Column_Order_List>
+<Column_Order_List index="2">{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Column_Order_List>
+<Column_Order_List index="3">{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Column_Order_List>
+</Column_Order_List_Array>
+</EntityProps>
+<Attribute_Groups>
+<Attribute id="{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000" name="거래처번호"><AttributeProps>
+<Name>거래처번호</Name>
+<Long_Id>{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Long_Id>
+<Type>0</Type>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+</AttributeProps>
+</Attribute>
+<Attribute id="{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000" name="거래처명">
+<AttributeProps>
+<Name>거래처명</Name>
+<Long_Id>{87734648-459F-43AA-8A3F-BF0C68E17D18}+00000000</Long_Id>
+<Type>100</Type>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+</AttributeProps>
+</Attribute>
+<Attribute id="{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000" name="거래처주소">
+<AttributeProps>
+<Name>거래처주소</Name>
+<Long_Id>{A71164D2-6D63-4F62-B0EB-8332E77BF104}+00000000</Long_Id>
+<Type>100</Type>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+</AttributeProps>
+</Attribute>
+<Attribute id="{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000" name="기타">
+<AttributeProps>
+<Name>기타</Name>
+<Long_Id>{C99E2A33-9EA6-477C-933D-A7A9865CFB26}+00000000</Long_Id>
+<Type>100</Type>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+</AttributeProps>
+</Attribute>
+</Attribute_Groups>
 <Key_Group_Groups>
 <Key_Group id="{044970A3-8AE0-470C-A093-3BBD56CAE1E9}+00000000" name="XPK거래처">
-<Key_GroupProps><Long_Id>{044970A3-8AE0-470C-A093-3BBD56CAE1E9}+00000000</Long_Id><Key_Group_Type>PK</Key_Group_Type><Generate_As_Constraint>true</Generate_As_Constraint><Key_Group_Member_Order_List_Array><Key_Group_Member_Order_List index="0">{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000</Key_Group_Member_Order_List></Key_Group_Member_Order_List_Array><Index_Member_Order_List_Array><Index_Member_Order_List index="0">{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000</Index_Member_Order_List></Index_Member_Order_List_Array></Key_GroupProps>
+<Key_GroupProps>
+<Long_Id>{044970A3-8AE0-470C-A093-3BBD56CAE1E9}+00000000</Long_Id>
+<Key_Group_Type>PK</Key_Group_Type>
+<Generate_As_Constraint>true</Generate_As_Constraint>
+<Key_Group_Member_Order_List_Array>
+<Key_Group_Member_Order_List index="0">{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000</Key_Group_Member_Order_List>
+</Key_Group_Member_Order_List_Array>
+<Index_Member_Order_List_Array>
+<Index_Member_Order_List index="0">{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000</Index_Member_Order_List>
+</Index_Member_Order_List_Array>
+</Key_GroupProps>
 <Key_Group_Member_Groups>
-<Key_Group_Member id="{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000" name="거래처번호"><Key_Group_MemberProps><Long_Id>{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000</Long_Id><Attribute_Ref>{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Attribute_Ref><Key_Group_Sort_Order>ASC</Key_Group_Sort_Order><Key_Group_Position>1</Key_Group_Position></Key_Group_MemberProps></Key_Group_Member>
+<Key_Group_Member id="{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000" name="거래처번호">
+<Key_Group_MemberProps>
+<Long_Id>{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC3}+00000000</Long_Id>
+<Attribute_Ref>{778AA9DA-FCB5-4C58-9089-496CB89413D4}+00000000</Attribute_Ref>
+<Key_Group_Sort_Order>ASC</Key_Group_Sort_Order>
+<Key_Group_Position>1</Key_Group_Position>
+</Key_Group_MemberProps>
+</Key_Group_Member>
 </Key_Group_Member_Groups>
 </Key_Group>
 </Key_Group_Groups>
 </Entity>
 
 <!-- test 추가분 --> 
-
-<Entity id="{2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000" name="명함집">
+<!--
+<Entity id="{2B95347B-C7AD-4C00-BC57-000000000001}+00000000" name="명함집">
 <EntityProps>
 
 <Name>명함집</Name>
-<Long_Id>{2B95347B-C7AD-4C00-BC57-2FD27F96E4B8}+00000000</Long_Id>
+<Long_Id>{2B95347B-C7AD-4C00-BC57-000000000001}+00000000</Long_Id>
 <Attribute_Order_List_Array>
 <Attribute_Order_List index="0">
 {778AA9DA-FCB5-4C58-9089-496CB894139D}+00000000</Attribute_Order_List>
@@ -119,13 +192,110 @@ ASC</Key_Group_Sort_Order>
 </Key_Group_Groups>
 
 </Entity>
+-->
 
+<Entity id="{2B95347B-C7AD-4C00-BC57-2FD27F96E401}+00000000" name="명합집">
+<EntityProps>
+<Name>명합집</Name>
+<Long_Id>{2B95347B-C7AD-4C00-BC57-2FD27F96E401}+00000000</Long_Id>
+<Attribute_Order_List_Array><Attribute_Order_List index="0">{778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000</Attribute_Order_List>
+<Attribute_Order_List index="1">{87734648-459F-43AA-8A3F-BF0C68E17A18}+00000000</Attribute_Order_List>
+<Attribute_Order_List index="2">{A71164D2-6D63-4F62-B0EB-8332E77BF123}+00000000</Attribute_Order_List>
+</Attribute_Order_List_Array>
+<Physical_Order_List_Array>
+<Physical_Order_List index="0">{778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000</Physical_Order_List>
+<Physical_Order_List index="1">{87734648-459F-43AA-8A3F-BF0C68E17A18}+00000000</Physical_Order_List>
+<Physical_Order_List index="2">{A71164D2-6D63-4F62-B0EB-8332E77BF123}+00000000</Physical_Order_List>
+</Physical_Order_List_Array>
+<Column_Order_List_Array>
+<Column_Order_List index="0">{778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000</Column_Order_List>
+<Column_Order_List index="1">{87734648-459F-43AA-8A3F-BF0C68E17A18}+00000000</Column_Order_List>
+<Column_Order_List index="2">{A71164D2-6D63-4F62-B0EB-8332E77BF123}+00000000</Column_Order_List>
+</Column_Order_List_Array>
+</EntityProps>
+<Attribute_Groups>
+<Attribute id="{778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000" name="명합집번호"><AttributeProps>
+<Name>명합집번호</Name>
+<Long_Id>{778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000</Long_Id>
+<Type>0</Type>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+</AttributeProps>
+</Attribute>
+<Attribute id="{87734648-459F-43AA-8A3F-BF0C68E17A18}+00000000" name="명합집명">
+<AttributeProps>
+<Name>명합집명</Name>
+<Long_Id>{87734648-459F-43AA-8A3F-BF0C68E17A18}+00000000</Long_Id>
+<Type>100</Type>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+</AttributeProps>
+</Attribute>
+<Attribute id="{A71164D2-6D63-4F62-B0EB-8332E77BF123}+00000000" name="명합집주소">
+<AttributeProps>
+<Name>명합집주소</Name>
+<Long_Id>{A71164D2-6D63-4F62-B0EB-8332E77BF123}+00000000</Long_Id>
+<Type>100</Type>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+</AttributeProps>
+</Attribute>
+</Attribute_Groups>
+<Key_Group_Groups>
+<Key_Group id="{044970A3-8AE0-470C-A093-3BBD56CAE1E0}+00000000" name="XPK명합집">
+<Key_GroupProps>
+<Long_Id>{044970A3-8AE0-470C-A093-3BBD56CAE1E0}+00000000</Long_Id>
+<Key_Group_Type>PK</Key_Group_Type>
+<Generate_As_Constraint>true</Generate_As_Constraint>
+<Key_Group_Member_Order_List_Array>
+<Key_Group_Member_Order_List index="0">{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC2}+00000000</Key_Group_Member_Order_List>
+</Key_Group_Member_Order_List_Array>
+<Index_Member_Order_List_Array>
+<Index_Member_Order_List index="0">{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC2}+00000000</Index_Member_Order_List>
+</Index_Member_Order_List_Array>
+</Key_GroupProps>
+<Key_Group_Member_Groups>
+<Key_Group_Member id="{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC2}+00000000" name="명합집번호">
+<Key_Group_MemberProps>
+<Long_Id>{3AF81CE0-9CDC-4726-BE11-D50AE25D4DC2}+00000000</Long_Id>
+<Attribute_Ref>{778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000</Attribute_Ref>
+<Key_Group_Sort_Order>ASC</Key_Group_Sort_Order>
+<Key_Group_Position>1</Key_Group_Position>
+</Key_Group_MemberProps>
+</Key_Group_Member>
+</Key_Group_Member_Groups>
+</Key_Group>
+</Key_Group_Groups>
+</Entity>
 
 <!-- test 추가분 --> 
 
 </Entity_Groups>
 
-<Domain_Groups><Domain id="{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000" name="&lt;root&gt;"><DomainProps><Built-in_Id>6</Built-in_Id><Name>&lt;root&gt;</Name><Long_Id>{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000</Long_Id><Type>4</Type><Null_Option>0</Null_Option><Physical_Name>%DomainName</Physical_Name><Logical_Datatype>CHAR(18)</Logical_Datatype><Attribute_Name>%AttDomain</Attribute_Name><Column_Name>%AttName</Column_Name><Column_Comment>%AttDef</Column_Comment></DomainProps></Domain><Domain id="{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000" name="&lt;default&gt;"><DomainProps><Built-in_Id>1</Built-in_Id><Name>&lt;default&gt;</Name><Long_Id>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Long_Id><Type>3</Type><Icon>{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Icon><Logical_Datatype>CHAR(18)</Logical_Datatype><Parent_Domain>{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000</Parent_Domain></DomainProps></Domain><Domain id="{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000" name="String"><DomainProps><Built-in_Id>2</Built-in_Id><Name>String</Name><Long_Id>{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Long_Id><Type>5</Type><Icon>{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Icon><Logical_Datatype>VARCHAR(20)</Logical_Datatype><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></DomainProps></Domain><Domain id="{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000" name="Number"><DomainProps><Built-in_Id>3</Built-in_Id><Name>Number</Name><Long_Id>{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Long_Id><Type>6</Type><Icon>{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Icon><Logical_Datatype>INTEGER</Logical_Datatype><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></DomainProps></Domain><Domain id="{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000" name="Datetime"><DomainProps><Built-in_Id>4</Built-in_Id><Name>Datetime</Name><Long_Id>{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Long_Id><Type>7</Type><Icon>{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Icon><Logical_Datatype>DATE</Logical_Datatype><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></DomainProps></Domain><Domain id="{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000" name="Blob"><DomainProps><Built-in_Id>5</Built-in_Id><Name>Blob</Name><Long_Id>{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Long_Id><Type>8</Type><Icon>{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Icon><Logical_Datatype>LARGE BINARY</Logical_Datatype><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></DomainProps></Domain></Domain_Groups>
+<Domain_Groups>
+<Domain id="{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000" name="&lt;root&gt;">
+<DomainProps>
+<Built-in_Id>6</Built-in_Id><Name>&lt;root&gt;</Name>
+<Long_Id>{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000</Long_Id>
+<Type>4</Type>
+<Null_Option>0</Null_Option>
+<Physical_Name>%DomainName</Physical_Name>
+<Logical_Datatype>CHAR(18)</Logical_Datatype>
+<Attribute_Name>%AttDomain</Attribute_Name>
+<Column_Name>%AttName</Column_Name>
+<Column_Comment>%AttDef</Column_Comment>
+</DomainProps>
+</Domain>
+
+<Domain id="{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000" name="&lt;default&gt;">
+<DomainProps>
+<Built-in_Id>1</Built-in_Id>
+<Name>&lt;default&gt;</Name>
+<Long_Id>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Long_Id>
+<Type>3</Type>
+<Icon>{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Icon>
+<Logical_Datatype>CHAR(18)</Logical_Datatype>
+<Parent_Domain>{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000</Parent_Domain>
+</DomainProps>
+</Domain>
+<Domain id="{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000" name="String"><DomainProps><Built-in_Id>2</Built-in_Id><Name>String</Name><Long_Id>{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Long_Id><Type>5</Type><Icon>{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Icon><Logical_Datatype>VARCHAR(20)</Logical_Datatype><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></DomainProps></Domain><Domain id="{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000" name="Number"><DomainProps><Built-in_Id>3</Built-in_Id><Name>Number</Name><Long_Id>{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Long_Id><Type>6</Type><Icon>{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Icon><Logical_Datatype>INTEGER</Logical_Datatype><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></DomainProps></Domain><Domain id="{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000" name="Datetime"><DomainProps><Built-in_Id>4</Built-in_Id><Name>Datetime</Name><Long_Id>{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Long_Id><Type>7</Type><Icon>{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Icon><Logical_Datatype>DATE</Logical_Datatype><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></DomainProps></Domain><Domain id="{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000" name="Blob"><DomainProps><Built-in_Id>5</Built-in_Id><Name>Blob</Name><Long_Id>{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Long_Id><Type>8</Type><Icon>{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Icon><Logical_Datatype>LARGE BINARY</Logical_Datatype><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></DomainProps></Domain></Domain_Groups>
 
 <Bitmap_Groups><Bitmap id="{6E62DD7E-786C-47B4-A1C7-16BEA72E02C2}+00000000" name="Default Entity Icon"><BitmapProps><Built-in_Id>21</Built-in_Id><Name>Default Entity Icon</Name><Long_Id>{6E62DD7E-786C-47B4-A1C7-16BEA72E02C2}+00000000</Long_Id><Flags>65</Flags><Image_Index>1</Image_Index></BitmapProps></Bitmap><Bitmap id="{7A37FE88-5CB6-4012-89F0-C5C334B10506}+00000000" name="Default Entity Small Icon"><BitmapProps><Built-in_Id>22</Built-in_Id><Name>Default Entity Small Icon</Name><Long_Id>{7A37FE88-5CB6-4012-89F0-C5C334B10506}+00000000</Long_Id><Flags>128</Flags><Image_Index>2</Image_Index></BitmapProps></Bitmap><Bitmap id="{4B233DDF-4943-45E1-B07F-989536920B10}+00000000" name="Default &lt;unknown&gt; Icon"><BitmapProps><Built-in_Id>11</Built-in_Id><Name>Default &lt;unknown&gt; Icon</Name><Long_Id>{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Long_Id><Flags>2</Flags><Image_Index>4</Image_Index></BitmapProps></Bitmap><Bitmap id="{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000" name="Default String Icon"><BitmapProps><Built-in_Id>12</Built-in_Id><Name>Default String Icon</Name><Long_Id>{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Long_Id><Flags>32</Flags><Image_Index>5</Image_Index></BitmapProps></Bitmap><Bitmap id="{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000" name="Default Number Icon"><BitmapProps><Built-in_Id>13</Built-in_Id><Name>Default Number Icon</Name><Long_Id>{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Long_Id><Flags>16</Flags><Image_Index>6</Image_Index></BitmapProps></Bitmap><Bitmap id="{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000" name="Default Datetime Icon"><BitmapProps><Built-in_Id>14</Built-in_Id><Name>Default Datetime Icon</Name><Long_Id>{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Long_Id><Flags>8</Flags><Image_Index>7</Image_Index></BitmapProps></Bitmap><Bitmap id="{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000" name="Default Blob Icon"><BitmapProps><Built-in_Id>15</Built-in_Id><Name>Default Blob Icon</Name><Long_Id>{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Long_Id><Flags>4</Flags><Image_Index>8</Image_Index></BitmapProps></Bitmap><Bitmap id="{5F6D7CE3-2B31-4138-A613-4698DA274998}+00000000" name="--  --  --"><BitmapProps><Name>--  --  --</Name><Long_Id>{5F6D7CE3-2B31-4138-A613-4698DA274998}+00000000</Long_Id><Bitmap_Filename>--  --  --</Bitmap_Filename></BitmapProps></Bitmap></Bitmap_Groups>
 
@@ -136,8 +306,14 @@ ASC</Key_Group_Sort_Order>
 <Built-in_Id>31</Built-in_Id>
 <Name>&lt;Main Subject Area&gt;</Name>
 <Long_Id>{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000</Long_Id>
-<Referenced_Entities_Array><Referenced_Entities index="0">{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000</Referenced_Entities>
-<Referenced_Entities index="1">{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Referenced_Entities></Referenced_Entities_Array>
+<Referenced_Entities_Array>
+<Referenced_Entities index="0">{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000</Referenced_Entities>
+<Referenced_Entities index="1">{2B95347B-C7AD-4C00-BC57-2FD27F96E4A3}+00000000</Referenced_Entities>
+<!-- 추가함 --> 
+<!--
+<Referenced_Entities index="2">2B95347B-C7AD-4C00-BC57-000000000001}+00000000</Referenced_Entities>
+-->
+</Referenced_Entities_Array>
 <Created_Time>1503928519</Created_Time>
 <Modified_Time>1503928519</Modified_Time>
 <Object_Order>0</Object_Order>
