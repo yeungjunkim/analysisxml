@@ -12,11 +12,70 @@
 <Active_Model>-1</Active_Model>
 <Hidden_Model>0</Hidden_Model>
 <Storage_Format>4012</Storage_Format>
-</ModelEnvProps><ModelProps><Name>Model_2</Name><Long_Id>{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000</Long_Id><Type>3</Type><Relationship_Parent_Update_Rule>0</Relationship_Parent_Update_Rule><Relationship_Parent_Delete_Rule>0</Relationship_Parent_Delete_Rule><Relationship_Parent_Insert_Rule>0</Relationship_Parent_Insert_Rule><Relationship_Child_Update_Rule>0</Relationship_Child_Update_Rule><Relationship_Child_Delete_Rule>0</Relationship_Child_Delete_Rule><Relationship_Child_Insert_Rule>0</Relationship_Child_Insert_Rule><Name_Standard_File_Name></Name_Standard_File_Name><Name_Standard_Allow_Special_Chars>false</Name_Standard_Allow_Special_Chars><Name_Mapping_Vowel_Removal>false</Name_Mapping_Vowel_Removal><Name_Mapping_Special_Char_Action>0</Name_Mapping_Special_Char_Action><Name_Mapping_Special_Char_Replacement_Char>95</Name_Mapping_Special_Char_Replacement_Char><Tracking_History_Objects>65528</Tracking_History_Objects><Tracking_History_Events>65535</Tracking_History_Events><Unique_Names>0</Unique_Names><Non_Key_Null>0</Non_Key_Null><Repos>50</Repos><Logical_Notation>0</Logical_Notation><Old_Repos>50</Old_Repos><Max_View_Expr_Display_Len>20</Max_View_Expr_Display_Len><Physical_Notation>0</Physical_Notation><Index_Name_Macro>%KeyName</Index_Name_Macro><Max_Def_Display_Len>40</Max_Def_Display_Len><Table_Name_Macro>%EntityName()</Table_Name_Macro><Non_Id_Rel_Null_Option>100</Non_Id_Rel_Null_Option><Relationship_Parent_Update_Rule_Identify>10000</Relationship_Parent_Update_Rule_Identify><Relationship_Parent_Delete_Rule_Identify>10004</Relationship_Parent_Delete_Rule_Identify><Relationship_Parent_Insert_Rule_Identify>0</Relationship_Parent_Insert_Rule_Identify><Relationship_Child_Update_Rule_Identify>10012</Relationship_Child_Update_Rule_Identify><Relationship_Child_Delete_Rule_Identify>0</Relationship_Child_Delete_Rule_Identify><Relationship_Child_Insert_Rule_Identify>10008</Relationship_Child_Insert_Rule_Identify><Relationship_Parent_Update_Rule_Non_Identify>10002</Relationship_Parent_Update_Rule_Non_Identify><Relationship_Parent_Delete_Rule_Non_Identify>10006</Relationship_Parent_Delete_Rule_Non_Identify><Relationship_Parent_Insert_Rule_Non_Identify>0</Relationship_Parent_Insert_Rule_Non_Identify><Relationship_Child_Update_Rule_Non_Identify>10014</Relationship_Child_Update_Rule_Non_Identify><Relationship_Child_Delete_Rule_Non_Identify>0</Relationship_Child_Delete_Rule_Non_Identify><Relationship_Child_Insert_Rule_Non_Identify>10010</Relationship_Child_Insert_Rule_Non_Identify><Relationship_Parent_Update_Rule_Non_Identify_Not_Null>10000</Relationship_Parent_Update_Rule_Non_Identify_Not_Null><Relationship_Parent_Delete_Rule_Non_Identify_Not_Null>10004</Relationship_Parent_Delete_Rule_Non_Identify_Not_Null><Relationship_Parent_Insert_Rule_Non_Identify_Not_Null>0</Relationship_Parent_Insert_Rule_Non_Identify_Not_Null><Relationship_Child_Update_Rule_Non_Identify_Not_Null>10012</Relationship_Child_Update_Rule_Non_Identify_Not_Null><Relationship_Child_Delete_Rule_Non_Identify_Not_Null>0</Relationship_Child_Delete_Rule_Non_Identify_Not_Null><Relationship_Child_Insert_Rule_Non_Identify_Not_Null>10008</Relationship_Child_Insert_Rule_Non_Identify_Not_Null><Relationship_Parent_Update_Rule_Subtype>10001</Relationship_Parent_Update_Rule_Subtype><Relationship_Parent_Delete_Rule_Subtype>10005</Relationship_Parent_Delete_Rule_Subtype><Relationship_Parent_Insert_Rule_Subtype>0</Relationship_Parent_Insert_Rule_Subtype><Relationship_Child_Update_Rule_Subtype>10012</Relationship_Child_Update_Rule_Subtype><Relationship_Child_Delete_Rule_Subtype>0</Relationship_Child_Delete_Rule_Subtype><Relationship_Child_Insert_Rule_Subtype>10008</Relationship_Child_Insert_Rule_Subtype><Metadata_Version>700</Metadata_Version><Option_Use_Datatype_In_Unification>true</Option_Use_Datatype_In_Unification><Target_Server_And_Version_Array><Target_Server_And_Version index="0">1075858979</Target_Server_And_Version><Target_Server_And_Version index="1">10</Target_Server_And_Version><Target_Server_And_Version index="2">0</Target_Server_And_Version></Target_Server_And_Version_Array><History_Event_Executing>1</History_Event_Executing></ModelProps>
+</ModelEnvProps>
+<ModelProps>
+<Name>Model_2</Name>
+<Long_Id>{BCF34551-27C9-4A07-A408-DBF22C68D1D1}+00000000</Long_Id>
+<Type>3</Type>
+<Relationship_Parent_Update_Rule>0</Relationship_Parent_Update_Rule>
+<Relationship_Parent_Delete_Rule>0</Relationship_Parent_Delete_Rule>
+<Relationship_Parent_Insert_Rule>0</Relationship_Parent_Insert_Rule>
+<Relationship_Child_Update_Rule>0</Relationship_Child_Update_Rule>
+<Relationship_Child_Delete_Rule>0</Relationship_Child_Delete_Rule>
+<Relationship_Child_Insert_Rule>0</Relationship_Child_Insert_Rule>
+<Name_Standard_File_Name></Name_Standard_File_Name>
+<Name_Standard_Allow_Special_Chars>false</Name_Standard_Allow_Special_Chars>
+<Name_Mapping_Vowel_Removal>false</Name_Mapping_Vowel_Removal>
+<Name_Mapping_Special_Char_Action>0</Name_Mapping_Special_Char_Action>
+<Name_Mapping_Special_Char_Replacement_Char>95</Name_Mapping_Special_Char_Replacement_Char>
+<Tracking_History_Objects>65528</Tracking_History_Objects>
+<Tracking_History_Events>65535</Tracking_History_Events>
+<Unique_Names>0</Unique_Names>
+<Non_Key_Null>0</Non_Key_Null>
+<Repos>50</Repos>
+<Logical_Notation>0</Logical_Notation>
+<Old_Repos>50</Old_Repos>
+<Max_View_Expr_Display_Len>20</Max_View_Expr_Display_Len>
+<Physical_Notation>0</Physical_Notation>
+<Index_Name_Macro>%KeyName</Index_Name_Macro>
+<Max_Def_Display_Len>40</Max_Def_Display_Len>
+<Table_Name_Macro>%EntityName()</Table_Name_Macro>
+<Non_Id_Rel_Null_Option>100</Non_Id_Rel_Null_Option>
+<Relationship_Parent_Update_Rule_Identify>10000</Relationship_Parent_Update_Rule_Identify>
+<Relationship_Parent_Delete_Rule_Identify>10004</Relationship_Parent_Delete_Rule_Identify>
+<Relationship_Parent_Insert_Rule_Identify>0</Relationship_Parent_Insert_Rule_Identify>
+<Relationship_Child_Update_Rule_Identify>10012</Relationship_Child_Update_Rule_Identify>
+<Relationship_Child_Delete_Rule_Identify>0</Relationship_Child_Delete_Rule_Identify>
+<Relationship_Child_Insert_Rule_Identify>10008</Relationship_Child_Insert_Rule_Identify>
+<Relationship_Parent_Update_Rule_Non_Identify>10002</Relationship_Parent_Update_Rule_Non_Identify>
+<Relationship_Parent_Delete_Rule_Non_Identify>10006</Relationship_Parent_Delete_Rule_Non_Identify>
+<Relationship_Parent_Insert_Rule_Non_Identify>0</Relationship_Parent_Insert_Rule_Non_Identify>
+<Relationship_Child_Update_Rule_Non_Identify>10014</Relationship_Child_Update_Rule_Non_Identify>
+<Relationship_Child_Delete_Rule_Non_Identify>0</Relationship_Child_Delete_Rule_Non_Identify>
+<Relationship_Child_Insert_Rule_Non_Identify>10010</Relationship_Child_Insert_Rule_Non_Identify>
+<Relationship_Parent_Update_Rule_Non_Identify_Not_Null>10000</Relationship_Parent_Update_Rule_Non_Identify_Not_Null>
+<Relationship_Parent_Delete_Rule_Non_Identify_Not_Null>10004</Relationship_Parent_Delete_Rule_Non_Identify_Not_Null>
+<Relationship_Parent_Insert_Rule_Non_Identify_Not_Null>0</Relationship_Parent_Insert_Rule_Non_Identify_Not_Null>
+<Relationship_Child_Update_Rule_Non_Identify_Not_Null>10012</Relationship_Child_Update_Rule_Non_Identify_Not_Null>
+<Relationship_Child_Delete_Rule_Non_Identify_Not_Null>0</Relationship_Child_Delete_Rule_Non_Identify_Not_Null>
+<Relationship_Child_Insert_Rule_Non_Identify_Not_Null>10008</Relationship_Child_Insert_Rule_Non_Identify_Not_Null>
+<Relationship_Parent_Update_Rule_Subtype>10001</Relationship_Parent_Update_Rule_Subtype>
+<Relationship_Parent_Delete_Rule_Subtype>10005</Relationship_Parent_Delete_Rule_Subtype>
+<Relationship_Parent_Insert_Rule_Subtype>0</Relationship_Parent_Insert_Rule_Subtype>
+<Relationship_Child_Update_Rule_Subtype>10012</Relationship_Child_Update_Rule_Subtype>
+<Relationship_Child_Delete_Rule_Subtype>0</Relationship_Child_Delete_Rule_Subtype>
+<Relationship_Child_Insert_Rule_Subtype>10008</Relationship_Child_Insert_Rule_Subtype>
+<Metadata_Version>700</Metadata_Version><Option_Use_Datatype_In_Unification>true</Option_Use_Datatype_In_Unification>
+<Target_Server_And_Version_Array>
+<Target_Server_And_Version index="0">1075858979</Target_Server_And_Version>
+<Target_Server_And_Version index="1">10</Target_Server_And_Version>
+<Target_Server_And_Version index="2">0</Target_Server_And_Version>
+</Target_Server_And_Version_Array>
+<History_Event_Executing>1</History_Event_Executing>
+</ModelProps>
 
 
 <Entity_Groups>
-
 <Entity id="{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000" name="고객">
 <EntityProps><Name>고객</Name><Long_Id>{40D7E4E1-2B3B-4D54-AC74-BCF192AD3AC2}+00000000</Long_Id><Attribute_Order_List_Array><Attribute_Order_List index="0">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Attribute_Order_List><Attribute_Order_List index="1">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Attribute_Order_List><Attribute_Order_List index="2">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Attribute_Order_List><Attribute_Order_List index="3">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Attribute_Order_List></Attribute_Order_List_Array><Physical_Order_List_Array><Physical_Order_List index="0">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Physical_Order_List><Physical_Order_List index="1">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Physical_Order_List><Physical_Order_List index="2">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Physical_Order_List><Physical_Order_List index="3">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Physical_Order_List></Physical_Order_List_Array><Column_Order_List_Array><Column_Order_List index="0">{9191E8F6-5FA4-4612-B18B-3555260DBE2F}+00000000</Column_Order_List><Column_Order_List index="1">{F360E03A-0BE3-403E-9360-3F6656AE6A45}+00000000</Column_Order_List><Column_Order_List index="2">{7243D497-7AEC-4B71-80DF-EADCB039BA63}+00000000</Column_Order_List><Column_Order_List index="3">{DB0469B0-9BBE-45EA-88CE-E5CD7BB00F5F}+00000000</Column_Order_List></Column_Order_List_Array></EntityProps>
 
@@ -297,7 +356,6 @@ ASC</Key_Group_Sort_Order>
 <Column_Comment>%AttDef</Column_Comment>
 </DomainProps>
 </Domain>
-
 <Domain id="{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000" name="&lt;default&gt;">
 <DomainProps>
 <Built-in_Id>1</Built-in_Id>
@@ -309,14 +367,57 @@ ASC</Key_Group_Sort_Order>
 <Parent_Domain>{8FD41E1C-DC52-41D9-B641-112DB5A9AB88}+00000000</Parent_Domain>
 </DomainProps>
 </Domain>
-<Domain id="{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000" name="String"><DomainProps><Built-in_Id>2</Built-in_Id><Name>String</Name><Long_Id>{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Long_Id><Type>5</Type><Icon>{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Icon><Logical_Datatype>VARCHAR(20)</Logical_Datatype><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></DomainProps></Domain><Domain id="{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000" name="Number"><DomainProps><Built-in_Id>3</Built-in_Id><Name>Number</Name><Long_Id>{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Long_Id><Type>6</Type><Icon>{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Icon><Logical_Datatype>INTEGER</Logical_Datatype><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></DomainProps></Domain><Domain id="{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000" name="Datetime"><DomainProps><Built-in_Id>4</Built-in_Id><Name>Datetime</Name><Long_Id>{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Long_Id><Type>7</Type><Icon>{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Icon><Logical_Datatype>DATE</Logical_Datatype><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></DomainProps></Domain><Domain id="{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000" name="Blob"><DomainProps><Built-in_Id>5</Built-in_Id><Name>Blob</Name><Long_Id>{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Long_Id><Type>8</Type><Icon>{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Icon><Logical_Datatype>LARGE BINARY</Logical_Datatype><Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain></DomainProps></Domain></Domain_Groups>
+<Domain id="{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000" name="String">
+<DomainProps>
+<Built-in_Id>2</Built-in_Id>
+<Name>String</Name>
+<Long_Id>{DA20558D-03D4-4C3B-9599-96BC16E98CC4}+00000000</Long_Id>
+<Type>5</Type>
+<Icon>{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Icon>
+<Logical_Datatype>VARCHAR(20)</Logical_Datatype>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+</DomainProps>
+</Domain>
+<Domain id="{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000" name="Number">
+<DomainProps>
+<Built-in_Id>3</Built-in_Id>
+<Name>Number</Name>
+<Long_Id>{3CAFCFBB-275C-4B19-BDD6-4925538A8EFC}+00000000</Long_Id>
+<Type>6</Type>
+<Icon>{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Icon>
+<Logical_Datatype>INTEGER</Logical_Datatype>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+</DomainProps>
+</Domain>
+<Domain id="{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000" name="Datetime">
+<DomainProps>
+<Built-in_Id>4</Built-in_Id>
+<Name>Datetime</Name>
+<Long_Id>{4AD479F2-78AA-4C3C-9A61-783648248C94}+00000000</Long_Id>
+<Type>7</Type>
+<Icon>{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Icon>
+<Logical_Datatype>DATE</Logical_Datatype>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+</DomainProps>
+</Domain>
+<Domain id="{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000" name="Blob">
+<DomainProps>
+<Built-in_Id>5</Built-in_Id>
+<Name>Blob</Name>
+<Long_Id>{47909D55-B509-4CE8-9664-0D4BFEA23134}+00000000</Long_Id>
+<Type>8</Type>
+<Icon>{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Icon>
+<Logical_Datatype>LARGE BINARY</Logical_Datatype>
+<Parent_Domain>{BCC9DE6E-87D5-4D43-BC6D-8178B332261F}+00000000</Parent_Domain>
+</DomainProps>
+</Domain>
+</Domain_Groups>
 
 <Bitmap_Groups><Bitmap id="{6E62DD7E-786C-47B4-A1C7-16BEA72E02C2}+00000000" name="Default Entity Icon"><BitmapProps><Built-in_Id>21</Built-in_Id><Name>Default Entity Icon</Name><Long_Id>{6E62DD7E-786C-47B4-A1C7-16BEA72E02C2}+00000000</Long_Id><Flags>65</Flags><Image_Index>1</Image_Index></BitmapProps></Bitmap><Bitmap id="{7A37FE88-5CB6-4012-89F0-C5C334B10506}+00000000" name="Default Entity Small Icon"><BitmapProps><Built-in_Id>22</Built-in_Id><Name>Default Entity Small Icon</Name><Long_Id>{7A37FE88-5CB6-4012-89F0-C5C334B10506}+00000000</Long_Id><Flags>128</Flags><Image_Index>2</Image_Index></BitmapProps></Bitmap><Bitmap id="{4B233DDF-4943-45E1-B07F-989536920B10}+00000000" name="Default &lt;unknown&gt; Icon"><BitmapProps><Built-in_Id>11</Built-in_Id><Name>Default &lt;unknown&gt; Icon</Name><Long_Id>{4B233DDF-4943-45E1-B07F-989536920B10}+00000000</Long_Id><Flags>2</Flags><Image_Index>4</Image_Index></BitmapProps></Bitmap><Bitmap id="{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000" name="Default String Icon"><BitmapProps><Built-in_Id>12</Built-in_Id><Name>Default String Icon</Name><Long_Id>{2FA19770-9279-460D-80FE-BED5FB7C054A}+00000000</Long_Id><Flags>32</Flags><Image_Index>5</Image_Index></BitmapProps></Bitmap><Bitmap id="{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000" name="Default Number Icon"><BitmapProps><Built-in_Id>13</Built-in_Id><Name>Default Number Icon</Name><Long_Id>{7CDD87B8-E515-498A-8F79-2313FC9FCE57}+00000000</Long_Id><Flags>16</Flags><Image_Index>6</Image_Index></BitmapProps></Bitmap><Bitmap id="{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000" name="Default Datetime Icon"><BitmapProps><Built-in_Id>14</Built-in_Id><Name>Default Datetime Icon</Name><Long_Id>{C2EFB0BA-9CC6-4797-A16C-C83B314FFB07}+00000000</Long_Id><Flags>8</Flags><Image_Index>7</Image_Index></BitmapProps></Bitmap><Bitmap id="{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000" name="Default Blob Icon"><BitmapProps><Built-in_Id>15</Built-in_Id><Name>Default Blob Icon</Name><Long_Id>{6E07DC06-AF3E-47A9-AE38-1DA30ED57985}+00000000</Long_Id><Flags>4</Flags><Image_Index>8</Image_Index></BitmapProps></Bitmap><Bitmap id="{5F6D7CE3-2B31-4138-A613-4698DA274998}+00000000" name="--  --  --"><BitmapProps><Name>--  --  --</Name><Long_Id>{5F6D7CE3-2B31-4138-A613-4698DA274998}+00000000</Long_Id><Bitmap_Filename>--  --  --</Bitmap_Filename></BitmapProps></Bitmap></Bitmap_Groups>
 
-<Subject_Area_Groups><Subject_Area id="{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000" name="&lt;Main Subject Area&gt;">
-
+<Subject_Area_Groups>
+<Subject_Area id="{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000" name="&lt;Main Subject Area&gt;">
 <Subject_AreaProps>
-
 <Built-in_Id>31</Built-in_Id>
 <Name>&lt;Main Subject Area&gt;</Name>
 <Long_Id>{9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000</Long_Id>
@@ -326,7 +427,6 @@ ASC</Key_Group_Sort_Order>
 <!-- 추가함 --> 
 <Referenced_Entities index="2">{2B95347B-C7AD-4C00-BC57-2FD27F96E401}+00000000</Referenced_Entities>
 <!-- 추가함 --> 
-
 
 </Referenced_Entities_Array>
 <Created_Time>1503928519</Created_Time>
