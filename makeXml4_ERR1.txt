@@ -1,0 +1,115 @@
+ v7.2.1644.0
+Windows XP Professional Version: 6.1 Service Pack 1 (Build 7601)
+System Default Locale: 한국어(대한민국)
+User Default Locale: 한국어(대한민국)
+21 September 2017 13:20:30
+--------------------------------------------------
+
+Warning XML - 159: Cannot create 'Attribute' for 'Entity' ({778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000). Model Objects Component ! Failed to create an object of Attribute type with id {778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000. See the Error Log for details.
+Error code: API-10002
+Severity: 3
+Model Set: EMX model data
+Object Type: Attribute
+Object ID: {778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000
+Message: Duplicate Ids. An object with id {778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000 already exists
+
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Entity' ({778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000). Model Property Component ! Failed to set a value or value facet to Long Id property of object 명합집 (Entity). See the Error Log for details.
+
+
+Warning XML - 157: Cannot set the property 'Type' for 'Entity' ({778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000). Model Property Component ! The property Type on an object of class Entity is read only and maintained by the tool. Only ERwin can create, modify or delete this type of property.
+
+
+Warning XML - 157: Cannot set the property 'Parent_Domain' for 'Entity' ({778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000). Model Properties Component ! Parent_Domain is not valid class id or class name for object or property
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Attribute' ({87734648-459F-43AA-8A3F-BF0C68E17A18}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {87734648-459F-43AA-8A3F-BF0C68E17A18}+00000000[Attribute] model object from string 'true'.
+
+
+Warning XML - 157: Cannot set the property 'Parent Domain' for 'Attribute' ({A71164D2-6D63-4F62-B0EB-8332E77BF123}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {A71164D2-6D63-4F62-B0EB-8332E77BF123}+00000000[Attribute] model object from string 'true'.
+
+
+Warning XML - 157: Cannot set the property 'Long Id' for 'Key Group' ({044970A3-8AE0-470C-A093-3BBD56CAE1E0}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+
+Warning XML - 157: Cannot set the property 'Is_Main_Subject_Area' for 'Stored Display' ({A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000). Model Properties Component ! Is_Main_Subject_Area is not valid class id or class name for object or property
+
+
+Warning XML - 157: Cannot set the property 'Print Color' for 'Stored Display' ({A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000). Model Property Component ! Failed to set Print Color property of SCVT_BOOLEAN type for {A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000[Stored Display] model object from string '0'.
+
+
+Warning XML - 205: Commit succeeded with warnings.
+Error code: API-10009
+Severity: 3
+Model Set: EMX model data
+Object ID: {7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7A2}+00000000
+Message: Reference Model Object Ref property of object Drawing Object Entity({7CB12D0A-A949-4B13-B2B5-BBFDDDA2F7A2}+00000000) refers to an object with id {2B95347B-C7AD-4C00-BC57-2FD27F96E401}+00000000. Object with such id does not exist.
+
+	Error code: DefaultId: 10 <0>
+	Severity: 0
+	Model Set: EMX model data
+	Message: API
+
+		Error code: XML - 159 <1>
+		Severity: 3
+		Model Set: EMX model data
+		Message: Cannot create 'Attribute' for 'Entity' ({778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000). Model Objects Component ! Failed to create an object of Attribute type with id {778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000. See the Error Log for details.
+
+		Error code: XML - 157 <1>
+		Severity: 3
+		Model Set: EMX model data
+		Message: Cannot set the property 'Long Id' for 'Entity' ({778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000). Model Property Component ! Failed to set a value or value facet to Long Id property of object 명합집 (Entity). See the Error Log for details.
+
+		Error code: XML - 157 <1>
+		Severity: 3
+		Model Set: EMX model data
+		Message: Cannot set the property 'Type' for 'Entity' ({778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000). Model Property Component ! The property Type on an object of class Entity is read only and maintained by the tool. Only ERwin can create, modify or delete this type of property.
+
+		Error code: XML - 157 <1>
+		Severity: 3
+		Model Set: EMX model data
+		Message: Cannot set the property 'Parent_Domain' for 'Entity' ({778AA9DA-FCB5-4C58-9089-496CB89413A3}+00000000). Model Properties Component ! Parent_Domain is not valid class id or class name for object or property
+
+		Error code: XML - 157 <1>
+		Severity: 3
+		Model Set: EMX model data
+		Message: Cannot set the property 'Parent Domain' for 'Attribute' ({87734648-459F-43AA-8A3F-BF0C68E17A18}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {87734648-459F-43AA-8A3F-BF0C68E17A18}+00000000[Attribute] model object from string 'true'.
+
+		Error code: XML - 157 <1>
+		Severity: 3
+		Model Set: EMX model data
+		Message: Cannot set the property 'Parent Domain' for 'Attribute' ({A71164D2-6D63-4F62-B0EB-8332E77BF123}+00000000). Model Property Component ! Failed to set Parent Domain property of SCVT_OBJID type for {A71164D2-6D63-4F62-B0EB-8332E77BF123}+00000000[Attribute] model object from string 'true'.
+
+		Error code: XML - 157 <1>
+		Severity: 3
+		Model Set: EMX model data
+		Message: Cannot set the property 'Long Id' for 'Key Group' ({044970A3-8AE0-470C-A093-3BBD56CAE1E0}+00000000). Model Property Component ! Value argument of the call has wrong type
+
+		Error code: XML - 157 <1>
+		Severity: 3
+		Model Set: EMX model data
+		Message: Cannot set the property 'Is_Main_Subject_Area' for 'Stored Display' ({A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000). Model Properties Component ! Is_Main_Subject_Area is not valid class id or class name for object or property
+
+		Error code: XML - 157 <1>
+		Severity: 3
+		Model Set: EMX model data
+		Message: Cannot set the property 'Print Color' for 'Stored Display' ({A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000). Model Property Component ! Failed to set Print Color property of SCVT_BOOLEAN type for {A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000[Stored Display] model object from string '0'.
+
+
+
+Warning XML - 205: Commit succeeded with warnings.
+Error code: API-10009
+Severity: 3
+Model Set: EM2 non-transactional data
+Object ID: {CC470C37-43FE-4751-B8AC-F46C0729EBF4}+00000000
+Message: Reference Current Subject Area Ref property of object Model Proxy Object({CC470C37-43FE-4751-B8AC-F46C0729EBF4}+00000000) refers to an object with id {9458E282-8870-4D6C-94C4-6735F841AFA5}+00000000. Object with such id does not exist.
+
+Error code: API-10009
+Severity: 3
+Model Set: EM2 non-transactional data
+Object ID: {2E04E1EE-DDB4-4F94-B2E5-068B0435577F}+00000000
+Message: Reference Current Stored Display Ref property of object Subject Area Proxy Object({2E04E1EE-DDB4-4F94-B2E5-068B0435577F}+00000000) refers to an object with id {A5E09709-0891-44A5-BA88-8BDD8E9F136F}+00000000. Object with such id does not exist.
+
+
+
