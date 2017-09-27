@@ -1,0 +1,10 @@
+erwin DM v9.7.2293.00
+Windows XP Professional Version: 6.1 Service Pack 1 (Build 7601)
+System Default Locale: 한국어(대한민국)
+User Default Locale: 한국어(대한민국)
+27 September 2017 13:32:06
+--------------------------------------------------
+
+Error XML - 155: Could not open 'C:\Users\05634\xml\analysisxml\makeXml13.xml'.  If this XML file was not validated against the erwin DM schema, you may be able to obtain more information regarding this error by re-running the import with the XML validation option turned on. 
+
+
